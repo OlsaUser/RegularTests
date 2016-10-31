@@ -21,8 +21,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Set;
 
-@DefaultUrl("http://synergybeta.devzone.dp.ua/en/#!login")
-//@DefaultUrl("http://mnassa.com/en/#!login")
+//@DefaultUrl("http://synergybeta.devzone.dp.ua/en/#!login")
+@DefaultUrl("http://mnassa.com/en/#!login")
 @RunWith(SerenityRunner.class)
 public class LoginPage extends PageObject {
     private final By btnForgotPassword = By.xpath("//a[@class='link-forgot-password']");

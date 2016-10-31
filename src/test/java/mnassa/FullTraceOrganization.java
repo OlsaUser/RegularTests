@@ -29,8 +29,8 @@ public class FullTraceOrganization {
     private String browserFilePath = "src/test/resources/browser.properties";
     private String BrowserProfile = PropertyLoader.getProperty(browserFilePath, "BrowserProfile");
 
-    private String propertyFilePath = "src/test/resources/login.properties";
-    //private String propertyFilePath = "src/test/resources/login_live.properties";
+    //private String propertyFilePath = "src/test/resources/login.properties";
+    private String propertyFilePath = "src/test/resources/login_live.properties";
     private String email = PropertyLoader.getProperty(propertyFilePath, "email");
     private String email_now = PropertyLoader.getProperty(propertyFilePath, "email_now");
     private String password = PropertyLoader.getProperty(propertyFilePath, "password");
@@ -262,8 +262,8 @@ public class FullTraceOrganization {
         accountSettingsSteps.checkInfoExists(OrganizationName_En_exp,OrganizationName_En_now);
         accountSettingsSteps.checkInfoExists(OrganizationShortName_En_exp,OrganizationShortName_En_now);
         accountSettingsSteps.checkInfoExists(location_exp, location_now_profile);
-        accountSettingsSteps.checkInfoExists(location_now2_exp, location_now1);
-        //accountSettingsSteps.checkInfoExists(location_now2_exp, location_now2);
+        accountSettingsSteps.checkInfoExists(location_now1_exp, location_now1);
+        accountSettingsSteps.checkInfoExists(location_now2_exp, location_now2);
         accountSettingsSteps.checkInfoExists(BriefInfo, BriefInfo_now);
         accountSettingsSteps.checkInfoExists(count, count_now);
         accountSettingsSteps.checkInfoExists(YearFounder_exp, YearFounder_now);
@@ -306,29 +306,8 @@ public class FullTraceOrganization {
         accountSettingsSteps.checkInfoExists(NewEmailOrg, email_organization_now );
         accountSettingsSteps.checkNetworkAccounts();
     }
-    @Test
-    public void stage4_ChangePassword() throws IOException{
-        loginSteps.openLoginPage();
-        loginSteps.PageComplete(driver);
-
-        loginSteps.enterLogin(NewEmailOrg);
-        loginSteps.enterPassword(NewPassword);
-        loginSteps.clickEnter(driver);
-        loginSteps.PageComplete(driver);
-
-        headerSteps.openMenuProfile(driver);
-        headerSteps.openAccountSettings(driver);
-        loginSteps.PageComplete(driver);
-
-        accountSettingsSteps.pressCollapseChangePassword();
-        accountSettingsSteps.enterCurrentPassword(CurrentPassword);
-        accountSettingsSteps.enterNewPassword(NewPassword);
-        accountSettingsSteps.enterNewConfirmPassword(NewConfirmPassword);
-        //loginSteps.PageComplete(driver);
-        accountSettingsSteps.clickUpdate6(driver);
-    }
        @Test
-        public void stage5_addEventSupply_AllFields_byButtonInListing() throws Error{
+        public void stage4_addEventSupply_AllFields_byButtonInListing() throws Error{
             loginSteps.openLoginPage();
             loginSteps.PageComplete(driver);
 
@@ -408,4 +387,36 @@ public class FullTraceOrganization {
             addItemSteps.checkElementPresents(debitcard);
             addItemSteps.checkElementPresents(cash);
         }
+    @Test
+    public void stage5_ChangePassword() throws IOException{
+        loginSteps.openLoginPage();
+        loginSteps.PageComplete(driver);
+
+        loginSteps.enterLogin(NewEmailOrg);
+        loginSteps.enterPassword(NewPassword);
+        loginSteps.clickEnter(driver);
+        loginSteps.PageComplete(driver);
+
+        headerSteps.openMenuProfile(driver);
+        headerSteps.openAccountSettings(driver);
+        loginSteps.PageComplete(driver);
+
+        accountSettingsSteps.pressCollapseChangePassword();
+        accountSettingsSteps.enterCurrentPassword(CurrentPassword);
+        accountSettingsSteps.enterNewPassword(NewPassword_change);
+        accountSettingsSteps.enterNewConfirmPassword(NewConfirmPassword);
+        //loginSteps.PageComplete(driver);
+        accountSettingsSteps.clickUpdate6(driver);
+
+        headerSteps.openMenuProfile(driver);
+        headerSteps.LogOut(driver);
+        loginSteps.PageComplete(driver);
+
+        loginSteps.openLoginPage();
+        loginSteps.PageComplete(driver);
+
+        loginSteps.enterLogin(NewEmailOrg);
+        loginSteps.enterPassword(NewPassword_change);
+        loginSteps.clickEnter(driver);
+    }
 }

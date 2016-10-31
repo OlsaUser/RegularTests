@@ -12,6 +12,9 @@ public class HeaderSteps {
     HeaderPage headerPage;
 
     @Step
+    public void LogOut(WebDriver driver) { headerPage.LogOut(driver);}
+
+    @Step
     public void openMyMnassaPage(WebDriver driver) { headerPage.openMyMnassaPage(driver);}
 
     @Step

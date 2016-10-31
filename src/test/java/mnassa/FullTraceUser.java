@@ -31,8 +31,8 @@ public class FullTraceUser {
     private String browserFilePath = "src/test/resources/browser.properties";
     private String BrowserProfile = PropertyLoader.getProperty(browserFilePath, "BrowserProfile");
 
-    private String propertyFilePath = "src/test/resources/login.properties";
-    //private String propertyFilePath = "src/test/resources/login_live.properties";
+    //private String propertyFilePath = "src/test/resources/login.properties";
+    private String propertyFilePath = "src/test/resources/login_live.properties";
     private String email = PropertyLoader.getProperty(propertyFilePath, "email");
     private String email_now = PropertyLoader.getProperty(propertyFilePath, "email_now");
     private String password = PropertyLoader.getProperty(propertyFilePath, "password");
@@ -247,6 +247,7 @@ public class FullTraceUser {
     public void stage3_EditMainDetails()  throws IOException {
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.openLoginPage();
+        loginSteps.PageComplete(driver);
         registerSteps.viaFacebook_Login(driver);
         loginSteps.PageComplete(driver);
         registerSteps.successLogIn(driver);
@@ -264,7 +265,7 @@ public class FullTraceUser {
         accountSettingsSteps.selectLanguageEnglish();
         accountSettingsSteps.selectBirth();
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();
-        jse.executeScript("window.scrollBy(0,100)", "");
+        jse.executeScript("window.scrollBy(0,75)", "");
         accountSettingsSteps.selectStatusMarried(married);
         // accountSettingsSteps.selectStatusSingle();
         accountSettingsSteps.selectLocation(location);
@@ -279,7 +280,7 @@ public class FullTraceUser {
         loginSteps.PageComplete(driver);
         accountSettingsSteps.checkInfoExists(FirstName_En_exp, FirstName_En_now);
         accountSettingsSteps.checkInfoExists(UserName_En, UserName_En_now);
-        accountSettingsSteps.checkInfoExists(location_exp, location_now_profile);
+        accountSettingsSteps.checkInfoExists(location_now2_exp, location_now_profile);
         accountSettingsSteps.checkInfoExists(location_now2_exp, location_now1);
         //accountSettingsSteps.checkInfoExists(location_now2_exp, location_now2);
         accountSettingsSteps.checkInfoExists(BriefInfo, BriefInfo_now);
@@ -380,7 +381,7 @@ public class FullTraceUser {
         accountSettingsSteps.pressAddJobButton();
         accountSettingsSteps.enterJobName(JobName);
         accountSettingsSteps.enterJobFromDate();
-        accountSettingsSteps.enterJobTillDate();
+        //accountSettingsSteps.enterJobTillDate();
         accountSettingsSteps.enterJobSpeciality(JobSpeciality);
         accountSettingsSteps.enterJobLocation(location);
         accountSettingsSteps.enterJobAbout(About);
@@ -510,7 +511,7 @@ public class FullTraceUser {
         addItemSteps.selectCategory1();
 
         addItemSteps.collapseMainInfo();
-        //addItemSteps.enterTag(tag1);
+        addItemSteps.enterTag(tag1);
         addItemSteps.enterLocation(Location);
 
         addItemSteps.collapseMainDetails();
@@ -533,7 +534,7 @@ public class FullTraceUser {
         addItemSteps.checkValueExists(tag1, tag_now);
     }
     @Test
-    public void stage10_ChangePassword() throws IOException{
+    public void stage9a_ChangePassword() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
@@ -552,6 +553,15 @@ public class FullTraceUser {
         accountSettingsSteps.enterNewConfirmPassword(NewConfirmPassword);
         loginSteps.PageComplete(driver);
         accountSettingsSteps.clickUpdate6(driver);
-    }
 
+        headerSteps.openMenuProfile(driver);
+        headerSteps.LogOut(driver);
+        loginSteps.PageComplete(driver);
+
+        loginSteps.openLoginPage();
+        //loginSteps.PageComplete(driver);
+        loginSteps.enterLogin(NewEmailUser);
+        loginSteps.enterPassword(NewPassword_change);
+        loginSteps.clickEnter(driver);
+    }
 }
