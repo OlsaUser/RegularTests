@@ -223,6 +223,7 @@ public class RegisterPage  extends PageObject {
 
        /* String host = "imap.gmail.com";
         String mailStoreType = "imap";*/
+        
         String password = "Jk14501450";
 
         String check = check(host, mailStoreType, email, password); //messages body
@@ -248,8 +249,12 @@ public class RegisterPage  extends PageObject {
     }
 
     public static void checkWelcomeLetter(String email) {
-        String host = "imap.gmail.com";
-        String mailStoreType = "imap";
+        /*String host = "imap.gmail.com";
+        String mailStoreType = "imap";*/
+
+        String host = "pop.gmail.com";// change accordingly
+        String mailStoreType = "pop3";
+
         String password = "Jk14501450";
 
         String check = check(host, mailStoreType, email, password); //messages body
@@ -287,7 +292,7 @@ public class RegisterPage  extends PageObject {
 
             System.setProperty("http.proxyUser", "design\\olsa");
             System.setProperty("http.proxyPassword", "********");
-            
+
 
             /*System.setProperty("https.proxyUser", "olsa@design.isd.dp.ua");
             System.setProperty("https.proxyPassword", "cOnvErsAtIOn5");*/
