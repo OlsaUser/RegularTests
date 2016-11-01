@@ -294,8 +294,8 @@ public class RegisterPage  extends PageObject {
             System.setProperty("http.proxyPassword", "********");
 
 
-            /*System.setProperty("https.proxyUser", "olsa@design.isd.dp.ua");
-            System.setProperty("https.proxyPassword", "cOnvErsAtIOn5");*/
+            System.setProperty("https.proxyUser", "olsa@design.isd.dp.ua");
+            System.setProperty("https.proxyPassword", "cOnvErsAtIOn5");
 
             //Session emailSession = Session.getDefaultInstance(properties);
              Session emailSession = Session.getDefaultInstance(properties,
