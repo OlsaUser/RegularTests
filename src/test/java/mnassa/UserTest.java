@@ -220,12 +220,14 @@ public class UserTest {
 
     @Test
     public void stage1_Register_Facebook()  throws Exception, FactoryConfigurationError, IOException {
+        driver.get("https://www.facebook.com");
+        loginSteps.PageComplete(driver);
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         registerSteps.openRegisterPage();
         loginSteps.PageComplete(driver);
         registerSteps.viaFacebook_SignUp(driver);
         registerSteps.confirmFbReg(driver, fb_Email2, fb_Password2);
-        loginSteps.Sleep(500);
+        //loginSteps.Sleep(500);
         registerSteps.successRegistration(driver);
     }
     @Test
