@@ -113,7 +113,7 @@ public class AllPagesTrace {
     }
 
     @Test
-    public void PerformanceTest() throws IOException {
+    public void GoToPages() throws IOException {
         //loginSteps.pageLoad(Login);
 
         headerSteps.openProductListing(driver);
