@@ -7,6 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 @RunWith(SerenityRunner.class)
@@ -14,6 +16,9 @@ public class FacebookPage  extends PageObject {
 
     public void facebookLogin(WebDriver driver, String Email, String Password) {
         driver.get("https://www.facebook.com/");
+        WebDriverWait wt = new WebDriverWait (driver, 200);
+        wt.until(ExpectedConditions.visibilityOfElementLocated(By.name("email")));
+        
         WebElement email = driver.findElement(By.name("email"));
         email.sendKeys(Email);
         WebElement pass = driver.findElement(By.name("pass"));
