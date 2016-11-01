@@ -98,7 +98,7 @@ public class RegisterPage  extends PageObject {
     }
 
     public void Step2_FirstName(String FirstName) {
-        WebDriverWait wt = new WebDriverWait (getDriver(), 99);
+        WebDriverWait wt = new WebDriverWait (getDriver(), 200);
         wt.until(ExpectedConditions.visibilityOfElementLocated(fldFirstName));
         element(fldFirstName).sendKeys(FirstName);
     }
