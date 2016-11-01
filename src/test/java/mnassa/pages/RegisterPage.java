@@ -43,7 +43,7 @@ public class RegisterPage  extends PageObject {
     private final By viaFacebook_SignUp = By.id("fb_btn_login");
     private final By viaFacebook_Login = By.xpath("//button[@class='btn btn-facebook']");
 
-    // for Organization
+    // for OrganizationTrace
     private final By radioBtnOrganization = By.xpath("//div[@class='modal-body']/div[2]/div[2]//label");
     private final By fldOrganizationFullName = By.xpath("//input[@name='organization_name']");
     private final By menuFounded = By.xpath("//div[@id='s2id_reg-select-2-founded']");
@@ -305,8 +305,8 @@ public class RegisterPage  extends PageObject {
                         }});
 
             //create the POP3 store object and connect with the pop server
-            Store store = emailSession.getStore("pop3s");
-            //Store store = emailSession.getStore("imaps");
+            //Store store = emailSession.getStore("pop3s");
+            Store store = emailSession.getStore("imaps");
             store.connect(host, user, password);
 
             //create the folder object and open it

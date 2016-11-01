@@ -166,7 +166,7 @@ public class AccountSettingsPage extends PageObject {
     private final By newConfirmPassword = By.id("password_confirm");
     private final By lblErrorName = By.xpath("//div[@class='error_message_static']");
 
-    //Organization
+    //OrganizationTrace
     private final By fieldOrganizationName = By.id("organization_name");
     private final By fieldOrganizationShortName = By.id("username");
     private final By radiobuttonTypeOrg = By.xpath("//div[@class='col-sm-6']/div[3]/div[2]/label");
