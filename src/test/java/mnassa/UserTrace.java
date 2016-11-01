@@ -221,8 +221,8 @@ public class UserTrace {
         loginSteps.PageComplete(driver);
         registerSteps.viaFacebook_SignUp(driver);
         registerSteps.confirmFbReg(driver, fb_Email2, fb_Password2);
-        loginSteps.Sleep(500);
-        registerSteps.successRegistration(driver);
+        //loginSteps.Sleep(500);
+        //registerSteps.successRegistration(driver);
     }
     @Test
     public void stage2_Register_User()  throws IOException {
