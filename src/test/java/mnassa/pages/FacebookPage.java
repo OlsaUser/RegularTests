@@ -18,7 +18,7 @@ public class FacebookPage  extends PageObject {
         driver.get("https://www.facebook.com/");
         WebDriverWait wt = new WebDriverWait (driver, 200);
         wt.until(ExpectedConditions.visibilityOfElementLocated(By.name("email")));
-        
+
         WebElement email = driver.findElement(By.name("email"));
         email.sendKeys(Email);
         WebElement pass = driver.findElement(By.name("pass"));

@@ -139,9 +139,10 @@ public class RegisterPage  extends PageObject {
     public void Step2_Location(WebDriver driver, String location) {
         element(fldLocation).click();
         element(fldLocation).sendKeys(location);
-        getDriver().manage().timeouts().implicitlyWait(99, TimeUnit.SECONDS);
+        WebDriverWait wt = new WebDriverWait (driver, 150);
+        getDriver().manage().timeouts().implicitlyWait(150, TimeUnit.SECONDS);
+        wt.until(ExpectedConditions.visibilityOfElementLocated(Location));
         element(Location).click();
-        WebDriverWait wt = new WebDriverWait (driver, 99);
         wt.until(ExpectedConditions.visibilityOfElementLocated(LocationTag));
     }
 
