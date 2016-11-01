@@ -105,7 +105,7 @@ public class RegisterSteps extends ScenarioSteps {
     public void checkWelcomeLetter(String email) { registerPage.checkWelcomeLetter(email);}
 
     @Step
-    public void facebookLogin(WebDriver driver, String Email, String Password){ facebookPage.facebookLogin(driver, Email, Password);}
+    public void facebookLogin(WebDriver driver, String Email, String Password) throws Exception{ facebookPage.facebookLogin(driver, Email, Password);}
 
     @Step
     public void confirmFbReg(WebDriver driver, String Email, String Password){ facebookPage.confirmFbReg(driver, Email, Password);}

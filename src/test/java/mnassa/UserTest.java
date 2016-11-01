@@ -219,7 +219,7 @@ public class UserTest {
     public void tearDown() throws Exception {driver.quit();}
 
     @Test
-    public void stage1_Register_Facebook()  throws Exception, FactoryConfigurationError {
+    public void stage1_Register_Facebook()  throws Exception, FactoryConfigurationError, IOException {
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         registerSteps.openRegisterPage();
         loginSteps.PageComplete(driver);
@@ -250,7 +250,7 @@ public class UserTest {
     }
     //Facebook UserTest
     @Test
-    public void stage3_EditMainDetails()  throws IOException {
+    public void stage3_EditMainDetails()  throws IOException, Exception {
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.PageComplete(driver);
         loginSteps.openLoginPage();
@@ -403,7 +403,7 @@ public class UserTest {
     }
     //Facebook
     @Test
-    public void stage7_Add_Skills_Interests() throws IOException{
+    public void stage7_Add_Skills_Interests() throws IOException, Exception{
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.openLoginPage();
         registerSteps.viaFacebook_Login(driver);
@@ -502,7 +502,7 @@ public class UserTest {
     }
 //Facebook UserTest
     @Test
-    public void stage9_addProductDemand_AR_byButtonFromHeader() throws IOException{
+    public void stage9_addProductDemand_AR_byButtonFromHeader() throws IOException, Exception{
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.openLoginPage();
         registerSteps.viaFacebook_Login(driver);

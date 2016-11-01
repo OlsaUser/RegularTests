@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 @RunWith(SerenityRunner.class)
 public class FacebookPage  extends PageObject {
 
-    public void facebookLogin(WebDriver driver, String Email, String Password) {
+    public void facebookLogin(WebDriver driver, String Email, String Password) throws Exception {
         driver.get("https://www.facebook.com/");
 
        /* WebDriverWait wt = new WebDriverWait (driver, 280);
