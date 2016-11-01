@@ -30,8 +30,8 @@ import static org.junit.Assert.assertTrue;
 @RunWith(SerenityRunner.class)
 public class ItemPage extends PageObject {
 
-    private  HashMap<String, String> category = new HashMap();
-    private HashMap<String, Integer> ID = new HashMap();
+    public  HashMap<String, String> category = new HashMap();
+    public HashMap<String, Integer> ID = new HashMap();
 
     private final By buttonAdd_Menu = By.xpath("//button[@class='header-btn btn btn-red-primary']");
     private final By buttonAdd_listing = By.xpath("//a[@class='card-add']");
