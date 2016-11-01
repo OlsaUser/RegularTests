@@ -218,11 +218,11 @@ public class RegisterPage  extends PageObject {
 
     public static String provideCode(String email) {
         String tempCode = null;
-        String host = "pop.gmail.com";// change accordingly
-        String mailStoreType = "pop3";
+        /*String host = "pop.gmail.com";// change accordingly
+        String mailStoreType = "pop3";*/
 
-       /* String host = "imap.gmail.com";
-        String mailStoreType = "imap";*/
+        String host = "imap.gmail.com";
+        String mailStoreType = "imap";
 
         String password = "Jk14501450";
 
@@ -249,11 +249,11 @@ public class RegisterPage  extends PageObject {
     }
 
     public static void checkWelcomeLetter(String email) {
-        /*String host = "imap.gmail.com";
-        String mailStoreType = "imap";*/
+        String host = "imap.gmail.com";
+        String mailStoreType = "imap";
 
-        String host = "pop.gmail.com";// change accordingly
-        String mailStoreType = "pop3";
+        /*String host = "pop.gmail.com";// change accordingly
+        String mailStoreType = "pop3";*/
 
         String password = "Jk14501450";
 
@@ -273,15 +273,15 @@ public class RegisterPage  extends PageObject {
             //create properties field
             Properties properties = new Properties();
 
-            properties.put("mail.pop3.debug", "true");
+            /*properties.put("mail.pop3.debug", "true");
             properties.put("mail.pop3.host", host);
             properties.put("mail.pop3.port", "995");
-            properties.put("mail.pop3.starttls.enable", "true");
+            properties.put("mail.pop3.starttls.enable", "true");*/
 
-            /*properties.setProperty("mail.imap.host", "imap.gmail.com");
+            properties.setProperty("mail.imap.host", "imap.gmail.com");
             properties.setProperty("mail.imap.port", "993");
             properties.setProperty("mail.imap.connectiontimeout", "5000");
-            properties.setProperty("mail.imap.timeout", "5000");*/
+            properties.setProperty("mail.imap.timeout", "5000");
 
             /*System.setProperty("proxySet", "true");
             System.setProperty("https.proxyHost", "proxy.isd.dp.ua");
