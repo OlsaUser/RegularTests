@@ -96,7 +96,7 @@ public class LoginPage extends PageObject {
 
     public void PageComplete(final WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 500);
+        WebDriverWait wait = new WebDriverWait(driver, 600);
 
         wait.until(new ExpectedCondition<Boolean>() {
             public Boolean apply(WebDriver wdriver) {

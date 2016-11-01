@@ -314,7 +314,7 @@ public class HeaderPage extends PageObject {
     }
 
     public void openMenuProfile(WebDriver driver ) {
-        WebDriverWait wt = new WebDriverWait (driver, 100);
+        WebDriverWait wt = new WebDriverWait (driver, 300);
         wt.until(ExpectedConditions.presenceOfElementLocated(menuProfile));
         find(menuProfile).click();
     }

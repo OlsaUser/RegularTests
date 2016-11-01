@@ -602,8 +602,9 @@ public class AccountSettingsPage extends PageObject {
     public void selectLocation(String location) {
         find(Location).sendKeys(location);
         find(LocationJeddah).click();
-        WebDriverWait wt = new WebDriverWait (getDriver(), 900);
+        WebDriverWait wt = new WebDriverWait (getDriver(), 980);
         wt.until(ExpectedConditions.visibilityOfElementLocated(fieldJeddah));
+        wt.until(ExpectedConditions.presenceOfElementLocated(fieldJeddah));
         find(fieldJeddah).waitUntilVisible();
     }
 

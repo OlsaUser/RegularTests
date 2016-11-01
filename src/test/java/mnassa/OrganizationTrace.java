@@ -17,6 +17,7 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.MethodSorters;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -202,6 +203,7 @@ public class OrganizationTrace {
 
     @Before
     public void setup() throws IOException {
+        driver.manage().window().maximize();
         //driver = new FirefoxDriver();
         /*FirefoxProfile myProfile = new FirefoxProfile(new File(BrowserProfile));
         myProfile.setPreference("network.proxy.socks_port",9999);
@@ -265,11 +267,11 @@ public class OrganizationTrace {
         accountSettingsSteps.checkInfoExists(OrganizationShortName_En_exp,OrganizationShortName_En_now);
         accountSettingsSteps.checkInfoExists(location_exp, location_now_profile);
         accountSettingsSteps.checkInfoExists(location_now1_exp, location_now1);
-        accountSettingsSteps.checkInfoExists(location_now2_exp, location_now2);
+       accountSettingsSteps.checkInfoExists(location_now2_exp, location_now2);
         accountSettingsSteps.checkInfoExists(BriefInfo, BriefInfo_now);
         accountSettingsSteps.checkInfoExists(count, count_now);
         accountSettingsSteps.checkInfoExists(YearFounder_exp, YearFounder_now);
-        //accountSettingsSteps.checkMainDetails_Org(OrganizationName_En,OrganizationShortName_En,location,BriefInfo,count);
+       // accountSettingsSteps.checkMainDetails_Org(OrganizationName_En,OrganizationShortName_En,location,BriefInfo,count);
     }
     @Test
     public void stage3_EditContactInfo() throws IOException{

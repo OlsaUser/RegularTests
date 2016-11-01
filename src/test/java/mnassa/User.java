@@ -204,6 +204,7 @@ public class User {
 
     @Before
     public void setup() throws IOException {
+        driver.manage().window().maximize();
         //driver = new FirefoxDriver();
         /*FirefoxProfile myProfile = new FirefoxProfile(new File(BrowserProfile));
         myProfile.setPreference("network.proxy.socks_port",9999);
