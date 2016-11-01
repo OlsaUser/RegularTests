@@ -278,18 +278,19 @@ public class RegisterPage  extends PageObject {
             properties.setProperty("mail.imap.connectiontimeout", "5000");
             properties.setProperty("mail.imap.timeout", "5000");
 
-            System.setProperty("proxySet", "true");
+            /*System.setProperty("proxySet", "true");
             System.setProperty("https.proxyHost", "proxy.isd.dp.ua");
             System.setProperty("https.proxyPort", "8080");
 
             System.setProperty("http.proxyHost", "proxy.isd.dp.ua");
             System.setProperty("http.proxyPort", "8080");
 
-            //System.setProperty("https.proxyUser", "olsa@design.isd.dp.ua");
-           // System.setProperty("https.proxyPassword", "cOnvErsAtIOn5");
-
             System.setProperty("http.proxyUser", "design\\olsa");
             System.setProperty("http.proxyPassword", "********");
+            */
+
+            /*System.setProperty("https.proxyUser", "olsa@design.isd.dp.ua");
+            System.setProperty("https.proxyPassword", "cOnvErsAtIOn5");*/
 
             //Session emailSession = Session.getDefaultInstance(properties);
              Session emailSession = Session.getDefaultInstance(properties,
