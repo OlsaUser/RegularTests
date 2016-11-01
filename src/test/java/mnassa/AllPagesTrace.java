@@ -15,7 +15,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxProfile;
 
 import java.io.File;
 import java.io.IOException;
@@ -24,7 +23,7 @@ import java.io.IOException;
  * Created by olsa on 5/17/2016.
  */
 @RunWith(SerenityRunner.class)
-public class PerformanceTrace {
+public class AllPagesTrace {
     //private String propertyFilePath = "src/test/resources/login.properties";
     private String propertyFilePath = "src/test/resources/login_live.properties";
     private String email = PropertyLoader.getProperty(propertyFilePath, "email");
@@ -92,7 +91,7 @@ public class PerformanceTrace {
 
     @Before
     public void setup() throws IOException {
-        driver = new FirefoxDriver();
+        //driver = new FirefoxDriver();
         /*FirefoxProfile myProfile = new FirefoxProfile(new File("D:/SeleniumProfile"));
         myProfile.setPreference("network.proxy.socks_port", 9999);
         myProfile.setAlwaysLoadNoFocusLib(true);
@@ -115,23 +114,23 @@ public class PerformanceTrace {
 
     @Test
     public void PerformanceTest() throws IOException {
-        loginSteps.pageLoad(Login);
+        //loginSteps.pageLoad(Login);
 
         headerSteps.openProductListing(driver);
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(ProductListing);
+        //loginSteps.pageLoad(ProductListing);
 
         headerSteps.openEventListing(driver);
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(EventListing);
+        //loginSteps.pageLoad(EventListing);
 
         headerSteps.openPartnershipListing(driver);
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(PartnershipListing);
+        //loginSteps.pageLoad(PartnershipListing);
 
         headerSteps.openServiceListing(driver);
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(ServiceListing);
+        //loginSteps.pageLoad(ServiceListing);
 
         /*headerSteps.openMessagePage(driver);
         loginSteps.PageComplete(driver);
@@ -139,16 +138,16 @@ public class PerformanceTrace {
 
         headerSteps.openNotificationPage(driver);
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(NotificationPage);
+        //loginSteps.pageLoad(NotificationPage);
 
         headerSteps.openHomePage(driver);
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(HomePage);
+        //loginSteps.pageLoad(HomePage);
 
 
         headerSteps.openDiscoverPage(driver);
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(DiscoverItemNew);
+        //loginSteps.pageLoad(DiscoverItemNew);
 
         headerSteps.openDiscoverItemPopular(driver);
         loginSteps.PageComplete(driver);
@@ -159,7 +158,7 @@ public class PerformanceTrace {
 
         headerSteps.openDiscoverPostNew(driver);
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(DiscoverPostNew);
+        //loginSteps.pageLoad(DiscoverPostNew);
 
         headerSteps.openDiscoverPostTrending(driver);
         loginSteps.PageComplete(driver);
@@ -171,7 +170,7 @@ public class PerformanceTrace {
 
         headerSteps.openDiscoverUserPopular(driver);
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(DiscoverUserPopular);
+        //loginSteps.pageLoad(DiscoverUserPopular);
 
         headerSteps.openDiscoverUserActive(driver);
         loginSteps.PageComplete(driver);
@@ -184,7 +183,7 @@ public class PerformanceTrace {
 
         headerSteps.openDiscoverGroupsPopular(driver);
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(DiscoverGroupsPopular);
+        //loginSteps.pageLoad(DiscoverGroupsPopular);
 
         headerSteps.openDiscoverGroupsNew(driver);
         loginSteps.PageComplete(driver);
@@ -194,42 +193,42 @@ public class PerformanceTrace {
         headerSteps.openMenuProfile(driver);
         headerSteps.openAccountSettings(driver);
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(AccountSettings);
+        //loginSteps.pageLoad(AccountSettings);
 
         headerSteps.openMyMnassaPage(driver);
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(MyMnassa);
+        //loginSteps.pageLoad(MyMnassa);
 
         headerSteps.openMyMedia(driver);
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(MyMedia);
+        //loginSteps.pageLoad(MyMedia);
 
         headerSteps.openMyWall(driver);
-        loginSteps.pageLoad(MyWall);
+        //loginSteps.pageLoad(MyWall);
 
         headerSteps.openMyGroupsListing(driver);
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(MyGroups);
+        //loginSteps.pageLoad(MyGroups);
 
         headerSteps.MyGroupWall(driver);
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(MyGroups);
+        //loginSteps.pageLoad(MyGroups);
 
         headerSteps.openMyMnassaPage(driver);
         loginSteps.PageComplete(driver);
         //loginSteps.PageComplete(driver);
 
         headerSteps.openMyServiceListing(driver);
-        loginSteps.pageLoad(MyServiceListing);
+        //loginSteps.pageLoad(MyServiceListing);
 
         headerSteps.openMyProductListing(driver);
-        loginSteps.pageLoad(MyProductListing);
+        //loginSteps.pageLoad(MyProductListing);
 
         headerSteps.openMyEventListing(driver);
-        loginSteps.pageLoad(MyEventListing);
+        //loginSteps.pageLoad(MyEventListing);
 
         headerSteps.openMyPartnershipListing(driver);
-        loginSteps.pageLoad(MyPartnershipListing);
+        //loginSteps.pageLoad(MyPartnershipListing);
 
         headerSteps.openDiscoverPage(driver);
         loginSteps.PageComplete(driver);
@@ -237,7 +236,7 @@ public class PerformanceTrace {
 //User Info page
         headerSteps.viewAccountSettings(driver);
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(viewAccountSettings);
+        //loginSteps.pageLoad(viewAccountSettings);
 
         driver.get(urlUserProfile_Perform);
         headerSteps.openUserWallPage(driver);
@@ -249,25 +248,25 @@ public class PerformanceTrace {
         headerSteps.openUserMediaPage(driver);
 
         headerSteps.openMyFollowers(driver);
-        loginSteps.pageLoad(MyFollowers);
+        //loginSteps.pageLoad(MyFollowers);
 
         headerSteps.openMyFollowings(driver);
-        loginSteps.pageLoad(MyFollowings);
+        //loginSteps.pageLoad(MyFollowings);
 
         headerSteps.openHomePage(driver);
         loginSteps.PageComplete(driver);
 
         headerSteps.openGroupsListing(driver);
-        loginSteps.pageLoad(Groups);
+        //loginSteps.pageLoad(Groups);
 
         driver.get(urlItem);
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(viewItem);
+        //loginSteps.pageLoad(viewItem);
 
         //loginSteps.Sleep(100);
         driver.get(urlGroupPage);
         driver.navigate().refresh();
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(MyGroupWall);
+        //loginSteps.pageLoad(MyGroupWall);
     }
 }
