@@ -36,7 +36,6 @@ public class t1_ViewerStory {
     private String messageLabel = PropertyLoader.getProperty(propertyItemPath, "messageLabel");
     private String attachLabel = PropertyLoader.getProperty(propertyItemPath, "attachLabel");
 
-
     @Managed
     WebDriver driver;
 
