@@ -133,14 +133,14 @@ public class AddItemSteps extends ScenarioSteps {
     @Step
     public void deleteImage() {itemPage.deleteImage();}
 
-    @Step
+   /* @Step
     public void changeCoverImage() {itemPage.changeCoverImage();}
 
     @Step
     public void changeCoverVideo() {itemPage.changeCoverVideo();}
 
     @Step
-    public void checkNewCover() {assertTrue(itemPage.checkNewCover());}
+    public void checkNewCover() {assertTrue(itemPage.checkNewCover());}*/
 
     @Step
     public void selectYearsOfExperienceFew() {itemPage.selectYearsOfExperienceFew();}

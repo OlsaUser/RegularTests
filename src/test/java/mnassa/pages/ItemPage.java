@@ -24,14 +24,9 @@ import static org.junit.Assert.assertTrue;
 /**
  * Created by olsa on 4/29/2016.
  */
-//@DefaultUrl("http://synergy.devzone.dp.ua/en/#!login")
-//@DefaultUrl("http://mnassa.com/en/#!login")
 
 @RunWith(SerenityRunner.class)
 public class ItemPage extends PageObject {
-
-    public  HashMap<String, String> category = new HashMap();
-    public HashMap<String, Integer> ID = new HashMap();
 
     private final By buttonAdd_Menu = By.xpath("//button[@class='header-btn btn btn-red-primary']");
     private final By buttonAdd_listing = By.xpath("//a[@class='card-add']");
@@ -304,7 +299,9 @@ public class ItemPage extends PageObject {
 
     String parentWindowHandler;
 
-    private final HashMap<Integer, String> itemUrl = new HashMap();
+    //private final HashMap<Integer, String> itemUrl = new HashMap();
+    //private final HashMap<String, Integer> ID = new HashMap();
+    private final  HashMap<String, String> category = new HashMap();
 
     public boolean checkValueExists(String value_exp, String value_now) {
         String text_now_value = getDriver().findElement(By.xpath(value_now)).getText();
@@ -363,7 +360,7 @@ public class ItemPage extends PageObject {
 
         //String urlI = driver.getCurrentUrl();
 
-        itemUrl.put(1, driver.getCurrentUrl());
+        //itemUrl.put(1, driver.getCurrentUrl());
     }
 
     public void checkCommentAdded(String comment) {
@@ -758,7 +755,7 @@ public class ItemPage extends PageObject {
         find(imageDelete).click();
     }
 
-    public void changeCoverImage() {
+   /* public void changeCoverImage() {
         String imageID1 = find(imageCover).getAttribute("can-value");
         System.out.println(imageID1);
         ID.put(imageID1, 1);
@@ -804,7 +801,7 @@ public class ItemPage extends PageObject {
         }
       }
         return first;
-    }
+    }*/
 
     public void VideoContent() {
         find(ContentVideo).click();

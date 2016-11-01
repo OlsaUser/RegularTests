@@ -83,12 +83,12 @@ public class t3_ActionsItemStory {
         addItemSteps.collapseMainDetails();
         addItemSteps.ImageContent();
 //        addItemSteps.deleteImage();
-        addItemSteps.changeCoverImage();
+        //addItemSteps.changeCoverImage();
         addItemSteps.collapseStatus();
         addItemSteps.clickSave(driver);
         addItemSteps.checkItemSaved(driver);
         loginSteps.PageComplete(driver);
-        addItemSteps.checkNewCover();
+        //addItemSteps.checkNewCover();
     }
     @Test
     public void stage2_ProductSupply_EditCoverVideo() {
@@ -100,12 +100,12 @@ public class t3_ActionsItemStory {
         addItemSteps.collapseMainDetails();
         addItemSteps.VideoContent();
 //        addItemSteps.deleteVideo();
-        addItemSteps.changeCoverVideo();
+        //addItemSteps.changeCoverVideo();
         addItemSteps.collapseContent();
         addItemSteps.clickSave(driver);
         addItemSteps.checkItemSaved(driver);
         loginSteps.PageComplete(driver);
-        addItemSteps.checkNewCover();
+        //addItemSteps.checkNewCover();
     }
     @Test
     public void stage3_ServiceSupply_EditStatus() {
@@ -161,5 +161,4 @@ public class t3_ActionsItemStory {
         addItemSteps.addComment(driver, Comment);
         addItemSteps.checkCommentAdded(Comment);
     }
-
 }
