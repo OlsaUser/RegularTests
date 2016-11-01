@@ -17,8 +17,8 @@ public class FacebookPage  extends PageObject {
     public void facebookLogin(WebDriver driver, String Email, String Password) {
         driver.get("https://www.facebook.com/");
 
-        WebDriverWait wt = new WebDriverWait (driver, 280);
-        wt.until(ExpectedConditions.visibilityOfElementLocated(By.name("email")));
+       /* WebDriverWait wt = new WebDriverWait (driver, 280);
+        wt.until(ExpectedConditions.visibilityOfElementLocated(By.name("email")));*/
 
         WebElement email = driver.findElement(By.name("email"));
         email.sendKeys(Email);
@@ -32,7 +32,8 @@ public class FacebookPage  extends PageObject {
             e1.printStackTrace();
         }
         try {
-            driver.findElement(By.xpath("//span[text()='News Feed']"));
+            //driver.findElement(By.xpath("//span[text()='News Feed']"));
+            driver.findElement(By.id("contentCol"));
         } catch (WebDriverException e) {
             Assert.fail();
         }
