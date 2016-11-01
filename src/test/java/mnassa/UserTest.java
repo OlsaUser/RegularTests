@@ -29,7 +29,7 @@ import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver
 
 @RunWith(SerenityRunner.class)
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class User {
+public class UserTest {
     private String browserFilePath = "src/test/resources/browser.properties";
     private String BrowserProfile = PropertyLoader.getProperty(browserFilePath, "BrowserProfile");
 
@@ -205,6 +205,7 @@ public class User {
     @Before
     public void setup() throws IOException {
         driver.manage().window().maximize();
+
         //driver = new FirefoxDriver();
         /*FirefoxProfile myProfile = new FirefoxProfile(new File(BrowserProfile));
         myProfile.setPreference("network.proxy.socks_port",9999);
@@ -224,8 +225,8 @@ public class User {
         loginSteps.PageComplete(driver);
         registerSteps.viaFacebook_SignUp(driver);
         registerSteps.confirmFbReg(driver, fb_Email2, fb_Password2);
-        //loginSteps.Sleep(500);
-        //registerSteps.successRegistration(driver);
+        loginSteps.Sleep(500);
+        registerSteps.successRegistration(driver);
     }
     @Test
     public void stage2_Register_User()  throws IOException {
@@ -247,7 +248,7 @@ public class User {
         registerSteps.successRegistration(driver);
         registerSteps.checkWelcomeLetter(NewEmailUser);
     }
-    //Facebook User
+    //Facebook UserTest
     @Test
     public void stage3_EditMainDetails()  throws IOException {
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
@@ -279,7 +280,7 @@ public class User {
         loginSteps.PageComplete(driver);
         accountSettingsSteps.clickUpdate1(driver);
         loginSteps.PageComplete(driver);
-        //User info page
+        //UserTest info page
         headerSteps.openDiscoverPage(driver);
         loginSteps.PageComplete(driver);
         headerSteps.viewAccountSettings(driver);
@@ -320,7 +321,7 @@ public class User {
         //loginSteps.PageComplete(driver);
         accountSettingsSteps.clickUpdate2(driver);
 
-        //User info page
+        //UserTest info page
         headerSteps.openDiscoverPage(driver);
         loginSteps.PageComplete(driver);
         headerSteps.viewAccountSettings(driver);
@@ -360,7 +361,7 @@ public class User {
         loginSteps.PageComplete(driver);
         //accountSettingsSteps.clickUpdate3();
 
-        //User info page
+        //UserTest info page
         headerSteps.openDiscoverPage(driver);
         loginSteps.PageComplete(driver);
         headerSteps.viewAccountSettings(driver);
@@ -418,7 +419,7 @@ public class User {
         accountSettingsSteps.enterInterest(Interest,driver);
         accountSettingsSteps.clickUpdate5(driver);
         //loginSteps.PageComplete(driver);
-        //User info page
+        //UserTest info page
         headerSteps.openDiscoverPage(driver);
         loginSteps.PageComplete(driver);
         headerSteps.viewAccountSettings(driver);
@@ -499,7 +500,7 @@ public class User {
         addItemSteps.checkElementPresents(debitcard);
         addItemSteps.checkElementPresents(cash);
     }
-//Facebook User
+//Facebook UserTest
     @Test
     public void stage9_addProductDemand_AR_byButtonFromHeader() throws IOException{
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);

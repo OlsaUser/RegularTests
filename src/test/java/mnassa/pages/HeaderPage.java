@@ -94,7 +94,7 @@ public class HeaderPage extends PageObject {
     private final By linkMyGroups = By.xpath("//div[@class='nav-list-items']/a[6]/span");
     private final By MyPartnershipListing = By.xpath("//div[@class='nav-list-items']/a[7]/span");
     private final By linkMyMedia = By.xpath("//div[@class='nav-list-items']/a[8]/span");
-    //Third line Menu (User Profile)
+    //Third line Menu (UserTest Profile)
     private final By linkUserWall = By.xpath("//div[@class='nav-list-items']/a[2]");
     private final By UserProductListing = By.xpath("//div[@class='nav-list-items']/a[3]");
     private final By UserServiceListing = By.xpath("//div[@class='nav-list-items']/a[4]");
@@ -456,7 +456,7 @@ public class HeaderPage extends PageObject {
         wt.until(ExpectedConditions.elementToBeClickable(MediaContent));
     }
 
-//User Info Page
+//UserTest Info Page
     public void openUserWallPage(WebDriver driver) {
         WebDriverWait wt = new WebDriverWait (driver, 100);
         wt.until(ExpectedConditions.presenceOfElementLocated(linkUserWall));

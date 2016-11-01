@@ -162,7 +162,7 @@ public class t2_AccountSettings_UserStory {
         loginSteps.PageComplete(driver);
         accountSettingsSteps.clickUpdate1(driver);
         loginSteps.PageComplete(driver);
-        //User info page
+        //UserTest info page
         headerSteps.openDiscoverPage(driver);
         loginSteps.PageComplete(driver);
         headerSteps.viewAccountSettings(driver);
@@ -195,7 +195,7 @@ public class t2_AccountSettings_UserStory {
         accountSettingsSteps.clickUpdate1(driver);
         loginSteps.PageComplete(driver);
 
-        //User info page
+        //UserTest info page
         headerSteps.openDiscoverPage(driver);
         loginSteps.PageComplete(driver);
         headerSteps.viewAccountSettings(driver);
@@ -272,7 +272,7 @@ public class t2_AccountSettings_UserStory {
         //loginSteps.PageComplete(driver);
         accountSettingsSteps.clickUpdate2(driver);
 
-        //User info page
+        //UserTest info page
         headerSteps.openDiscoverPage(driver);
         loginSteps.PageComplete(driver);
         headerSteps.viewAccountSettings(driver);
@@ -300,7 +300,7 @@ public class t2_AccountSettings_UserStory {
         loginSteps.PageComplete(driver);
         //accountSettingsSteps.clickUpdate3();
 
-        //User info page
+        //UserTest info page
         headerSteps.openDiscoverPage(driver);
         loginSteps.PageComplete(driver);
         headerSteps.viewAccountSettings(driver);
@@ -367,7 +367,7 @@ public class t2_AccountSettings_UserStory {
         accountSettingsSteps.enterInterest(Interest,driver);
         accountSettingsSteps.clickUpdate5(driver);
         //loginSteps.PageComplete(driver);
-        //User info page
+        //UserTest info page
         headerSteps.openDiscoverPage(driver);
         loginSteps.PageComplete(driver);
         headerSteps.viewAccountSettings(driver);

@@ -259,7 +259,7 @@ public class OrganizationTrace {
         accountSettingsSteps.selectLocation(location);
         accountSettingsSteps.enterBriefInfo(BriefInfo);
         accountSettingsSteps.clickUpdate1(driver);
-        //User info page
+        //UserTest info page
         loginSteps.Sleep(70);
         headerSteps.openDiscoverPage(driver);
         headerSteps.viewAccountSettings(driver);
@@ -299,7 +299,7 @@ public class OrganizationTrace {
         loginSteps.PageComplete(driver);
         accountSettingsSteps.clickUpdate2(driver);
         loginSteps.Sleep(70);
-        //User info page
+        //UserTest info page
         headerSteps.openDiscoverPage(driver);
         headerSteps.viewAccountSettings(driver);
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();

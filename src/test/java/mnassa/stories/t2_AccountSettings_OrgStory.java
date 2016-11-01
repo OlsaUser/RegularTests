@@ -119,7 +119,7 @@ public class t2_AccountSettings_OrgStory {
         accountSettingsSteps.selectLocation(location);
         accountSettingsSteps.enterBriefInfo(BriefInfo);
         accountSettingsSteps.clickUpdate1(driver);
-        //User info page
+        //UserTest info page
         loginSteps.Sleep(70);
         headerSteps.openDiscoverPage(driver);
         headerSteps.viewAccountSettings(driver);
@@ -148,7 +148,7 @@ public class t2_AccountSettings_OrgStory {
         loginSteps.PageComplete(driver);
         accountSettingsSteps.clickUpdate2(driver);
         loginSteps.Sleep(70);
-        //User info page
+        //UserTest info page
         headerSteps.openDiscoverPage(driver);
         headerSteps.viewAccountSettings(driver);
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();

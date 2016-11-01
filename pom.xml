@@ -104,7 +104,7 @@
                     <shutdown>exit</shutdown>
                     <testFailureIgnore>true</testFailureIgnore>
                     <includes>
-                        <include>**/*Trace.java</include>
+                        <include>**/*Test.java</include>
                     </includes>
                     <argLine>-Xmx512m</argLine>
                     <systemPropertyVariables>

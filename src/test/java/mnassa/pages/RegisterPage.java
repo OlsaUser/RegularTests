@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit;
 @RunWith(SerenityRunner.class)
 public class RegisterPage  extends PageObject {
 
-    //for User
+    //for UserTest
     private final By fldUserName = By.xpath("//input[@name='username']");
     private final By fldEmail = By.xpath("//input[@name='reg_email']");
     private final By fldPassword = By.xpath("//input[@name='reg_password']");
@@ -283,7 +283,7 @@ public class RegisterPage  extends PageObject {
             properties.setProperty("mail.imap.connectiontimeout", "5000");
             properties.setProperty("mail.imap.timeout", "5000");
 
-            /*System.setProperty("proxySet", "true");
+            System.setProperty("proxySet", "true");
             System.setProperty("https.proxyHost", "proxy.isd.dp.ua");
             System.setProperty("https.proxyPort", "8080");
 
@@ -291,7 +291,7 @@ public class RegisterPage  extends PageObject {
             System.setProperty("http.proxyPort", "8080");
 
             System.setProperty("http.proxyUser", "design\\olsa");
-            System.setProperty("http.proxyPassword", "********");*/
+            System.setProperty("http.proxyPassword", "********");
 
 
             /*System.setProperty("https.proxyUser", "olsa@design.isd.dp.ua");
