@@ -366,6 +366,7 @@ public class FullTraceOrganization {
             addItemSteps.clickSave(driver);
             addItemSteps.checkItemSaved(driver);
             loginSteps.PageComplete(driver);
+           jse1.executeScript("window.scrollBy(0,600)", "");
             addItemSteps.openItemSettingsMenu();
             addItemSteps.selectViewMenu(driver);
 
@@ -388,7 +389,7 @@ public class FullTraceOrganization {
             addItemSteps.checkElementPresents(cash);
         }
     @Test
-    public void stage5_ChangePassword() throws IOException{
+    public void stage5_ChangePassword1() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
@@ -407,11 +408,9 @@ public class FullTraceOrganization {
         accountSettingsSteps.enterNewConfirmPassword(NewConfirmPassword);
         //loginSteps.PageComplete(driver);
         accountSettingsSteps.clickUpdate6(driver);
-
-        headerSteps.openMenuProfile(driver);
-        headerSteps.LogOut(driver);
-        loginSteps.PageComplete(driver);
-
+    }
+    @Test
+    public void stage6_ChangePassword2() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 

@@ -246,6 +246,7 @@ public class FullTraceUser {
     @Test
     public void stage3_EditMainDetails()  throws IOException {
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
+        loginSteps.PageComplete(driver);
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
         registerSteps.viaFacebook_Login(driver);
@@ -265,7 +266,7 @@ public class FullTraceUser {
         accountSettingsSteps.selectLanguageEnglish();
         accountSettingsSteps.selectBirth();
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();
-        jse.executeScript("window.scrollBy(0,75)", "");
+        jse.executeScript("window.scrollBy(0,15)", "");
         accountSettingsSteps.selectStatusMarried(married);
         // accountSettingsSteps.selectStatusSingle();
         accountSettingsSteps.selectLocation(location);
@@ -553,13 +554,11 @@ public class FullTraceUser {
         accountSettingsSteps.enterNewConfirmPassword(NewConfirmPassword);
         loginSteps.PageComplete(driver);
         accountSettingsSteps.clickUpdate6(driver);
-
-        headerSteps.openMenuProfile(driver);
-        headerSteps.LogOut(driver);
-        loginSteps.PageComplete(driver);
-
+    }
+    @Test
+    public void stage9b_ChangePassword2() throws IOException{
         loginSteps.openLoginPage();
-        //loginSteps.PageComplete(driver);
+        loginSteps.PageComplete(driver);
         loginSteps.enterLogin(NewEmailUser);
         loginSteps.enterPassword(NewPassword_change);
         loginSteps.clickEnter(driver);
