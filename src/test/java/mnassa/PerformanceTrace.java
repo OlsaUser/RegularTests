@@ -14,6 +14,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 
 import java.io.File;
@@ -91,11 +92,12 @@ public class PerformanceTrace {
 
     @Before
     public void setup() throws IOException {
-        FirefoxProfile myProfile = new FirefoxProfile(new File("D:/SeleniumProfile"));
+        driver = new FirefoxDriver();
+        /*FirefoxProfile myProfile = new FirefoxProfile(new File("D:/SeleniumProfile"));
         myProfile.setPreference("network.proxy.socks_port", 9999);
         myProfile.setAlwaysLoadNoFocusLib(true);
         myProfile.setEnableNativeEvents(true);
-        Serenity.useFirefoxProfile(myProfile);
+        Serenity.useFirefoxProfile(myProfile);*/
 
         loginSteps.openLoginPage();
         loginSteps.enterLogin(email);

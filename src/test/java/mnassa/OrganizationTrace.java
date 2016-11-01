@@ -19,6 +19,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.MethodSorters;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver;
@@ -201,11 +202,12 @@ public class OrganizationTrace {
 
     @Before
     public void setup() throws IOException {
-        FirefoxProfile myProfile = new FirefoxProfile(new File(BrowserProfile));
+        driver = new FirefoxDriver();
+        /*FirefoxProfile myProfile = new FirefoxProfile(new File(BrowserProfile));
         myProfile.setPreference("network.proxy.socks_port",9999);
         myProfile.setAlwaysLoadNoFocusLib(true);
         myProfile.setEnableNativeEvents(true);
-        Serenity.useFirefoxProfile(myProfile);
+        Serenity.useFirefoxProfile(myProfile);*/
     }
 
     @After
