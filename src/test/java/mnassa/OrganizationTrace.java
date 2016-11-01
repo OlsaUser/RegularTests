@@ -213,7 +213,7 @@ public class OrganizationTrace {
     @After
     public void tearDown() throws Exception {driver.quit();}
 
-    @Test
+  /*  @Test
     public void stage1_Register_Organization() throws Exception {
         registerSteps.openRegisterPage();
         loginSteps.PageComplete(driver);
@@ -231,7 +231,7 @@ public class OrganizationTrace {
 
         registerSteps.goConfirmLink(driver,NewEmailOrg);
         registerSteps.checkWelcomeLetter(NewEmailOrg);
-    }
+    }*/
     @Test
     public void stage2_EditMainDetails() throws IOException{
         loginSteps.openLoginPage();
