@@ -195,12 +195,11 @@ public class RegisterPage  extends PageObject {
     }
 
     public void successRegistration(WebDriver driver) {
-        for(String winHandle : driver.getWindowHandles())
+       /* for(String winHandle : driver.getWindowHandles())
         {
             System.out.println(winHandle);
             driver.switchTo().window(winHandle);
-        }
-
+        }*/
         WebDriverWait wt = new WebDriverWait (driver, 300);
         //wt.until(ExpectedConditions.visibilityOfElementLocated(Counter));
         wt.until(ExpectedConditions.visibilityOfElementLocated(welcomeToMnassa));

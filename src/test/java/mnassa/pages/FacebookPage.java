@@ -15,7 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class FacebookPage  extends PageObject {
 
     public void facebookLogin(WebDriver driver, String Email, String Password) throws Exception {
-        //driver.get("https://www.facebook.com/");
+        driver.get("https://www.facebook.com/");
         /*WebDriverWait wt = new WebDriverWait (driver, 500);
         wt.until(ExpectedConditions.elementToBeClickable(By.name("email")));*/
 

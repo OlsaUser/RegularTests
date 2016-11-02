@@ -218,7 +218,7 @@ public class UserTest {
     @After
     public void tearDown() throws Exception {driver.quit();}
 
-    @Test
+   /* @Test
     public void stage1_Register_Facebook()  throws Exception, FactoryConfigurationError, IOException {
         driver.get("https://www.facebook.com");
         loginSteps.PageComplete(driver);
@@ -229,7 +229,7 @@ public class UserTest {
         registerSteps.confirmFbReg(driver, fb_Email2, fb_Password2);
         //loginSteps.Sleep(500);
         registerSteps.successRegistration(driver);
-    }
+    }*/
     @Test
     public void stage2_Register_User()  throws IOException {
         registerSteps.openRegisterPage();
