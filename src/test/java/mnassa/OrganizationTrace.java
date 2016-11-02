@@ -248,12 +248,12 @@ public class OrganizationTrace {
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();
         jse.executeScript("window.scrollBy(0,990)", "");
         accountSettingsSteps.enterBriefInfo(BriefInfo);
-        accountSettingsSteps.selectFounded();
         accountSettingsSteps.selectNumbEmployees(count);
         //accountSettingsSteps.selectLanguageArabian_Org();
         //accountSettingsSteps.selectLanguageEnglish_Org();
         // accountSettingsSteps.selectStatusSingle();
         accountSettingsSteps.selectLocation(location);
+        accountSettingsSteps.selectFounded();
 
         accountSettingsSteps.clickUpdate1(driver);
         //UserTest info page
