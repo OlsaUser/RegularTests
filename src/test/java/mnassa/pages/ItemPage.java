@@ -501,12 +501,12 @@ public class ItemPage extends PageObject {
 
     public void selectCategory2() {
         find(menuCategory).click();
-        getDriver().manage().timeouts().implicitlyWait(99, TimeUnit.SECONDS);
+        //getDriver().manage().timeouts().implicitlyWait(99, TimeUnit.SECONDS);
         String categoryName = find(Category2).getText();
         find(Category2).click();
 
         find(menuSubCategory).click();
-        getDriver().manage().timeouts().implicitlyWait(99, TimeUnit.SECONDS);
+        //getDriver().manage().timeouts().implicitlyWait(99, TimeUnit.SECONDS);
         String subcategoryName = find(SubCategory2).getText();
         find(SubCategory2).click();
         category.clear();

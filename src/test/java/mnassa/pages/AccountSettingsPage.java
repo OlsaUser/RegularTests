@@ -650,7 +650,7 @@ public class AccountSettingsPage extends PageObject {
         clickOk(driver);
     }
     public void clickUpdate6(WebDriver driver) {
-        find(btnUpdate6).waitUntilClickable();
+        //find(btnUpdate6).waitUntilClickable();
         find(btnUpdate6).click();
         clickOk(driver);
     }

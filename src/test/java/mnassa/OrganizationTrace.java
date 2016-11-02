@@ -275,9 +275,9 @@ public class OrganizationTrace {
         //??? accountSettingsSteps.checkInfoExists(location_now2_exp, location_now2);
         accountSettingsSteps.checkInfoExists(BriefInfo, BriefInfo_now);
         accountSettingsSteps.checkInfoExists(count, count_now);
-        accountSettingsSteps.checkInfoExists(YearFounder_exp, YearFounder_now);
+        //??? accountSettingsSteps.checkInfoExists(YearFounder_exp, YearFounder_now);
     }*/
-   @Test
+   /*@Test
     public void stage3_EditContactInfo1() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
@@ -302,19 +302,8 @@ public class OrganizationTrace {
         accountSettingsSteps.enterWebSite(WebSite_exp);
         loginSteps.PageComplete(driver);
         accountSettingsSteps.clickUpdate2(driver);
-       /* loginSteps.Sleep(70);
-        //UserTest info page
-        headerSteps.openDiscoverPage(driver);
-        headerSteps.viewAccountSettings(driver);
-        JavascriptExecutor jse = (JavascriptExecutor)getDriver();
-        jse.executeScript("window.scrollBy(0,500)", "");
-        accountSettingsSteps.checkInfoExists(mobile_exp,mobile_now);
-        accountSettingsSteps.checkInfoExists(landline_exp,landline_now);
-        accountSettingsSteps.checkInfoExists(WebSite_exp,WebSite_now);
-        accountSettingsSteps.checkInfoExists(NewEmailOrg, email_organization_now );
-        accountSettingsSteps.checkNetworkAccounts();*/
-    }
-    @Test
+    }*/
+   /* @Test
     public void stage3_EditContactInfo2() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
@@ -333,7 +322,7 @@ public class OrganizationTrace {
         accountSettingsSteps.checkInfoExists(WebSite_exp,WebSite_now);
         accountSettingsSteps.checkInfoExists(NewEmailOrg, email_organization_now );
         accountSettingsSteps.checkNetworkAccounts();
-    }
+    }*/
        @Test
         public void stage4_addEventSupply_AllFields_byButtonInListing() throws Error{
             loginSteps.openLoginPage();
