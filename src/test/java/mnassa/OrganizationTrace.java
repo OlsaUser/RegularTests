@@ -248,11 +248,11 @@ public class OrganizationTrace {
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();
         jse.executeScript("window.scrollBy(0,990)", "");
         accountSettingsSteps.enterBriefInfo(BriefInfo);
+        accountSettingsSteps.selectLocation(location);
         accountSettingsSteps.selectNumbEmployees(count);
         //accountSettingsSteps.selectLanguageArabian_Org();
         //accountSettingsSteps.selectLanguageEnglish_Org();
         // accountSettingsSteps.selectStatusSingle();
-        accountSettingsSteps.selectLocation(location);
         //??? accountSettingsSteps.selectFounded();
         accountSettingsSteps.clickUpdate1(driver);
         //UserTest info page
@@ -284,7 +284,7 @@ public class OrganizationTrace {
         accountSettingsSteps.checkInfoExists(OrganizationShortName_En_exp,OrganizationShortName_En_now);
         accountSettingsSteps.checkInfoExists(location_exp, location_now_profile);
         accountSettingsSteps.checkInfoExists(location_now1_exp, location_now1);
-        accountSettingsSteps.checkInfoExists(location_now2_exp, location_now2);
+        //??? accountSettingsSteps.checkInfoExists(location_now2_exp, location_now2);
         accountSettingsSteps.checkInfoExists(BriefInfo, BriefInfo_now);
         accountSettingsSteps.checkInfoExists(count, count_now);
         accountSettingsSteps.checkInfoExists(YearFounder_exp, YearFounder_now);

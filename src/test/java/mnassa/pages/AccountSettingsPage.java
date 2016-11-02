@@ -605,7 +605,7 @@ public class AccountSettingsPage extends PageObject {
         WebDriverWait wt = new WebDriverWait (getDriver(), 980);
         wt.until(ExpectedConditions.visibilityOfElementLocated(fieldJeddah));
         wt.until(ExpectedConditions.presenceOfElementLocated(fieldJeddah));
-        find(fieldJeddah).waitUntilVisible();
+        //find(fieldJeddah).waitUntilVisible();
     }
 
     public void enterBriefInfo(String info) {
