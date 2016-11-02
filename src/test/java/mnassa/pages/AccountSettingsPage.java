@@ -172,7 +172,7 @@ public class AccountSettingsPage extends PageObject {
     private final By radiobuttonTypeOrg = By.xpath("//div[@class='col-sm-6']/div[3]/div[2]/label");
     private final By NumbEmployees = By.id("org_employees");
     private final By menuFounded = By.id("s2id_select-2-org_founded");
-    private final By YearFounded = By.xpath("//ul[@class='select2-results']/li[57]");
+    private final By YearFounded = By.xpath("//ul[@class='select2-results']/li[201]");
 
     private final By mainDetails = By.id("mainDetails");
     private final By inappropriateForm = By.xpath("//div[@id='page-header-info']/div[1]/div[2]/span");
@@ -660,7 +660,7 @@ public class AccountSettingsPage extends PageObject {
         if (find(btnOk).isVisible())
             find(btnOk).click();
 
-        WebDriverWait wt = new WebDriverWait (driver, 880);
+        WebDriverWait wt = new WebDriverWait (driver, 900);
         wt.until(ExpectedConditions.invisibilityOfElementLocated(btnOk));
     }
 

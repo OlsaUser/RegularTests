@@ -253,7 +253,7 @@ public class OrganizationTrace {
         //accountSettingsSteps.selectLanguageEnglish_Org();
         // accountSettingsSteps.selectStatusSingle();
         accountSettingsSteps.selectLocation(location);
-        //accountSettingsSteps.selectFounded();
+        accountSettingsSteps.selectFounded();
 
         accountSettingsSteps.clickUpdate1(driver);
         //UserTest info page
