@@ -132,7 +132,7 @@ public class AccountSettingsPage extends PageObject {
     private final By dateFromJob = By.id("new-job-from-val");
     private final By YearFromJob_2010 = By.xpath("//div[@class='datetimepicker-months']//table[@class='table-condensed']/tbody/tr/td/span[2]");
     //private final By YearTillJob_2011 = By.xpath("//body[@class='small-footer-block']/div[5]//div[@class='datetimepicker-months']/table[@class='table-condensed']/tbody/tr/td/span[3]");
-    private final By YearTillJob_2011 = By.xpath("//body[@class='small-footer-block']/div[4]//div[@class='datetimepicker-months']/table[@class='table-condensed']/tbody/tr/td/span[11]");
+    private final By YearTillJob_2011 = By.xpath("html/body/div[5]/div[4]/table/tbody/tr/td/span[3]");
 
     private final By dateTillJob = By.id("new-job-till");
     private final By btnSaveNewJob = By.xpath("//a[@can-click='add_new_job']");
@@ -166,7 +166,7 @@ public class AccountSettingsPage extends PageObject {
     private final By newConfirmPassword = By.id("password_confirm");
     private final By lblErrorName = By.xpath("//div[@class='error_message_static']");
 
-    //OrganizationTrace
+    //OrganizationTest
     private final By fieldOrganizationName = By.id("organization_name");
     private final By fieldOrganizationShortName = By.id("username");
     private final By radiobuttonTypeOrg = By.xpath("//div[@class='col-sm-6']/div[3]/div[2]/label");
@@ -666,8 +666,8 @@ public class AccountSettingsPage extends PageObject {
 
     public boolean checkInfoExists(String info_exp, String info_now) {
         String text_now_value = getDriver().findElement(By.xpath(info_now)).getText();
-        System.out.println(text_now_value);
-        System.out.println(info_exp);
+        System.out.println("Now: " + text_now_value);
+        System.out.println("Exp: " + info_exp);
 
         if ((text_now_value.contains(info_exp))) {
             System.out.println("Success ");
@@ -790,12 +790,12 @@ public class AccountSettingsPage extends PageObject {
 
         String UnionFromAndLocation = "From 2010 to 2011, Jeddah Saudi Arabia";
 
-        System.out.println(LblInstitutionName);
+        System.out.println("Now: " + LblInstitutionName);
         System.out.println(LblSpeciality);
         System.out.println(LblLocation);
         System.out.println(LblAbout);
 
-        System.out.println(InstitutionName);
+        System.out.println("Exp: " + InstitutionName);
         System.out.println(Speciality);
         System.out.println(Location);
         System.out.println(About);
@@ -820,11 +820,11 @@ public class AccountSettingsPage extends PageObject {
 
         String UnionFromAndLocation = "From 2.2016 to 3.2016, Jeddah Saudi Arabia";
 
-        System.out.println(LblJobName);
+        System.out.println("Now: " + LblJobName);
         System.out.println(LblJobSpeciality);
         System.out.println(LblJobAbout);
 
-        System.out.println(JobName);
+        System.out.println("Exp: " + JobName);
         System.out.println(JobSpeciality);
         System.out.println(About);
 
@@ -846,10 +846,10 @@ public class AccountSettingsPage extends PageObject {
         String LblSkill = getDriver().findElement(txtSkill).getText();
         String LblInterest = getDriver().findElement(txtInterest).getText();
 
-        System.out.println(LblSkill);
+        System.out.println("Now: " + LblSkill);
         System.out.println(LblInterest);
 
-        System.out.println(Skill);
+        System.out.println("Exp: " + Skill);
         System.out.println(Interest);
 
         if ((LblSkill.matches(Skill)) && (LblInterest.matches(Interest)))

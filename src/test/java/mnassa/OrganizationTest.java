@@ -27,7 +27,7 @@ import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver
 
 @RunWith(SerenityRunner.class)
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class OrganizationTrace {
+public class OrganizationTest {
     private String browserFilePath = "src/test/resources/browser.properties";
     private String BrowserProfile = PropertyLoader.getProperty(browserFilePath, "BrowserProfile");
 
@@ -204,12 +204,6 @@ public class OrganizationTrace {
     @Before
     public void setup() throws IOException {
         driver.manage().window().maximize();
-        //driver = new FirefoxDriver();
-        /*FirefoxProfile myProfile = new FirefoxProfile(new File(BrowserProfile));
-        myProfile.setPreference("network.proxy.socks_port",9999);
-        myProfile.setAlwaysLoadNoFocusLib(true);
-        myProfile.setEnableNativeEvents(true);
-        Serenity.useFirefoxProfile(myProfile);*/
     }
 
     @After

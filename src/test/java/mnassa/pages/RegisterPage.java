@@ -43,7 +43,7 @@ public class RegisterPage  extends PageObject {
     private final By viaFacebook_SignUp = By.id("fb_btn_login");
     private final By viaFacebook_Login = By.xpath("//button[@class='btn btn-facebook']");
 
-    // for OrganizationTrace
+    // for OrganizationTest
     private final By radioBtnOrganization = By.xpath("//div[@class='modal-body']/div[2]/div[2]//label");
     private final By fldOrganizationFullName = By.xpath("//input[@name='organization_name']");
     private final By menuFounded = By.xpath("//div[@id='s2id_reg-select-2-founded']");
@@ -290,7 +290,7 @@ public class RegisterPage  extends PageObject {
             System.setProperty("http.proxyPort", "8080");*/
 
             /*System.setProperty("http.proxyUser", "design\\olsa");
-            System.setProperty("http.proxyPassword", "cOnvErsAtIOn5");*/
+            System.setProperty("http.proxyPassword", "888888888");*/
 
 
             /*System.setProperty("https.proxyUser", "olsa@design.isd.dp.ua");

@@ -205,20 +205,13 @@ public class UserTest {
     @Before
     public void setup() throws IOException {
         driver.manage().window().maximize();
-
         //driver = new FirefoxDriver();
-        /*FirefoxProfile myProfile = new FirefoxProfile(new File(BrowserProfile));
-        myProfile.setPreference("network.proxy.socks_port",9999);
-        myProfile.setAlwaysLoadNoFocusLib(true);
-        myProfile.setEnableNativeEvents(true);
-        Serenity.useFirefoxProfile(myProfile);*/
-
     }
 
     @After
     public void tearDown() throws Exception {driver.quit();}
 
-   /* @Test
+    @Test
     public void stage1_Register_Facebook()  throws Exception, FactoryConfigurationError, IOException {
         driver.get("https://www.facebook.com");
         loginSteps.PageComplete(driver);
@@ -229,7 +222,8 @@ public class UserTest {
         registerSteps.confirmFbReg(driver, fb_Email2, fb_Password2);
         //loginSteps.Sleep(500);
         registerSteps.successRegistration(driver);
-    }*/
+    }
+
     @Test
     public void stage2_Register_User()  throws IOException {
         registerSteps.openRegisterPage();
@@ -390,7 +384,7 @@ public class UserTest {
         accountSettingsSteps.pressAddJobButton();
         accountSettingsSteps.enterJobName(JobName);
         accountSettingsSteps.enterJobFromDate();
-        //accountSettingsSteps.enterJobTillDate();
+        accountSettingsSteps.enterJobTillDate();
         accountSettingsSteps.enterJobSpeciality(JobSpeciality);
         accountSettingsSteps.enterJobLocation(location);
         accountSettingsSteps.enterJobAbout(About);
