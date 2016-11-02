@@ -229,7 +229,7 @@ public class OrganizationTrace {
         registerSteps.checkWelcomeLetter(NewEmailOrg);
     }*/
     @Test
-    public void stage2_EditMainDetails() throws IOException{
+    public void stage2_EditMainDetails1() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
@@ -257,7 +257,7 @@ public class OrganizationTrace {
         accountSettingsSteps.clickUpdate1(driver);
         //UserTest info page
         //loginSteps.Sleep(100);
-        headerSteps.openDiscoverPage(driver);
+       /* headerSteps.openDiscoverPage(driver);
         headerSteps.viewAccountSettings(driver);
         accountSettingsSteps.checkInfoExists(OrganizationName_En_exp,OrganizationName_En_now);
         accountSettingsSteps.checkInfoExists(OrganizationShortName_En_exp,OrganizationShortName_En_now);
@@ -266,9 +266,30 @@ public class OrganizationTrace {
        accountSettingsSteps.checkInfoExists(location_now2_exp, location_now2);
         accountSettingsSteps.checkInfoExists(BriefInfo, BriefInfo_now);
         accountSettingsSteps.checkInfoExists(count, count_now);
-        accountSettingsSteps.checkInfoExists(YearFounder_exp, YearFounder_now);
+        accountSettingsSteps.checkInfoExists(YearFounder_exp, YearFounder_now);*/
     }
     @Test
+    public void stage3_EditMainDetails2() throws IOException{
+        loginSteps.openLoginPage();
+        loginSteps.PageComplete(driver);
+
+        loginSteps.enterLogin(NewEmailOrg);
+        loginSteps.enterPassword(NewPassword);
+        loginSteps.clickEnter(driver);
+        loginSteps.PageComplete(driver);
+
+        headerSteps.openDiscoverPage(driver);
+        headerSteps.viewAccountSettings(driver);
+        accountSettingsSteps.checkInfoExists(OrganizationName_En_exp,OrganizationName_En_now);
+        accountSettingsSteps.checkInfoExists(OrganizationShortName_En_exp,OrganizationShortName_En_now);
+        accountSettingsSteps.checkInfoExists(location_exp, location_now_profile);
+        accountSettingsSteps.checkInfoExists(location_now1_exp, location_now1);
+        accountSettingsSteps.checkInfoExists(location_now2_exp, location_now2);
+        accountSettingsSteps.checkInfoExists(BriefInfo, BriefInfo_now);
+        accountSettingsSteps.checkInfoExists(count, count_now);
+        accountSettingsSteps.checkInfoExists(YearFounder_exp, YearFounder_now);
+    }
+  /*  @Test
     public void stage3_EditContactInfo() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
@@ -304,7 +325,7 @@ public class OrganizationTrace {
         accountSettingsSteps.checkInfoExists(WebSite_exp,WebSite_now);
         accountSettingsSteps.checkInfoExists(NewEmailOrg, email_organization_now );
         accountSettingsSteps.checkNetworkAccounts();
-    }
+    }*/
        @Test
         public void stage4_addEventSupply_AllFields_byButtonInListing() throws Error{
             loginSteps.openLoginPage();
