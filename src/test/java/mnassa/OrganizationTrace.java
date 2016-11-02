@@ -228,7 +228,7 @@ public class OrganizationTrace {
         registerSteps.goConfirmLink(driver,NewEmailOrg);
         registerSteps.checkWelcomeLetter(NewEmailOrg);
     }*/
-    @Test
+   /* @Test
     public void stage2_EditMainDetails() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
@@ -253,7 +253,7 @@ public class OrganizationTrace {
         //accountSettingsSteps.selectLanguageEnglish_Org();
         // accountSettingsSteps.selectStatusSingle();
         accountSettingsSteps.selectLocation(location);
-        //accountSettingsSteps.selectFounded();
+        //??? accountSettingsSteps.selectFounded();
         accountSettingsSteps.clickUpdate1(driver);
         //UserTest info page
         loginSteps.Sleep(70);
@@ -267,9 +267,8 @@ public class OrganizationTrace {
         accountSettingsSteps.checkInfoExists(BriefInfo, BriefInfo_now);
         accountSettingsSteps.checkInfoExists(count, count_now);
         accountSettingsSteps.checkInfoExists(YearFounder_exp, YearFounder_now);
-       // accountSettingsSteps.checkMainDetails_Org(OrganizationName_En,OrganizationShortName_En,location,BriefInfo,count);
-    }
-    @Test
+    }*/
+   /* @Test
     public void stage3_EditContactInfo() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
@@ -305,8 +304,8 @@ public class OrganizationTrace {
         accountSettingsSteps.checkInfoExists(WebSite_exp,WebSite_now);
         accountSettingsSteps.checkInfoExists(NewEmailOrg, email_organization_now );
         accountSettingsSteps.checkNetworkAccounts();
-    }
-       @Test
+    }*/
+      /* @Test
         public void stage4_addEventSupply_AllFields_byButtonInListing() throws Error{
             loginSteps.openLoginPage();
             loginSteps.PageComplete(driver);
@@ -387,7 +386,7 @@ public class OrganizationTrace {
             addItemSteps.checkElementPresents(paypal);
             addItemSteps.checkElementPresents(debitcard);
             addItemSteps.checkElementPresents(cash);
-        }
+        }*/
     @Test
     public void stage5_ChangePassword1() throws IOException{
         loginSteps.openLoginPage();

@@ -1014,7 +1014,7 @@ public class ItemPage extends PageObject {
     }
 
     public void checkItemSaved(WebDriver driver){
-        WebDriverWait wt = new WebDriverWait (driver, 950);
+        WebDriverWait wt = new WebDriverWait (driver, 300);
         wt.until(ExpectedConditions.presenceOfElementLocated(SuccessPopupOk));
         wt.until(ExpectedConditions.visibilityOfElementLocated(SuccessPopupOk));
         wt.until(ExpectedConditions.elementToBeClickable(SuccessPopupOk));
