@@ -209,7 +209,7 @@ public class OrganizationTrace {
     @After
     public void tearDown() throws Exception {driver.quit();}
 
-    @Test
+  /*  @Test
     public void stage1_Register_Organization() throws Exception {
         registerSteps.openRegisterPage();
         loginSteps.PageComplete(driver);
@@ -227,7 +227,7 @@ public class OrganizationTrace {
         loginSteps.Sleep(600);
         registerSteps.goConfirmLink(driver,NewEmailOrg);
         registerSteps.checkWelcomeLetter(NewEmailOrg);
-    }
+    }*/
     @Test
     public void stage2_EditMainDetails() throws IOException{
         loginSteps.openLoginPage();
@@ -246,7 +246,7 @@ public class OrganizationTrace {
         accountSettingsSteps.enterOrganizationShortName(OrganizationShortName_En_exp);
         accountSettingsSteps.selectTypeGovernmental();
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();
-        jse.executeScript("window.scrollBy(0,88)", "");
+        jse.executeScript("window.scrollBy(0,150)", "");
         accountSettingsSteps.selectLanguageArabian_Org();
         accountSettingsSteps.selectLanguageEnglish_Org();
         accountSettingsSteps.selectFounded();
