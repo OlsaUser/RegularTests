@@ -246,7 +246,7 @@ public class OrganizationTrace {
         accountSettingsSteps.enterOrganizationShortName(OrganizationShortName_En_exp);
         accountSettingsSteps.selectTypeGovernmental();
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();
-        jse.executeScript("window.scrollBy(0,800)", "");
+        jse.executeScript("window.scrollBy(0,1200)", "");
         accountSettingsSteps.selectLanguageArabian_Org();
         accountSettingsSteps.selectLanguageEnglish_Org();
         accountSettingsSteps.selectFounded();
