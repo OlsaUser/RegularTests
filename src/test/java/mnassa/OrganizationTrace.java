@@ -27,7 +27,7 @@ import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver
 
 @RunWith(SerenityRunner.class)
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class OrganizationTest {
+public class OrganizationTrace {
     private String browserFilePath = "src/test/resources/browser.properties";
     private String BrowserProfile = PropertyLoader.getProperty(browserFilePath, "BrowserProfile");
 

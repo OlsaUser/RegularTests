@@ -43,7 +43,7 @@ public class RegisterPage  extends PageObject {
     private final By viaFacebook_SignUp = By.id("fb_btn_login");
     private final By viaFacebook_Login = By.xpath("//button[@class='btn btn-facebook']");
 
-    // for OrganizationTest
+    // for OrganizationTrace
     private final By radioBtnOrganization = By.xpath("//div[@class='modal-body']/div[2]/div[2]//label");
     private final By fldOrganizationFullName = By.xpath("//input[@name='organization_name']");
     private final By menuFounded = By.xpath("//div[@id='s2id_reg-select-2-founded']");
