@@ -256,7 +256,7 @@ public class OrganizationTrace {
         //??? accountSettingsSteps.selectFounded();
         accountSettingsSteps.clickUpdate1(driver);
         //UserTest info page
-        loginSteps.Sleep(70);
+        loginSteps.Sleep(100);
         headerSteps.openDiscoverPage(driver);
         headerSteps.viewAccountSettings(driver);
         accountSettingsSteps.checkInfoExists(OrganizationName_En_exp,OrganizationName_En_now);
