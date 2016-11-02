@@ -623,7 +623,7 @@ public class AccountSettingsPage extends PageObject {
     }
 
     public void clickUpdate1(WebDriver driver) {
-        find(btnUpdate1).waitUntilClickable();
+        //find(btnUpdate1).waitUntilClickable();
         find(btnUpdate1).click();
         clickOk(driver);
     }
@@ -655,8 +655,8 @@ public class AccountSettingsPage extends PageObject {
         clickOk(driver);
     }
     public void clickOk(WebDriver driver) {
-        find(btnOk).waitUntilClickable();
-        find(btnOk).waitUntilPresent();
+        //find(btnOk).waitUntilClickable();
+        //find(btnOk).waitUntilPresent();
         if (find(btnOk).isVisible())
             find(btnOk).click();
 
