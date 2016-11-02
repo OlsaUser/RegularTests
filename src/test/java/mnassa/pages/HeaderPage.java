@@ -194,7 +194,7 @@ public class HeaderPage extends PageObject {
     }
 
     public void openDiscoverPage (WebDriver driver) {
-        WebDriverWait wt = new WebDriverWait (driver, 200);
+        WebDriverWait wt = new WebDriverWait (driver, 300);
         find(linkDiscover).waitUntilPresent();
         wt.until(ExpectedConditions.elementToBeClickable(linkDiscover));
         find(linkDiscover).click();
