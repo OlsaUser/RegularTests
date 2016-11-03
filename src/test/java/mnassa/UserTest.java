@@ -213,15 +213,13 @@ public class UserTest {
 
     @Test
     public void stage1_Register_Facebook()  throws Exception {
-        driver.get("https://www.facebook.com");
-        loginSteps.PageComplete(driver);
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         registerSteps.openRegisterPage();
         loginSteps.PageComplete(driver);
         registerSteps.viaFacebook_SignUp(driver);
         registerSteps.confirmFbReg(driver, fb_Email2, fb_Password2);
-        //loginSteps.Sleep(500);
-        //registerSteps.successRegistration(driver);
+        loginSteps.Sleep(500);
+        registerSteps.successRegistration(driver);
     }
 
     @Test
@@ -246,9 +244,9 @@ public class UserTest {
     }
     //Facebook UserTest
     @Test
-    public void stage3_EditMainDetails()  throws IOException, Exception {
+    public void stage3_EditMainDetails()  throws Exception {
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
-        //loginSteps.PageComplete(driver);
+        loginSteps.PageComplete(driver);
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
         registerSteps.viaFacebook_Login(driver);
@@ -399,7 +397,7 @@ public class UserTest {
     }
     //Facebook
     @Test
-    public void stage7_Add_Skills_Interests() throws IOException, Exception{
+    public void stage7_Add_Skills_Interests() throws Exception{
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.openLoginPage();
         registerSteps.viaFacebook_Login(driver);

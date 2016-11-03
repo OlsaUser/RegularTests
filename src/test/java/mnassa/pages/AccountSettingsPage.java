@@ -404,7 +404,7 @@ public class AccountSettingsPage extends PageObject {
     }
 
     public void clickOkEd(WebDriver driver) {
-        /*find(btnOk).waitUntilPresent();
+       /* find(btnOk).waitUntilPresent();
         find(btnOk).waitUntilClickable();
         if (find(btnOk).isVisible())
         { find(btnOk).click();
@@ -415,7 +415,7 @@ public class AccountSettingsPage extends PageObject {
         find(btnOkEd).waitUntilClickable();
         if (find(btnOkEd).isVisible())
             find(btnOkEd).click();
-        //find(btnOkEd).waitUntilNotVisible();
+        find(btnOkEd).waitUntilNotVisible();
         wt.until(ExpectedConditions.invisibilityOfElementLocated(btnOkEd));
     }
 
@@ -605,7 +605,7 @@ public class AccountSettingsPage extends PageObject {
         WebDriverWait wt = new WebDriverWait (getDriver(), 980);
         wt.until(ExpectedConditions.visibilityOfElementLocated(fieldJeddah));
         wt.until(ExpectedConditions.presenceOfElementLocated(fieldJeddah));
-        //find(fieldJeddah).waitUntilVisible();
+        find(fieldJeddah).waitUntilVisible();
     }
 
     public void enterBriefInfo(String info) {
@@ -623,7 +623,7 @@ public class AccountSettingsPage extends PageObject {
     }
 
     public void clickUpdate1(WebDriver driver) {
-        //find(btnUpdate1).waitUntilClickable();
+        find(btnUpdate1).waitUntilClickable();
         find(btnUpdate1).click();
         clickOk(driver);
     }
@@ -642,7 +642,7 @@ public class AccountSettingsPage extends PageObject {
         find(btnUpdate4).waitUntilClickable();
         find(btnUpdate4).click();
         clickOk(driver);
-        //find(btnUpdate4).waitUntilClickable();
+        find(btnUpdate4).waitUntilClickable();
     }
     public void clickUpdate5(WebDriver driver) {
         find(btnUpdate5).waitUntilClickable();
@@ -650,13 +650,13 @@ public class AccountSettingsPage extends PageObject {
         clickOk(driver);
     }
     public void clickUpdate6(WebDriver driver) {
-        //find(btnUpdate6).waitUntilClickable();
+        find(btnUpdate6).waitUntilClickable();
         find(btnUpdate6).click();
         clickOk(driver);
     }
     public void clickOk(WebDriver driver) {
-        //find(btnOk).waitUntilClickable();
-        //find(btnOk).waitUntilPresent();
+        find(btnOk).waitUntilClickable();
+        find(btnOk).waitUntilPresent();
         if (find(btnOk).isVisible())
             find(btnOk).click();
 

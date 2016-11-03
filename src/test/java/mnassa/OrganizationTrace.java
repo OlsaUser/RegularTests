@@ -209,7 +209,7 @@ public class OrganizationTrace {
     @After
     public void tearDown() throws Exception {driver.quit();}
 
-  /*  @Test
+    @Test
     public void stage1_Register_Organization() throws Exception {
         registerSteps.openRegisterPage();
         loginSteps.PageComplete(driver);
@@ -227,8 +227,8 @@ public class OrganizationTrace {
         loginSteps.Sleep(600);
         registerSteps.goConfirmLink(driver,NewEmailOrg);
         registerSteps.checkWelcomeLetter(NewEmailOrg);
-    }*/
-   /* @Test
+    }
+    @Test
     public void stage2_EditMainDetails1() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
@@ -247,16 +247,16 @@ public class OrganizationTrace {
         accountSettingsSteps.selectTypeGovernmental();
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();
         jse.executeScript("window.scrollBy(0,990)", "");
+        accountSettingsSteps.selectLanguageArabian_Org();
+        accountSettingsSteps.selectLanguageEnglish_Org();
         accountSettingsSteps.enterBriefInfo(BriefInfo);
         accountSettingsSteps.selectLocation(location);
         accountSettingsSteps.selectNumbEmployees(count);
-        //accountSettingsSteps.selectLanguageArabian_Org();
-        //accountSettingsSteps.selectLanguageEnglish_Org();
-        // accountSettingsSteps.selectStatusSingle();
-        //??? accountSettingsSteps.selectFounded();
+        //accountSettingsSteps.selectStatusSingle();
+        accountSettingsSteps.selectFounded();
         accountSettingsSteps.clickUpdate1(driver);
-    }*/
-   /* @Test
+    }
+    @Test
     public void stage3_EditMainDetails2() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
@@ -272,12 +272,12 @@ public class OrganizationTrace {
         accountSettingsSteps.checkInfoExists(OrganizationShortName_En_exp,OrganizationShortName_En_now);
         accountSettingsSteps.checkInfoExists(location_exp, location_now_profile);
         accountSettingsSteps.checkInfoExists(location_now1_exp, location_now1);
-        //??? accountSettingsSteps.checkInfoExists(location_now2_exp, location_now2);
+        accountSettingsSteps.checkInfoExists(location_now2_exp, location_now2);
         accountSettingsSteps.checkInfoExists(BriefInfo, BriefInfo_now);
         accountSettingsSteps.checkInfoExists(count, count_now);
-        //??? accountSettingsSteps.checkInfoExists(YearFounder_exp, YearFounder_now);
-    }*/
-   /*@Test
+        accountSettingsSteps.checkInfoExists(YearFounder_exp, YearFounder_now);
+    }
+   @Test
     public void stage3_EditContactInfo1() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
@@ -302,8 +302,8 @@ public class OrganizationTrace {
         accountSettingsSteps.enterWebSite(WebSite_exp);
         loginSteps.PageComplete(driver);
         accountSettingsSteps.clickUpdate2(driver);
-    }*/
-   /* @Test
+    }
+    @Test
     public void stage3_EditContactInfo2() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
@@ -322,7 +322,7 @@ public class OrganizationTrace {
         accountSettingsSteps.checkInfoExists(WebSite_exp,WebSite_now);
         accountSettingsSteps.checkInfoExists(NewEmailOrg, email_organization_now );
         accountSettingsSteps.checkNetworkAccounts();
-    }*/
+    }
        @Test
         public void stage4_addEventSupply_AllFields_byButtonInListing() throws Error{
             loginSteps.openLoginPage();
@@ -382,8 +382,9 @@ public class OrganizationTrace {
             //addItemSteps.ItemStatusDeactivate();
             addItemSteps.clickSave(driver);
             addItemSteps.checkItemSaved(driver);
+
             loginSteps.PageComplete(driver);
-           jse1.executeScript("window.scrollBy(0,600)", "");
+            jse1.executeScript("window.scrollBy(0,600)", "");
             addItemSteps.openItemSettingsMenu();
             addItemSteps.selectViewMenu(driver);
 

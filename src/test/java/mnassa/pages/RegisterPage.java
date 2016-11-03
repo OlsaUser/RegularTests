@@ -200,6 +200,7 @@ public class RegisterPage  extends PageObject {
             System.out.println(winHandle);
             driver.switchTo().window(winHandle);
         }*/
+
         WebDriverWait wt = new WebDriverWait (driver, 300);
         //wt.until(ExpectedConditions.visibilityOfElementLocated(Counter));
         wt.until(ExpectedConditions.visibilityOfElementLocated(welcomeToMnassa));
