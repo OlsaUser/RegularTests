@@ -246,6 +246,7 @@ public class OrganizationTrace {
         accountSettingsSteps.enterOrganizationShortName(OrganizationShortName_En_exp);
         accountSettingsSteps.selectLanguageArabian_Org();
         accountSettingsSteps.selectLanguageEnglish_Org();
+        accountSettingsSteps.selectFounded();
         accountSettingsSteps.selectTypeGovernmental();
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();
         jse.executeScript("window.scrollBy(0,990)", "");
@@ -254,7 +255,6 @@ public class OrganizationTrace {
         accountSettingsSteps.selectLocation(location);
         accountSettingsSteps.selectNumbEmployees(count);
         //accountSettingsSteps.selectStatusSingle();
-        accountSettingsSteps.selectFounded();
         accountSettingsSteps.clickUpdate1(driver);
     }
    /* @Test
