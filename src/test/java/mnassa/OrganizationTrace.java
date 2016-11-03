@@ -256,7 +256,7 @@ public class OrganizationTrace {
         //accountSettingsSteps.selectStatusSingle();
         accountSettingsSteps.clickUpdate1(driver);
     }
-   /* @Test
+    @Test
     public void stage3_EditMainDetails2() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
@@ -276,7 +276,7 @@ public class OrganizationTrace {
         accountSettingsSteps.checkInfoExists(BriefInfo, BriefInfo_now);
         accountSettingsSteps.checkInfoExists(count, count_now);
         accountSettingsSteps.checkInfoExists(YearFounder_exp, YearFounder_now);
-    }*/
+    }
   /* @Test
     public void stage3_EditContactInfo1() throws IOException{
         loginSteps.openLoginPage();
