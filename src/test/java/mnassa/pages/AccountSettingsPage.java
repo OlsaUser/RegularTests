@@ -38,7 +38,7 @@ public class AccountSettingsPage extends PageObject {
     private final By StatusMarried = By.xpath("//ul[@id='select2-results-8']/li[2]");
     private final By Location = By.xpath("//div[@id='s2id_cities-google']//input");
     private final By LocationJeddah = By.xpath("//div[@class='select2-result-label']");
-    private final By fieldJeddah = By.xpath("//ul[@class='tag-list list-unstyled']/li[1]");
+    private final By fieldJeddah = By.xpath("//ul[@class='tag-list list-unstyled']/li[2]");
     private final By BriefInfo = By.id("ud_brief_intro");
     private final By btnUpdate1 = By.xpath("//button[@can-click='update_user']");
     private final By btnUpdate2 = By.xpath("//div[@id='contactInformation']/div/div[2]/div/div/button[2]");
@@ -601,8 +601,9 @@ public class AccountSettingsPage extends PageObject {
 
     public void selectLocation(String location) {
         find(Location).sendKeys(location);
-        find(LocationJeddah).click();
         WebDriverWait wt = new WebDriverWait (getDriver(), 980);
+        wt.until(ExpectedConditions.visibilityOfElementLocated(LocationJeddah));
+        find(LocationJeddah).click();
         wt.until(ExpectedConditions.visibilityOfElementLocated(fieldJeddah));
         wt.until(ExpectedConditions.presenceOfElementLocated(fieldJeddah));
         find(fieldJeddah).waitUntilVisible();

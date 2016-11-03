@@ -249,7 +249,7 @@ public class OrganizationTrace {
         accountSettingsSteps.selectFounded();
         accountSettingsSteps.selectTypeGovernmental();
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();
-        jse.executeScript("window.scrollBy(0,990)", "");
+        jse.executeScript("window.scrollBy(0,500)", "");
         accountSettingsSteps.enterBriefInfo(BriefInfo);
         accountSettingsSteps.selectLocation(location);
         accountSettingsSteps.selectNumbEmployees(count);
