@@ -25,8 +25,8 @@ public class AccountSettingsPage extends PageObject {
     private final By MenuLanguage = By.id("s2id_select-2-ud-lang");
     private final By LanguageEnglish = By.xpath("//ul[@id='select2-results-9']/li[1]");
     private final By LanguageArabian = By.xpath("//ul[@id='select2-results-9']/li[2]");
-    private final By LanguageEnglish_Org = By.xpath("//ul[@class='select2-results-2']/li[1]");
-    private final By LanguageArabian_Org = By.xpath("//ul[@class='select2-results-2']/li[2]");
+    private final By LanguageEnglish_Org = By.xpath("//ul[@class='select2-results']/li[1]");
+    private final By LanguageArabian_Org = By.xpath("//ul[@class='select2-results']/li[2]");
     private final By DayBirth = By.id("s2id_select-2-filter6");
     private final By DayBirth7 = By.xpath("//ul[@id='select2-results-1']/li[7]");
     private final By YearBirth = By.id("s2id_select-2-filter8");
