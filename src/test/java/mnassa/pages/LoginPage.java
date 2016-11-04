@@ -57,10 +57,9 @@ public class LoginPage extends PageObject {
 
     public void clickEnter(WebDriver driver){
         element(btnEnter).click();
-
         WebDriverWait wt = new WebDriverWait (driver, 500);
-        //wt.until(ExpectedConditions.visibilityOfElementLocated(Counter));
-        wt.until(ExpectedConditions.presenceOfElementLocated(HomeContent));
+        wt.until(ExpectedConditions.visibilityOfElementLocated(Counter));
+        //wt.until(ExpectedConditions.presenceOfElementLocated(HomeContent));
         //find(Counter).waitUntilVisible();
     }
 

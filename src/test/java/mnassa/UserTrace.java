@@ -598,7 +598,7 @@ public class UserTrace {
         addItemSteps.checkValueExists(tag1, tag_now);
     }
     @Test
-    public void stage9a_ChangePassword() throws IOException{
+    public void stage9a_ChangePassword1() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
