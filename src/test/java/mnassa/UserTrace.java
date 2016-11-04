@@ -212,19 +212,9 @@ public class UserTrace {
 
     @After
     public void tearDown() throws Exception {driver.quit();}
-
+    
     @Test
-    public void stage1_Register_Facebook()  throws Exception {
-        registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
-        registerSteps.openRegisterPage();
-        registerSteps.viaFacebook_SignUp(driver);
-        registerSteps.confirmFbReg(driver, fb_Email2, fb_Password2);
-        loginSteps.Sleep(100);
-        registerSteps.successRegistrationFb(driver);
-    }
-
-    @Test
-    public void stage2_Register_User()  throws IOException {
+    public void stage1_Register_User()  throws IOException {
         registerSteps.openRegisterPage();
         loginSteps.PageComplete(driver);
 
@@ -238,10 +228,20 @@ public class UserTrace {
         registerSteps.Step2_Location(driver, LocationEN);
         registerSteps.Step2_pressButton_Confirm(driver);
         registerSteps.Step3_Ok(driver, NewEmailUser);
-
+        loginSteps.Sleep(600);
         registerSteps.goConfirmLink(driver,NewEmailUser);
         registerSteps.successRegistration(driver);
         registerSteps.checkWelcomeLetter(NewEmailUser);
+    }
+    //Facebook UserTrace
+    @Test
+    public void stage2_Register_Facebook()  throws Exception {
+        registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
+        registerSteps.openRegisterPage();
+        registerSteps.viaFacebook_SignUp(driver);
+        registerSteps.confirmFbReg(driver, fb_Email2, fb_Password2);
+        loginSteps.Sleep(100);
+        registerSteps.successRegistrationFb(driver);
     }
     //Facebook UserTrace
     @Test

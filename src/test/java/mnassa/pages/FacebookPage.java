@@ -19,10 +19,13 @@ public class FacebookPage  extends PageObject {
     private final By text_emptyNewsFeed = By.xpath("//h1[@class='create-list-info']");
 
     public void facebookLogin(WebDriver driver, String Email, String Password) throws Exception {
-        driver.get("https://www.facebook.com/");
+        driver.get("https://www.facebook.com");
+        if (driver.findElement(By.name("email")).isDisplayed())
+        {
+            WebElement email = driver.findElement(By.name("email"));
+            email.sendKeys(Email);
+        }
 
-        WebElement email = driver.findElement(By.name("email"));
-        email.sendKeys(Email);
         WebElement pass = driver.findElement(By.name("pass"));
         pass.sendKeys(Password);
         driver.findElement(By.id("u_0_l")).click();
