@@ -71,7 +71,7 @@ public class NewMessagePage extends PageObject {
         wt.until(ExpectedConditions.textToBePresentInElementLocated(checkbox_DuplicateMsg,"Duplicate messages to email"));
 
         find(placeholder1);
-        wt.until(ExpectedConditions.textToBePresentInElementLocated(placeholder1,"Select UserTest to view messages"));
+        wt.until(ExpectedConditions.textToBePresentInElementLocated(placeholder1,"Select UserTrace to view messages"));
 
         element(fieldChatWith).click();
         String i = find(TextArea).getAttribute("placeholder");

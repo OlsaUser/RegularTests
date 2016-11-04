@@ -233,7 +233,7 @@ public class AllPagesTrace {
         headerSteps.openDiscoverPage(driver);
         loginSteps.PageComplete(driver);
 
-//UserTest Info page
+//UserTrace Info page
         headerSteps.viewAccountSettings(driver);
         loginSteps.PageComplete(driver);
         //loginSteps.pageLoad(viewAccountSettings);

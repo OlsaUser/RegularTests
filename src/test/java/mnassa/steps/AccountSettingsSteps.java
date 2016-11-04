@@ -5,6 +5,7 @@ import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import static junit.framework.TestCase.assertTrue;
 
@@ -217,7 +218,7 @@ public class AccountSettingsSteps extends ScenarioSteps {
     public void selectStatusMarried(String status ) { accountSettingsPage.selectStatusMarried(status);}
 
     @Step
-    public void selectLocation(String location ) { accountSettingsPage.selectLocation(location);}
+    public void selectLocation(String location) { accountSettingsPage.selectLocation(location);}
 
     @Step
     public void enterBriefInfo(String info ) { accountSettingsPage.enterBriefInfo(info);}

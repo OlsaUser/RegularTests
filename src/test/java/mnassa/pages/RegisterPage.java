@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit;
 @RunWith(SerenityRunner.class)
 public class RegisterPage  extends PageObject {
 
-    //for UserTest
+    //for UserTrace
     private final By fldUserName = By.xpath("//input[@name='username']");
     private final By fldEmail = By.xpath("//input[@name='reg_email']");
     private final By fldPassword = By.xpath("//input[@name='reg_password']");
