@@ -257,7 +257,7 @@ public class OrganizationTrace {
         accountSettingsSteps.clickUpdate1(driver);
     }
     @Test
-    public void stage3_EditMainDetails2() throws IOException{
+    public void stage2_EditMainDetails2() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
@@ -300,7 +300,7 @@ public class OrganizationTrace {
         accountSettingsSteps.enterLinkedIn(LinkedIn);
         accountSettingsSteps.enterSnapchat(Snapchat);
         accountSettingsSteps.enterWebSite(WebSite_exp);
-        loginSteps.PageComplete(driver);
+        //loginSteps.PageComplete(driver);
         accountSettingsSteps.clickUpdate2(driver);
     }
     @Test
