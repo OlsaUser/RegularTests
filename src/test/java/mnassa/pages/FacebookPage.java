@@ -21,12 +21,12 @@ public class FacebookPage  extends PageObject {
     public void facebookLogin(WebDriver driver, String Email, String Password) throws Exception {
         driver.get("https://www.facebook.com/");
         System.out.println(driver.getTitle());
+
         WebElement email = driver.findElement(By.id("email"));
         email.sendKeys(Email);
-
         WebElement pass = driver.findElement(By.id("pass"));
         pass.sendKeys(Password);
-        driver.findElement(By.id("u_0_n")).click();
+        driver.findElement(By.xpath("//input[@type='submit']")).click();
         try {
             Thread.sleep(10000);
         } catch (InterruptedException e1) {
