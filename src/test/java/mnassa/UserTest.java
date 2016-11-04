@@ -215,11 +215,10 @@ public class UserTest {
     public void stage1_Register_Facebook()  throws Exception {
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         registerSteps.openRegisterPage();
-        loginSteps.PageComplete(driver);
         registerSteps.viaFacebook_SignUp(driver);
         registerSteps.confirmFbReg(driver, fb_Email2, fb_Password2);
-        loginSteps.Sleep(500);
-        registerSteps.successRegistration(driver);
+        loginSteps.Sleep(100);
+        registerSteps.successRegistrationFb(driver);
     }
 
     @Test

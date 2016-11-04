@@ -277,7 +277,7 @@ public class OrganizationTrace {
         accountSettingsSteps.checkInfoExists(count, count_now);
         accountSettingsSteps.checkInfoExists(YearFounder_exp, YearFounder_now);
     }
-  /* @Test
+   @Test
     public void stage3_EditContactInfo1() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
@@ -302,8 +302,8 @@ public class OrganizationTrace {
         accountSettingsSteps.enterWebSite(WebSite_exp);
         loginSteps.PageComplete(driver);
         accountSettingsSteps.clickUpdate2(driver);
-    }*/
-   /* @Test
+    }
+    @Test
     public void stage3_EditContactInfo2() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
@@ -322,8 +322,8 @@ public class OrganizationTrace {
         accountSettingsSteps.checkInfoExists(WebSite_exp,WebSite_now);
         accountSettingsSteps.checkInfoExists(NewEmailOrg, email_organization_now );
         accountSettingsSteps.checkNetworkAccounts();
-    }*/
-     /*  @Test
+    }
+       @Test
         public void stage4_addEventSupply_AllFields_byButtonInListing() throws Error{
             loginSteps.openLoginPage();
             loginSteps.PageComplete(driver);
@@ -405,8 +405,8 @@ public class OrganizationTrace {
             addItemSteps.checkElementPresents(paypal);
             addItemSteps.checkElementPresents(debitcard);
             addItemSteps.checkElementPresents(cash);
-        }*/
-   /* @Test
+        }
+    @Test
     public void stage5_ChangePassword1() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
@@ -426,8 +426,8 @@ public class OrganizationTrace {
         accountSettingsSteps.enterNewConfirmPassword(NewConfirmPassword);
         //loginSteps.PageComplete(driver);
         accountSettingsSteps.clickUpdate6(driver);
-    }*/
-   /* @Test
+    }
+    @Test
     public void stage6_ChangePassword2() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
@@ -435,5 +435,5 @@ public class OrganizationTrace {
         loginSteps.enterLogin(NewEmailOrg);
         loginSteps.enterPassword(NewPassword_change);
         loginSteps.clickEnter(driver);
-    }*/
+    }
 }

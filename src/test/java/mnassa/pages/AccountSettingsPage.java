@@ -39,6 +39,7 @@ public class AccountSettingsPage extends PageObject {
     private final By Location = By.xpath("//div[@id='s2id_cities-google']//input");
     private final By LocationJeddah = By.xpath("//div[@class='select2-result-label']");
     private final By fieldJeddah = By.xpath("//ul[@class='tag-list list-unstyled']/li[2]");
+    private final By fieldJeddah1 = By.xpath("//ul[@class='tag-list list-unstyled']/li[1]");
     private final By BriefInfo = By.id("ud_brief_intro");
     private final By btnUpdate1 = By.xpath("//button[@can-click='update_user']");
     private final By btnUpdate2 = By.xpath("//div[@id='contactInformation']/div/div[2]/div/div/button[2]");
@@ -604,9 +605,9 @@ public class AccountSettingsPage extends PageObject {
         WebDriverWait wt = new WebDriverWait (getDriver(), 980);
         wt.until(ExpectedConditions.visibilityOfElementLocated(LocationJeddah));
         find(LocationJeddah).click();
-        wt.until(ExpectedConditions.visibilityOfElementLocated(fieldJeddah));
-        wt.until(ExpectedConditions.presenceOfElementLocated(fieldJeddah));
-        find(fieldJeddah).waitUntilVisible();
+        wt.until(ExpectedConditions.visibilityOfElementLocated(fieldJeddah1));
+        wt.until(ExpectedConditions.presenceOfElementLocated(fieldJeddah1));
+        find(fieldJeddah1).waitUntilVisible();
     }
 
     public void enterBriefInfo(String info) {
@@ -629,7 +630,7 @@ public class AccountSettingsPage extends PageObject {
         clickOk(driver);
     }
     public void clickUpdate2(WebDriver driver) {
-        find(btnUpdate2).waitUntilClickable();
+        //find(btnUpdate2).waitUntilClickable();
         find(btnUpdate2).click();
         clickOk(driver);
     }
@@ -656,12 +657,12 @@ public class AccountSettingsPage extends PageObject {
         clickOk(driver);
     }
     public void clickOk(WebDriver driver) {
+        WebDriverWait wt = new WebDriverWait (driver, 400);
+        wt.until(ExpectedConditions.visibilityOfElementLocated(btnOk));
         //find(btnOk).waitUntilClickable();
         //find(btnOk).waitUntilPresent();
         if (find(btnOk).isVisible())
             find(btnOk).click();
-
-        WebDriverWait wt = new WebDriverWait (driver, 300);
         wt.until(ExpectedConditions.invisibilityOfElementLocated(btnOk));
     }
 

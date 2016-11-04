@@ -109,4 +109,7 @@ public class RegisterSteps extends ScenarioSteps {
 
     @Step
     public void confirmFbReg(WebDriver driver, String Email, String Password){ facebookPage.confirmFbReg(driver, Email, Password);}
+
+    @Step
+    public void successRegistrationFb(WebDriver driver){ facebookPage.successRegistrationFb(driver);}
 }

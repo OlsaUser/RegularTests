@@ -462,6 +462,8 @@ public class ItemPage extends PageObject {
 
     public void enterTag(String Tag) {
         find(fieldTag).sendKeys(Tag);
+        WebDriverWait wt = new WebDriverWait (getDriver(), 300);
+        wt.until(ExpectedConditions.visibilityOfElementLocated(Tag1));
         find(Tag1).click();
     }
 

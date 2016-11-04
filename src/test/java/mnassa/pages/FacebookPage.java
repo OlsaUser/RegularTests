@@ -10,14 +10,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.Set;
+
 
 @RunWith(SerenityRunner.class)
 public class FacebookPage  extends PageObject {
+    String parentWindowHandler;
+    private final By text_emptyNewsFeed = By.xpath("//h1[@class='create-list-info']");
 
     public void facebookLogin(WebDriver driver, String Email, String Password) throws Exception {
         driver.get("https://www.facebook.com/");
-        /*WebDriverWait wt = new WebDriverWait (driver, 500);
-        wt.until(ExpectedConditions.elementToBeClickable(By.name("email")));*/
 
         WebElement email = driver.findElement(By.name("email"));
         email.sendKeys(Email);
@@ -39,13 +41,34 @@ public class FacebookPage  extends PageObject {
     }
 
     public void confirmFbReg(WebDriver driver, String Email, String Password) {
+        parentWindowHandler = getDriver().getWindowHandle();
+        System.out.println("parentWindowHandler " + parentWindowHandler);
+
         for(String winHandle : driver.getWindowHandles())
         {
-            System.out.println(winHandle);
             driver.switchTo().window(winHandle);
+            System.out.println("winHandle " + winHandle);
         }
         WebElement continueAs = driver.findElement(By.xpath("//button[@name='__CONFIRM__']"));
         continueAs.click();
-        System.out.println(driver.getCurrentUrl());
+    }
+
+    public void successRegistrationFb(WebDriver driver) {
+        String modalWindowHandle = "";
+        Set<String> handles = getDriver().getWindowHandles();
+        System.out.println("handles " + getDriver().getWindowHandles());
+        for (String handle : handles) {
+            System.out.println("handle " + modalWindowHandle);
+            if (handle.equals(parentWindowHandler))
+                modalWindowHandle = handle;
+
+            getDriver().switchTo().window(modalWindowHandle);
+            System.out.println(getDriver().getCurrentUrl());
+            Assert.assertTrue(getDriver().getTitle().contains("Mnassa"));
+
+            WebDriverWait wt = new WebDriverWait (driver, 400);
+            wt.until(ExpectedConditions.visibilityOfElementLocated(text_emptyNewsFeed));
+            Assert.assertEquals( "Mnassa is a social interactive platform for business communication.",find(text_emptyNewsFeed).getText());
+        }
     }
 }
