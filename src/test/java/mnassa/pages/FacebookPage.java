@@ -26,9 +26,9 @@ public class FacebookPage  extends PageObject {
         email.sendKeys(Email);
         WebElement pass = driver.findElement(By.id("pass"));
         pass.sendKeys(Password);
-        driver.findElement(By.xpath("//input[@type='submit']")).click();
+        driver.findElement(By.id("u_0_n")).click();
         try {
-            Thread.sleep(10000);
+            Thread.sleep(600);
         } catch (InterruptedException e1) {
 // TODO Auto-generated catch block
             e1.printStackTrace();
