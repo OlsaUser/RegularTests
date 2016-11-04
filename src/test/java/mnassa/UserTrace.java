@@ -212,7 +212,7 @@ public class UserTrace {
 
     @After
     public void tearDown() throws Exception {driver.quit();}
-    
+
     @Test
     public void stage1_Register_User()  throws IOException {
         registerSteps.openRegisterPage();
