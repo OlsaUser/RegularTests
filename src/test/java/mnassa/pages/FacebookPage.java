@@ -30,7 +30,7 @@ public class FacebookPage  extends PageObject {
         try {
             Thread.sleep(600);
         } catch (InterruptedException e1) {
-// TODO Auto-generated catch block
+            // TODO Auto-generated catch block
             e1.printStackTrace();
         }
         try {
