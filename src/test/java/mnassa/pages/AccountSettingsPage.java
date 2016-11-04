@@ -600,7 +600,7 @@ public class AccountSettingsPage extends PageObject {
         element(StatusMarried).click();
     }
 
-    public void selectLocation(String location ) {
+    public void selectLocation2(String location ) {
         find(Location).sendKeys(location);
         WebDriverWait wt = new WebDriverWait (getDriver(), 980);
         wt.until(ExpectedConditions.visibilityOfElementLocated(LocationJeddah));
@@ -608,6 +608,15 @@ public class AccountSettingsPage extends PageObject {
         wt.until(ExpectedConditions.visibilityOfElementLocated(fieldJeddah));
         wt.until(ExpectedConditions.presenceOfElementLocated(fieldJeddah));
         find(fieldJeddah).waitUntilVisible();
+    }
+    public void selectLocation1(String location ) {
+        find(Location).sendKeys(location);
+        WebDriverWait wt = new WebDriverWait (getDriver(), 980);
+        wt.until(ExpectedConditions.visibilityOfElementLocated(LocationJeddah));
+        find(LocationJeddah).click();
+        wt.until(ExpectedConditions.visibilityOfElementLocated(fieldJeddah1));
+        wt.until(ExpectedConditions.presenceOfElementLocated(fieldJeddah1));
+        find(fieldJeddah1).waitUntilVisible();
     }
 
     public void enterBriefInfo(String info) {

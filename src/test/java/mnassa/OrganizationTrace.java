@@ -251,7 +251,7 @@ public class OrganizationTrace {
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();
         jse.executeScript("window.scrollBy(0,500)", "");
         accountSettingsSteps.enterBriefInfo(BriefInfo);
-        accountSettingsSteps.selectLocation(location);
+        accountSettingsSteps.selectLocation2(location);
         accountSettingsSteps.selectNumbEmployees(count);
         //accountSettingsSteps.selectStatusSingle();
         accountSettingsSteps.clickUpdate1(driver);

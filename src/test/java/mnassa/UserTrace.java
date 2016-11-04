@@ -270,7 +270,7 @@ public class UserTrace {
         jse.executeScript("window.scrollBy(0,15)", "");
         accountSettingsSteps.selectStatusMarried(married);
         // accountSettingsSteps.selectStatusSingle();
-        accountSettingsSteps.selectLocation(location);
+        accountSettingsSteps.selectLocation1(location);
         accountSettingsSteps.enterBriefInfo(BriefInfo);
         loginSteps.PageComplete(driver);
         accountSettingsSteps.clickUpdate1(driver);

@@ -218,7 +218,10 @@ public class AccountSettingsSteps extends ScenarioSteps {
     public void selectStatusMarried(String status ) { accountSettingsPage.selectStatusMarried(status);}
 
     @Step
-    public void selectLocation(String location) { accountSettingsPage.selectLocation(location);}
+    public void selectLocation1(String location) { accountSettingsPage.selectLocation1(location);}
+
+    @Step
+    public void selectLocation2(String location) { accountSettingsPage.selectLocation2(location);}
 
     @Step
     public void enterBriefInfo(String info ) { accountSettingsPage.enterBriefInfo(info);}
