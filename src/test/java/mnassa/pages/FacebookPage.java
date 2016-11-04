@@ -24,9 +24,12 @@ public class FacebookPage  extends PageObject {
 
         WebElement email = driver.findElement(By.id("email"));
         email.sendKeys(Email);
+        System.out.println("Email");
         WebElement pass = driver.findElement(By.id("pass"));
         pass.sendKeys(Password);
+        System.out.println("Password");
         driver.findElement(By.id("u_0_n")).click();
+        System.out.println("click");
         try {
             Thread.sleep(600);
         } catch (InterruptedException e1) {
@@ -34,8 +37,10 @@ public class FacebookPage  extends PageObject {
             e1.printStackTrace();
         }
         try {
-            //driver.findElement(By.xpath("//span[text()='News Feed']"));
+            WebDriverWait wt = new WebDriverWait (driver, 400);
+            wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("contentCol")));
             driver.findElement(By.id("contentCol"));
+            System.out.println("content");
         } catch (WebDriverException e) {
             Assert.fail();
         }
