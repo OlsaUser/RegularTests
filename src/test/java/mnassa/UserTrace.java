@@ -245,7 +245,7 @@ public class UserTrace {
     }
     //Facebook UserTrace
     @Test
-    public void stage3_EditMainDetails()  throws Exception {
+    public void stage3_EditMainDetails1()  throws Exception {
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.PageComplete(driver);
         loginSteps.openLoginPage();
@@ -276,6 +276,30 @@ public class UserTrace {
         accountSettingsSteps.clickUpdate1(driver);
         loginSteps.PageComplete(driver);
         //UserTrace info page
+       /* headerSteps.openDiscoverPage(driver);
+        loginSteps.PageComplete(driver);
+        headerSteps.viewAccountSettings(driver);
+        loginSteps.PageComplete(driver);
+        accountSettingsSteps.checkInfoExists(FirstName_En_exp, FirstName_En_now);
+        accountSettingsSteps.checkInfoExists(UserName_En, UserName_En_now);
+        accountSettingsSteps.checkInfoExists(location_now2_exp, location_now_profile);
+        accountSettingsSteps.checkInfoExists(location_now2_exp, location_now1);
+        //accountSettingsSteps.checkInfoExists(location_now2_exp, location_now2);
+        accountSettingsSteps.checkInfoExists(BriefInfo, BriefInfo_now);
+        accountSettingsSteps.checkInfoExists(Male, gender_now);
+        accountSettingsSteps.checkInfoExists(married, status_now);
+        accountSettingsSteps.checkInfoExists(birth_exp, birth_now);*/
+    }
+    @Test
+    public void stage3_EditMainDetails2()  throws Exception {
+        registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
+        loginSteps.PageComplete(driver);
+        loginSteps.openLoginPage();
+        loginSteps.PageComplete(driver);
+        registerSteps.viaFacebook_Login(driver);
+        loginSteps.PageComplete(driver);
+        registerSteps.successLogIn(driver);
+
         headerSteps.openDiscoverPage(driver);
         loginSteps.PageComplete(driver);
         headerSteps.viewAccountSettings(driver);
@@ -291,7 +315,7 @@ public class UserTrace {
         accountSettingsSteps.checkInfoExists(birth_exp, birth_now);
     }
     @Test
-    public void stage4_EditContactInfo() throws IOException{
+    public void stage4_EditContactInfo1() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
@@ -317,6 +341,28 @@ public class UserTrace {
         accountSettingsSteps.clickUpdate2(driver);
 
         //UserTrace info page
+       /* headerSteps.openDiscoverPage(driver);
+        loginSteps.PageComplete(driver);
+        headerSteps.viewAccountSettings(driver);
+        loginSteps.PageComplete(driver);
+        JavascriptExecutor jse = (JavascriptExecutor)getDriver();
+        jse.executeScript("window.scrollBy(0,500)", "");
+        accountSettingsSteps.checkInfoExists(mobile_exp, mobile_now);
+        accountSettingsSteps.checkInfoExists(landline_exp, landline_now);
+        accountSettingsSteps.checkInfoExists(WebSite_exp, WebSite_now);
+        accountSettingsSteps.checkInfoExists(NewEmailUser, email_now);
+        accountSettingsSteps.checkNetworkAccounts();*/
+    }
+    @Test
+    public void stage4_EditContactInfo2() throws IOException{
+        loginSteps.openLoginPage();
+        loginSteps.PageComplete(driver);
+
+        loginSteps.enterLogin(NewEmailUser);
+        loginSteps.enterPassword(NewPassword);
+        loginSteps.clickEnter(driver);
+        loginSteps.PageComplete(driver);
+
         headerSteps.openDiscoverPage(driver);
         loginSteps.PageComplete(driver);
         headerSteps.viewAccountSettings(driver);
@@ -398,7 +444,7 @@ public class UserTrace {
     }
     //Facebook
     @Test
-    public void stage7_Add_Skills_Interests() throws Exception{
+    public void stage7_Add_Skills_Interests1() throws Exception{
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.openLoginPage();
         registerSteps.viaFacebook_Login(driver);
@@ -415,6 +461,22 @@ public class UserTrace {
         accountSettingsSteps.clickUpdate5(driver);
         //loginSteps.PageComplete(driver);
         //UserTrace info page
+       /* headerSteps.openDiscoverPage(driver);
+        loginSteps.PageComplete(driver);
+        headerSteps.viewAccountSettings(driver);
+        loginSteps.PageComplete(driver);
+        JavascriptExecutor jse = (JavascriptExecutor)getDriver();
+        jse.executeScript("window.scrollBy(0,500)", "");
+        accountSettingsSteps.checkSkillsInfo(Skill,Interest);*/
+    }
+    @Test
+    public void stage7_Add_Skills_Interests2() throws Exception{
+        registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
+        loginSteps.openLoginPage();
+        registerSteps.viaFacebook_Login(driver);
+        loginSteps.PageComplete(driver);
+        registerSteps.successLogIn(driver);
+
         headerSteps.openDiscoverPage(driver);
         loginSteps.PageComplete(driver);
         headerSteps.viewAccountSettings(driver);
