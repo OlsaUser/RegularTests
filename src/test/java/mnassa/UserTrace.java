@@ -240,7 +240,7 @@ public class UserTrace {
         registerSteps.openRegisterPage();
         registerSteps.viaFacebook_SignUp(driver);
         registerSteps.confirmFbReg(driver, fb_Email2, fb_Password2);
-        loginSteps.Sleep(100);
+        //loginSteps.Sleep(100);
         registerSteps.successRegistrationFb(driver);
     }
     //Facebook UserTrace
