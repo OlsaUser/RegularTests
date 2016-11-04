@@ -20,7 +20,8 @@ public class FacebookPage  extends PageObject {
 
     public void facebookLogin(WebDriver driver, String Email, String Password) throws Exception {
         driver.get("https://www.facebook.com");
-        System.out.println("Page opened!");
+        System.out.println(driver.getTitle());
+        System.out.println(driver.getPageSource());
 
             driver.findElement(By.name("email")).isDisplayed();
             WebElement email = driver.findElement(By.name("email"));
