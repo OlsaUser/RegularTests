@@ -116,7 +116,7 @@ public class t2_AccountSettings_OrgStory {
         accountSettingsSteps.selectFounded();
         accountSettingsSteps.selectNumbEmployees(count);
         // accountSettingsSteps.selectStatusSingle();
-        accountSettingsSteps.selectLocation(location);
+        accountSettingsSteps.selectLocation2(location);
         accountSettingsSteps.enterBriefInfo(BriefInfo);
         accountSettingsSteps.clickUpdate1(driver);
         //UserTrace info page

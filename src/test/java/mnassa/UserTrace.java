@@ -228,7 +228,7 @@ public class UserTrace {
         registerSteps.Step2_Location(driver, LocationEN);
         registerSteps.Step2_pressButton_Confirm(driver);
         registerSteps.Step3_Ok(driver, NewEmailUser);
-        loginSteps.Sleep(600);
+        loginSteps.Sleep(700);
         registerSteps.goConfirmLink(driver,NewEmailUser);
         registerSteps.successRegistration(driver);
         registerSteps.checkWelcomeLetter(NewEmailUser);

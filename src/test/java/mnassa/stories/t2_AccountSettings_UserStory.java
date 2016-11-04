@@ -157,7 +157,7 @@ public class t2_AccountSettings_UserStory {
         jse.executeScript("window.scrollBy(0,100)", "");
         accountSettingsSteps.selectStatusMarried(married);
        // accountSettingsSteps.selectStatusSingle();
-        accountSettingsSteps.selectLocation(location);
+        accountSettingsSteps.selectLocation2(location);
         accountSettingsSteps.enterBriefInfo(BriefInfo);
         loginSteps.PageComplete(driver);
         accountSettingsSteps.clickUpdate1(driver);
@@ -189,7 +189,7 @@ public class t2_AccountSettings_UserStory {
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();
         jse.executeScript("window.scrollBy(0,80)", "");
         accountSettingsSteps.selectStatusSingle(single);
-        accountSettingsSteps.selectLocation(location);
+        accountSettingsSteps.selectLocation2(location);
         accountSettingsSteps.enterBriefInfo(BriefInfo);
         //loginSteps.PageComplete(driver);
         accountSettingsSteps.clickUpdate1(driver);
