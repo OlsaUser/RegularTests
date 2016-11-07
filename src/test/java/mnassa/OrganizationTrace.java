@@ -49,7 +49,7 @@ public class OrganizationTrace {
     private String NewEmailOrg = PropertyLoader.getProperty(registrationFilePath, "NewEmailOrg");
     private String NewPassword = PropertyLoader.getProperty(registrationFilePath, "NewPassword");
     private String Year_2014 = PropertyLoader.getProperty(registrationFilePath, "Year_2014");
-    private String Year_2016 = PropertyLoader.getProperty(registrationFilePath, "Year_2016");
+    private String Year_2014_ar = PropertyLoader.getProperty(registrationFilePath, "Year_2014_ar");
     private String Year_1990 = PropertyLoader.getProperty(registrationFilePath, "Year_1990");
     private String LocationEN = PropertyLoader.getProperty(registrationFilePath, "LocationEN");
     private String LocationAR = PropertyLoader.getProperty(registrationFilePath, "LocationAR");
@@ -96,9 +96,11 @@ public class OrganizationTrace {
     private String Speciality = PropertyLoader.getProperty(profileFilePath, "Speciality");
     private String About = PropertyLoader.getProperty(profileFilePath, "About");
     private String location = PropertyLoader.getProperty(profileFilePath, "location");
+    private String location_exp_ar = PropertyLoader.getProperty(profileFilePath, "location_exp_ar");
     private String location_exp = PropertyLoader.getProperty(profileFilePath, "location_exp");
     private String location_now1 = PropertyLoader.getProperty(profileFilePath, "location_now1");
     private String location_now2 = PropertyLoader.getProperty(profileFilePath, "location_now2");
+    private String location_now2_exp_ar = PropertyLoader.getProperty(profileFilePath, "location_now2_exp_ar");
     private String location_now1_exp = PropertyLoader.getProperty(profileFilePath, "location_now1_exp");
     private String location_now2_exp = PropertyLoader.getProperty(profileFilePath, "location_now2_exp");
     private String location_now_profile = PropertyLoader.getProperty(profileFilePath, "location_now_profile");
@@ -152,6 +154,7 @@ public class OrganizationTrace {
     private String PriceMAX = PropertyLoader.getProperty(propertyItemPath, "PriceMAX");
     private String PerMAX = PropertyLoader.getProperty(propertyItemPath, "PerMAX");
     private String Location = PropertyLoader.getProperty(propertyItemPath, "Location");
+    private String Location_ar = PropertyLoader.getProperty(propertyItemPath, "Location_ar");
     private String VideoContent1 = PropertyLoader.getProperty(propertyItemPath, "VideoContent1");
     private String VideoContent2 = PropertyLoader.getProperty(propertyItemPath, "VideoContent2");
     private String VideoContent3 = PropertyLoader.getProperty(propertyItemPath, "VideoContent3");
@@ -174,6 +177,7 @@ public class OrganizationTrace {
     private String audience_now = PropertyLoader.getProperty(propertyEventPath, "audience_now");
     private String address_now = PropertyLoader.getProperty(propertyEventPath, "address_now");
     private String audio_now = PropertyLoader.getProperty(propertyEventPath, "audio_now");
+    private String audio_now_ar = PropertyLoader.getProperty(propertyEventPath, "audio_now_ar");
     private String visa = PropertyLoader.getProperty(propertyEventPath, "visa");
     private String mastercard = PropertyLoader.getProperty(propertyEventPath, "mastercard");
     private String paypal = PropertyLoader.getProperty(propertyEventPath, "paypal");
@@ -211,7 +215,8 @@ public class OrganizationTrace {
 
     @Test
     public void stage1_Register_Organization() throws Exception {
-        registerSteps.openRegisterPage();
+        //registerSteps.openRegisterPage();
+        driver.get("http://mnassa.com/ar/#!registration");
         loginSteps.PageComplete(driver);
 
         registerSteps.Step1_selectRadioButton_Organization();
@@ -220,17 +225,18 @@ public class OrganizationTrace {
         registerSteps.Step1_Password(NewPassword);
         registerSteps.Step1_pressButton_Next();
         registerSteps.Step2_OrganizationFullName(OrganizationFullNameEn);
-        registerSteps.Step2_Founded(Year_2014, driver);
+        registerSteps.Step2_Founded(Year_2014_ar, driver);
         registerSteps.Step2_Location(driver, LocationEN);
         registerSteps.Step2_pressButton_Confirm(driver);
         registerSteps.Step3_Ok(driver, NewEmailOrg);
         loginSteps.Sleep(700);
-        registerSteps.goConfirmLink(driver,NewEmailOrg);
-        registerSteps.checkWelcomeLetter(NewEmailOrg);
+        registerSteps.goConfirmLink_AR(driver,NewEmailOrg);
+        registerSteps.checkWelcomeLetter_AR(NewEmailOrg);
     }
     @Test
     public void stage2_EditMainDetails1() throws IOException{
-        loginSteps.openLoginPage();
+        //loginSteps.openLoginPage();
+        driver.get("http://mnassa.com/ar/#!login");
         loginSteps.PageComplete(driver);
 
         loginSteps.enterLogin(NewEmailOrg);
@@ -258,7 +264,8 @@ public class OrganizationTrace {
     }
     @Test
     public void stage2_EditMainDetails2() throws IOException{
-        loginSteps.openLoginPage();
+        //loginSteps.openLoginPage();
+        driver.get("http://mnassa.com/ar/#!login");
         loginSteps.PageComplete(driver);
 
         loginSteps.enterLogin(NewEmailOrg);
@@ -270,16 +277,17 @@ public class OrganizationTrace {
         headerSteps.viewAccountSettings(driver);
         accountSettingsSteps.checkInfoExists(OrganizationName_En_exp,OrganizationName_En_now);
         accountSettingsSteps.checkInfoExists(OrganizationShortName_En_exp,OrganizationShortName_En_now);
-        accountSettingsSteps.checkInfoExists(location_exp, location_now_profile);
-        accountSettingsSteps.checkInfoExists(location_now1_exp, location_now1);
-        accountSettingsSteps.checkInfoExists(location_now2_exp, location_now2);
+        accountSettingsSteps.checkInfoExists(location_exp_ar, location_now_profile);
+        accountSettingsSteps.checkInfoExists(location_exp_ar, location_now1);
+        accountSettingsSteps.checkInfoExists(location_now2_exp_ar, location_now2);
         accountSettingsSteps.checkInfoExists(BriefInfo, BriefInfo_now);
         accountSettingsSteps.checkInfoExists(count, count_now);
         accountSettingsSteps.checkInfoExists(YearFounder_exp, YearFounder_now);
     }
    @Test
     public void stage3_EditContactInfo1() throws IOException{
-        loginSteps.openLoginPage();
+        //loginSteps.openLoginPage();
+        driver.get("http://mnassa.com/ar/#!login");
         loginSteps.PageComplete(driver);
 
         loginSteps.enterLogin(NewEmailOrg);
@@ -363,7 +371,7 @@ public class OrganizationTrace {
             addItemSteps.enterAddress(Address);
             //addItemSteps.selectRegistrationClosed();
             //addItemSteps.selectTicketTypeFree();
-            addItemSteps.selectTicketTypePaid(ticketPrice);
+            addItemSteps.selectTicketTypePaid_ar(ticketPrice);
             //jse1.executeScript("window.scrollBy(0,-200)", "");
             addItemSteps.selectMethodMasterCard();
             addItemSteps.selectMethodPayPal();
@@ -391,11 +399,11 @@ public class OrganizationTrace {
             addItemSteps.checkValueExists(TitleMAX, title_now);
             addItemSteps.checkValueExists(DescriptionMAX, description_now);
             addItemSteps.checkValueExists(ticketPrice, price_now);
-            addItemSteps.checkValueExists(Location, location_now);
+           addItemSteps.checkValueExists(Location_ar, location_now);
             addItemSteps.checkValueExists(tag1, tag_now);
             addItemSteps.checkValueExists(OrganizerName, organizerName_now);
-            addItemSteps.checkValueExists("Attraction", eventType_now);
-            addItemSteps.checkValueExists("Children", audience_now);
+           addItemSteps.checkValueExists("عامل الجذب", eventType_now);
+           addItemSteps.checkValueExists("أطفال", audience_now);
             addItemSteps.checkValueExists(Address, address_now);
             addItemSteps.checkElementPresents(audio_now);
             addItemSteps.checkElementPresents(visa);
@@ -419,17 +427,16 @@ public class OrganizationTrace {
         loginSteps.PageComplete(driver);
 
         accountSettingsSteps.pressCollapseChangePassword();
-        accountSettingsSteps.enterCurrentPassword(CurrentPassword);
+        accountSettingsSteps.enterCurrentPassword(NewPassword);
         accountSettingsSteps.enterNewPassword(NewPassword_change);
         accountSettingsSteps.enterNewConfirmPassword(NewConfirmPassword);
-        //loginSteps.PageComplete(driver);
+        loginSteps.PageComplete(driver);
         accountSettingsSteps.clickUpdate6(driver);
     }
     @Test
     public void stage6_ChangePassword2() throws IOException{
         loginSteps.openLoginPage();
-        loginSteps.PageComplete(driver);
-
+        //loginSteps.PageComplete(driver);
         loginSteps.enterLogin(NewEmailOrg);
         loginSteps.enterPassword(NewPassword_change);
         loginSteps.clickEnter(driver);

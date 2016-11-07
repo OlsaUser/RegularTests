@@ -621,7 +621,7 @@ public class UserTrace {
     @Test
     public void stage9b_ChangePassword2() throws IOException{
         loginSteps.openLoginPage();
-        loginSteps.PageComplete(driver);
+        //loginSteps.PageComplete(driver);
         loginSteps.enterLogin(NewEmailUser);
         loginSteps.enterPassword(NewPassword_change);
         loginSteps.clickEnter(driver);

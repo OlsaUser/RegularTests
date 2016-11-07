@@ -102,7 +102,13 @@ public class RegisterSteps extends ScenarioSteps {
     public void goConfirmLink(WebDriver driver, String email) { registerPage.goConfirmLink(driver, email);}
 
     @Step
+    public void goConfirmLink_AR(WebDriver driver, String email) { registerPage.goConfirmLink_AR(driver, email);}
+
+    @Step
     public void checkWelcomeLetter(String email) { registerPage.checkWelcomeLetter(email);}
+
+    @Step
+    public void checkWelcomeLetter_AR(String email) { registerPage.checkWelcomeLetter_AR(email);}
 
     @Step
     public void facebookLogin(WebDriver driver, String Email, String Password) throws Exception{ facebookPage.facebookLogin(driver, Email, Password);}

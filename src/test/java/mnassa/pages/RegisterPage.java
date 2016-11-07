@@ -215,6 +215,10 @@ public class RegisterPage  extends PageObject {
         Assert.assertEquals( "Mnassa is a social interactive platform for business communication.",find(text_emptyNewsFeed).getText());
         */
     }
+    public void goConfirmLink_AR(WebDriver driver, String email) {
+        String confirmLink = provideCode_AR(email);
+        driver.get(confirmLink);
+    }
 
     public static String provideCode(String email) {
         String tempCode = null;
@@ -231,6 +235,36 @@ public class RegisterPage  extends PageObject {
         if (check != null) {
             String prefix = "Or copy the link below: ";
             String suffix = "Kind regards, Mnassa Team";
+            String substring = check.substring(check.indexOf(prefix) + prefix.length() + 3, check.indexOf(suffix));
+            tempCode = substring.trim();
+            System.out.println("tempCode: " + tempCode);
+            String codePrefix = "url=";
+            String encodedUrl = tempCode.substring(tempCode.indexOf(codePrefix) + codePrefix.length());
+            try {
+                String url = URLDecoder.decode(encodedUrl, "UTF-8");
+                String confirmPrefix = "confirm?code=";
+                String code = url.substring(url.indexOf(confirmPrefix) + confirmPrefix.length());
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+            }
+        }
+        //return code;
+        return tempCode;
+    }
+    public static String provideCode_AR(String email) {
+        String tempCode = null;
+        //String host = "pop.gmail.com";// change accordingly
+        //String mailStoreType = "pop3";
+
+        String host = "imap.gmail.com";
+        String mailStoreType = "imap";
+        String password = "Jk14501450";
+
+        String check = check(host, mailStoreType, email, password); //messages body
+
+        if (check != null) {
+            String prefix = "أو قم بنسخ الرابط أدناه:";
+            String suffix = "أطيب التحيات، فريق منصة";
             String substring = check.substring(check.indexOf(prefix) + prefix.length() + 3, check.indexOf(suffix));
             tempCode = substring.trim();
             System.out.println("tempCode: " + tempCode);
@@ -264,7 +298,18 @@ public class RegisterPage  extends PageObject {
             Assert.assertTrue(check.contains(header));
         }
     }
+    public static void checkWelcomeLetter_AR(String email) {
+        String host = "imap.gmail.com";
+        String mailStoreType = "imap";
+        String password = "Jk14501450";
 
+        String check = check(host, mailStoreType, email, password); //messages body
+
+        if (check != null) {
+            String header = "مرحبا بك في عائلة منصّة!";
+            Assert.assertTrue(check.contains(header));
+        }
+    }
     public static String check(String host, String storeType, String user,
                                String password) {
         String result = null;
