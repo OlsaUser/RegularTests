@@ -30,16 +30,17 @@ public class FacebookPage  extends PageObject {
         System.out.println("Password");
         //WebDriverWait wt = new WebDriverWait (driver, 400);
        //wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("u_0_o")));
-        driver.findElement(By.id("u_0_o")).click();
+        //driver.findElement(By.id("u_0_o")).click();
+        driver.findElement(By.xpath("//input[@type='submit']")).click();
         System.out.println("click");
         try {
-            Thread.sleep(600);
+            Thread.sleep(800);
         } catch (InterruptedException e1) {
             // TODO Auto-generated catch block
             e1.printStackTrace();
         }
         try {
-            WebDriverWait wt = new WebDriverWait (driver, 400);
+            WebDriverWait wt = new WebDriverWait (driver, 600);
             wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("contentCol")));
             driver.findElement(By.id("contentCol"));
             System.out.println("content");
