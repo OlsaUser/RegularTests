@@ -153,9 +153,16 @@ public class RegisterPage  extends PageObject {
     public void Step2_pressButton_Confirm(WebDriver driver) {element(btnConfirm).click();}
 
     public void Step3_Ok(WebDriver driver, String email) {
-        WebDriverWait wt = new WebDriverWait (driver, 99);
+        WebDriverWait wt = new WebDriverWait (driver, 150);
         wt.until(ExpectedConditions.elementToBeClickable(btnOK));
         wt.until(ExpectedConditions.textToBePresentInElementLocated(SuccessPopup, "After that you will be redirected to this page - page, where you started registration!"));
+        find(btnOK);
+        element(btnOK).click();
+    }
+    public void Step3_Ok_ar(WebDriver driver, String email) {
+        WebDriverWait wt = new WebDriverWait (driver, 150);
+        wt.until(ExpectedConditions.elementToBeClickable(btnOK));
+        wt.until(ExpectedConditions.textToBePresentInElementLocated(SuccessPopup, "بعد ذلك سيتم توجيهك الى الصفحة التي بدأت التسجيل بها."));
         find(btnOK);
         element(btnOK).click();
     }

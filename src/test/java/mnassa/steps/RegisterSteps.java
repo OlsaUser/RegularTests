@@ -81,6 +81,9 @@ public class RegisterSteps extends ScenarioSteps {
     public void Step3_Ok ( WebDriver driver, String email) { registerPage.Step3_Ok(driver, email) ;}
 
     @Step
+    public void Step3_Ok_ar ( WebDriver driver, String email) { registerPage.Step3_Ok_ar(driver, email) ;}
+
+    @Step
     public void checkValidationMessage(String Message, WebDriver driver) { assertTrue(registerPage.checkValidationMessage(Message, driver));}
 
     @Step

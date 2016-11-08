@@ -228,7 +228,7 @@ public class OrganizationTrace {
         registerSteps.Step2_Founded(Year_2014_ar, driver);
         registerSteps.Step2_Location(driver, LocationEN);
         registerSteps.Step2_pressButton_Confirm(driver);
-        registerSteps.Step3_Ok(driver, NewEmailOrg);
+        registerSteps.Step3_Ok_ar(driver, NewEmailOrg);
         loginSteps.Sleep(700);
         registerSteps.goConfirmLink_AR(driver,NewEmailOrg);
         registerSteps.checkWelcomeLetter_AR(NewEmailOrg);
