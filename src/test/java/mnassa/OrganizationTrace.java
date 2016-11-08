@@ -384,7 +384,7 @@ public class OrganizationTrace {
             addItemSteps.VideoContent1(VideoContent5);
             addItemSteps.AudioContent1(AudioContent1);
             //addItemSteps.collapseContent();
-            addItemSteps.ItemStatusActivate();
+            //addItemSteps.ItemStatusActivate();
             //addItemSteps.ItemStatusDeactivate();
             addItemSteps.clickSave(driver);
             addItemSteps.checkItemSaved(driver);
