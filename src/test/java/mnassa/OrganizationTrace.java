@@ -250,8 +250,8 @@ public class OrganizationTrace {
 
         accountSettingsSteps.enterOrganizationName(OrganizationName_En_exp);
         accountSettingsSteps.enterOrganizationShortName(OrganizationShortName_En_exp);
-        accountSettingsSteps.selectLanguageArabian_Org();
         accountSettingsSteps.selectLanguageEnglish_Org();
+        accountSettingsSteps.selectLanguageArabian_Org();
         accountSettingsSteps.selectFounded();
         accountSettingsSteps.selectTypeGovernmental();
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();
