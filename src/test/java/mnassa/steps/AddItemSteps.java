@@ -5,6 +5,8 @@ import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
 import org.openqa.selenium.WebDriver;
 
+import java.awt.*;
+
 import static junit.framework.TestCase.assertTrue;
 
 /**
@@ -128,7 +130,23 @@ public class AddItemSteps extends ScenarioSteps {
     public void enterAddress(String address) {itemPage.enterAddress(address);}
 
     @Step
-    public void ImageContent() {itemPage.ImageContent();}
+    public void ImageContent() throws AWTException {itemPage.ImageContent();}
+
+    @Step
+    public void FileContent() throws AWTException {itemPage.FileContent();}
+
+    @Step
+    public void pressUploadImageLink() throws AWTException {itemPage.pressUploadImageLink();}
+
+    @Step
+    public void pressUploadFileLink() throws AWTException {itemPage.pressUploadFileLink();}
+
+    @Step
+    public void uploadImage() throws AWTException {itemPage.uploadImage();}
+
+    @Step
+    public void CropPopup_ChooseImage() throws AWTException {itemPage.CropPopup_ChooseImage();}
+
 
     @Step
     public void deleteImage() {itemPage.deleteImage();}

@@ -399,11 +399,11 @@ public class OrganizationTrace {
             addItemSteps.checkValueExists(TitleMAX, title_now);
             addItemSteps.checkValueExists(DescriptionMAX, description_now);
             addItemSteps.checkValueExists(ticketPrice, price_now);
-           addItemSteps.checkValueExists(Location_ar, location_now);
+            addItemSteps.checkValueExists(Location_ar, location_now);
             addItemSteps.checkValueExists(tag1, tag_now);
             addItemSteps.checkValueExists(OrganizerName, organizerName_now);
-           addItemSteps.checkValueExists("عامل الجذب", eventType_now);
-           addItemSteps.checkValueExists("أطفال", audience_now);
+            addItemSteps.checkValueExists("عامل الجذب", eventType_now);
+            addItemSteps.checkValueExists("أطفال", audience_now);
             addItemSteps.checkValueExists(Address, address_now);
             addItemSteps.checkElementPresents(audio_now);
             addItemSteps.checkElementPresents(visa);

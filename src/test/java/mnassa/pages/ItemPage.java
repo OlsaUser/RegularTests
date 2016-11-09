@@ -12,6 +12,9 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.awt.*;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
@@ -175,6 +178,10 @@ public class ItemPage extends PageObject {
 
     private final By ContentPhoto = By.xpath(".//*[@id='content']/div/div[1]/div/ul/li[1]/a");
     private final By imageLink = By.xpath("//a[@id='pick_item_files']");
+    private final By btnChoose = By.xpath("//button[@can-click='item_img_refresh']");
+    private final By img_crop_wrap = By.id("preview");
+    private final By img_small_preview = By.xpath("//li[@class='have-top-shadow']");
+
     private final By imageDelete = By.xpath("//div[@can-click='remove_item_img']");
     private final By imageCover = By.xpath("//a[@can-click='set_img_main']");
     private final By Cover = By.xpath("//img[@class='card-photo-image']");
@@ -205,6 +212,10 @@ public class ItemPage extends PageObject {
     private final By iconDelete3 = By.xpath("//div[@id='audio']/div[6]/div");
     private final By iconDelete4 = By.xpath("//div[@id='audio']/div[8]/div");
     private final By iconDelete5 = By.xpath("//div[@id='audio']/div[10]/div");
+
+    private final By ContentFiles = By.xpath(".//*[@id='content']/div/div[1]/div/ul/li[4]/a");
+    private final By fileLink = By.id("item_files");
+
 
     private final By statusActivate = By.xpath("//span[contains(text(),'Activate')]");
     private final By statusPeriod = By.xpath("//span[contains(text(),'Activate from/to')]");
@@ -731,34 +742,55 @@ public class ItemPage extends PageObject {
 
     public void ImageContent() {
         find(ContentPhoto).click();
-
-        /*find(imageLink).click();
-        JFrame parentFrame = new JFrame();
-
-        JFileChooser chooser = new JFileChooser("C:/Users/olsa/IdeaProjects/ProjectTestCom/src/test/resources/images");
-        chooser.setSelectedFile(new File("music.png"));*/
-
-        //FileNameExtensionFilter filter = new FileNameExtensionFilter("JPG & PNG Images", "jpg", "png");
-        //chooser.setFileFilter(filter);
-
-      /*  int returnVal = chooser.showOpenDialog(parentFrame);
-
-        if (returnVal == JFileChooser.APPROVE_OPTION) {
-
-            File file = chooser.getSelectedFile();
-
-            chooser.approveSelection();
-            JOptionPane.showMessageDialog(null, "You selected " + file);
+        WebDriverWait wt1 = new WebDriverWait(getDriver(), 60);
+        wt1.until(ExpectedConditions.visibilityOfElementLocated(imageLink));
         }
-            else if (returnVal == JFileChooser.CANCEL_OPTION)
-            {
-                JOptionPane.showMessageDialog(null, "You selected nothing.");
-            }
-            else if (returnVal == JFileChooser.ERROR_OPTION)
-            {
-                JOptionPane.showMessageDialog(null, "An error occurred.");
-            }*/
-        }
+    public void pressUploadImageLink() throws AWTException {
+        find(imageLink).click();
+    }
+    public void FileContent() throws AWTException{
+        find(ContentFiles).click();
+        WebDriverWait wt1 = new WebDriverWait(getDriver(), 60);
+        wt1.until(ExpectedConditions.visibilityOfElementLocated(fileLink));
+    }
+    public void pressUploadFileLink() throws AWTException{
+        find(fileLink).click();
+    }
+    public void uploadImage() throws AWTException{
+        //String k = "D:\\ProjectTestCom\\src\\test\\resources\\images\\music.png";
+
+        String k = System.getProperty("user.dir") + "\\src\\test\\resources\\images\\tech7.jpg";
+        System.out.println("Way to image: " + k );
+
+        StringBuffer buf = new StringBuffer();
+        buf.delete(0, buf.length());
+        buf.insert(0, k);
+        System.out.println(buf);
+
+        StringSelection ss = new StringSelection(k);
+        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
+
+        Robot robot = new Robot();
+        robot.keyPress(KeyEvent.VK_CONTROL);
+        robot.keyPress(KeyEvent.VK_V);
+        robot.delay(100);
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        robot.keyRelease(KeyEvent.VK_V);
+        robot.delay(100);
+        robot.keyPress(KeyEvent.VK_ENTER);    // press Enter
+        robot.keyRelease(KeyEvent.VK_ENTER);
+    }
+
+    public void CropPopup_ChooseImage() throws AWTException{
+        WebDriverWait wt1 = new WebDriverWait(getDriver(), 60);
+        wt1.until(ExpectedConditions.visibilityOfElementLocated(img_crop_wrap));
+        wt1.until(ExpectedConditions.presenceOfElementLocated(img_crop_wrap));
+        find(btnChoose).click();
+        WebDriverWait wt2 = new WebDriverWait(getDriver(), 60);
+        wt2.until(ExpectedConditions.visibilityOfElementLocated(img_small_preview));
+        wt2.until(ExpectedConditions.presenceOfElementLocated(img_small_preview));
+    }
+
 
     public void deleteImage() {
         find(imageDelete).click();

@@ -28,6 +28,9 @@ public class FacebookPage  extends PageObject {
         WebElement pass = driver.findElement(By.id("pass"));
         pass.sendKeys(Password);
         System.out.println("Password");
+
+        driver.findElement(By.id("registration_container"));
+
         //WebDriverWait wt = new WebDriverWait (driver, 400);
        //wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("u_0_o")));
         //driver.findElement(By.id("u_0_o")).click();
