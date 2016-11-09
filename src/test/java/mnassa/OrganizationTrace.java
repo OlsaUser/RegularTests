@@ -385,12 +385,12 @@ public class OrganizationTrace {
             addItemSteps.AudioContent1(AudioContent1);
             //addItemSteps.collapseContent();
             //addItemSteps.ItemStatusActivate();
-            //addItemSteps.ItemStatusDeactivate();
+            addItemSteps.ItemStatusDeactivate();
             addItemSteps.clickSave(driver);
             addItemSteps.checkItemSaved(driver);
 
             loginSteps.PageComplete(driver);
-            //jse1.executeScript("window.scrollBy(0,600)", "");
+            jse1.executeScript("window.scrollBy(0,-200)", "");
             addItemSteps.openItemSettingsMenu();
             addItemSteps.selectViewMenu(driver);
 

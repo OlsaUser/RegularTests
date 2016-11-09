@@ -399,7 +399,7 @@ public class UserTrace {
         accountSettingsSteps.enterAbout(About);
         accountSettingsSteps.pressSaveNewEduc(driver);
         loginSteps.PageComplete(driver);
-        loginSteps.PageComplete(driver);
+        //loginSteps.PageComplete(driver);
         //accountSettingsSteps.clickUpdate3();
 
         //UserTrace info page
