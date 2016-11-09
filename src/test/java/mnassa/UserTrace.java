@@ -576,7 +576,7 @@ public class UserTrace {
         addItemSteps.selectCategory1();
 
         addItemSteps.collapseMainInfo();
-        //addItemSteps.enterTag(tag1);
+        addItemSteps.enterTag(tag1);
         addItemSteps.enterLocation(Location);
 
         addItemSteps.ImageContent();
