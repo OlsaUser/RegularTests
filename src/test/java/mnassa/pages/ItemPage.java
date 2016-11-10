@@ -936,7 +936,7 @@ public class ItemPage extends PageObject {
         find(fieldAudioLink1).sendKeys(AudioLink1);
         waitForRenderedElementsToBePresent(iconDelete1);
         find(iconDelete1).isDisplayed();
-        getDriver().manage().timeouts().implicitlyWait(99, SECONDS);
+        getDriver().manage().timeouts().implicitlyWait(150, SECONDS);
         find(fieldAudioLink2);
         //find(fieldAudioLink2).isDisplayed();
     }

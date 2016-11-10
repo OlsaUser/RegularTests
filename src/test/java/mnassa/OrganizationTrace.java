@@ -379,20 +379,19 @@ public class OrganizationTrace {
             addItemSteps.selectMethodDebitCard();
             addItemSteps.selectMethodVisa();
 
-            jse1.executeScript("window.scrollBy(0,300)", "");
-            //addItemSteps.collapseMainDetails();
-            addItemSteps.VideoContent1(VideoContent5);
-            addItemSteps.AudioContent1(AudioContent1);
-            //addItemSteps.collapseContent();
-            //addItemSteps.ItemStatusActivate();
-            addItemSteps.ItemStatusDeactivate();
-            addItemSteps.clickSave(driver);
-            addItemSteps.checkItemSaved(driver);
-
-            loginSteps.PageComplete(driver);
-            jse1.executeScript("window.scrollBy(0,-200)", "");
-            addItemSteps.openItemSettingsMenu();
-            addItemSteps.selectViewMenu(driver);
+           jse1.executeScript("window.scrollBy(0,300)", "");
+           //addItemSteps.collapseMainDetails();
+           addItemSteps.VideoContent1(VideoContent5);
+           addItemSteps.AudioContent1(AudioContent1);
+           //addItemSteps.collapseContent();
+           addItemSteps.ItemStatusActivate();
+           //addItemSteps.ItemStatusDeactivate();
+           addItemSteps.clickSave(driver);
+           addItemSteps.checkItemSaved(driver);
+           loginSteps.PageComplete(driver);
+           jse1.executeScript("window.scrollBy(0,-200)", "");
+           addItemSteps.openItemSettingsMenu();
+           addItemSteps.selectViewMenu(driver);
 
             //проверяем соответствие введенных и отображаемых значений
             addItemSteps.checkBreadCrumb(Event,TitleMAX,  driver);

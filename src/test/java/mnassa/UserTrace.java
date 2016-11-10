@@ -292,7 +292,7 @@ public class UserTrace {
         accountSettingsSteps.checkInfoExists(birth_exp, birth_now);*/
     }
     @Test
-    public void stage3_EditMainDetails2()  throws Exception {
+    public void stage3_EditMainDetails2() throws Exception {
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.PageComplete(driver);
         loginSteps.openLoginPage();
