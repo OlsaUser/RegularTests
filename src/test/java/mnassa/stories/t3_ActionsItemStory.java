@@ -19,6 +19,7 @@ import org.junit.runners.MethodSorters;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 
+import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 
@@ -74,7 +75,7 @@ public class t3_ActionsItemStory {
     }
 
     @Test
-    public void stage1_ProductSupply_EditCoverImage() {
+    public void stage1_ProductSupply_EditCoverImage()throws AWTException {
         headerSteps.openMyMnassaPage(driver);
         headerSteps.openMyProductListing(driver);
         loginSteps.PageComplete(driver);
