@@ -579,19 +579,19 @@ public class UserTrace {
         addItemSteps.enterTag(tag1);
         addItemSteps.enterLocation(Location);
 
-        addItemSteps.ImageContent();
+      /*  addItemSteps.ImageContent();
         addItemSteps.pressUploadImageLink();
         addItemSteps.uploadImage();
-        addItemSteps.CropPopup_ChooseImage();
+        addItemSteps.CropPopup_ChooseImage();*/
 
         addItemSteps.VideoContent1(VideoContent1);
 
-        addItemSteps.collapseContent();
+        /*addItemSteps.collapseContent();
 
         addItemSteps.collapseContent();
         addItemSteps.FileContent();
         addItemSteps.pressUploadFileLink();
-        addItemSteps.uploadImage();
+        addItemSteps.uploadImage();*/
 
         addItemSteps.collapseContent();
         //addItemSteps.ItemStatusActivate();
