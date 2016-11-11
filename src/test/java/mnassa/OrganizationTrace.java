@@ -383,13 +383,14 @@ public class OrganizationTrace {
            //addItemSteps.collapseMainDetails();
            addItemSteps.VideoContent1(VideoContent5);
            addItemSteps.AudioContent1(AudioContent1);
-           //addItemSteps.collapseContent();
-           addItemSteps.ItemStatusActivate();
+
+           addItemSteps.collapseContent();
+           //addItemSteps.ItemStatusActivate();
            //addItemSteps.ItemStatusDeactivate();
            addItemSteps.clickSave(driver);
            addItemSteps.checkItemSaved(driver);
            loginSteps.PageComplete(driver);
-           jse1.executeScript("window.scrollBy(0,-200)", "");
+           jse1.executeScript("window.scrollBy(0,-250)", "");
            addItemSteps.openItemSettingsMenu();
            addItemSteps.selectViewMenu(driver);
 

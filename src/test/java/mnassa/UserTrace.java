@@ -230,9 +230,9 @@ public class UserTrace {
         registerSteps.Step2_pressButton_Confirm(driver);
         registerSteps.Step3_Ok(driver, NewEmailUser);
         loginSteps.Sleep(700);
-        registerSteps.goConfirmLink(driver,NewEmailUser);
+        registerSteps.goConfirmLink(driver,"lensytosakish.1@gmail.com");
         registerSteps.successRegistration(driver);
-        registerSteps.checkWelcomeLetter(NewEmailUser);
+        registerSteps.checkWelcomeLetter("lensytosakish.1@gmail.com");
     }
     //Facebook UserTrace
     @Test
