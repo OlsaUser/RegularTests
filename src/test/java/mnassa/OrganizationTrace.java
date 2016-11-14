@@ -405,13 +405,13 @@ public class OrganizationTrace {
             addItemSteps.checkValueExists(OrganizerName, organizerName_now);
             addItemSteps.checkValueExists("عامل الجذب", eventType_now);
             addItemSteps.checkValueExists("أطفال", audience_now);
-           addItemSteps.checkElementPresents(audio_now);
-           addItemSteps.checkElementPresents(visa);
-           addItemSteps.checkElementPresents(mastercard);
-           addItemSteps.checkElementPresents(paypal);
-           addItemSteps.checkElementPresents(debitcard);
-           addItemSteps.checkElementPresents(cash);
+            addItemSteps.checkElementPresents(visa);
+            addItemSteps.checkElementPresents(mastercard);
+            addItemSteps.checkElementPresents(paypal);
+            addItemSteps.checkElementPresents(debitcard);
+            addItemSteps.checkElementPresents(cash);
             addItemSteps.checkValueExists(Address, address_now);
+            addItemSteps.checkElementPresents(audio_now_ar);
 
         }
     @Test
