@@ -231,6 +231,7 @@ public class OrganizationTrace {
         registerSteps.Step3_Ok_ar(driver, NewEmailOrg);
         loginSteps.Sleep(700);
         registerSteps.goConfirmLink_AR(driver,NewEmailOrg);
+        loginSteps.Sleep(500);
         registerSteps.checkWelcomeLetter_AR(NewEmailOrg);
     }
     @Test
