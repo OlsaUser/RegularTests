@@ -536,6 +536,7 @@ public class UserTrace {
         addItemSteps.checkItemSaved(driver);
         loginSteps.PageComplete(driver);
 
+        jse1.executeScript("window.scrollBy(0,200)", "");
         addItemSteps.openItemSettingsMenu();
         addItemSteps.selectViewMenu(driver);
         //проверяем соответствие введенных и отображаемых значений
