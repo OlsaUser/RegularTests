@@ -536,7 +536,7 @@ public class UserTrace {
         addItemSteps.checkItemSaved(driver);
         loginSteps.PageComplete(driver);
 
-        jse1.executeScript("window.scrollBy(0,200)", "");
+        jse1.executeScript("window.scrollBy(0,-200)", "");
         addItemSteps.openItemSettingsMenu();
         addItemSteps.selectViewMenu(driver);
         //проверяем соответствие введенных и отображаемых значений
@@ -600,10 +600,11 @@ public class UserTrace {
         loginSteps.PageComplete(driver);
         addItemSteps.clickSave(driver);
         addItemSteps.checkItemSaved(driver);
-        loginSteps.PageComplete(driver);
+       //loginSteps.PageComplete(driver);
 
         headerSteps.openMyMnassaPage(driver);
         headerSteps.openMyProductListing(driver);
+        loginSteps.PageComplete(driver);
 
         addItemSteps.openItemSettingsMenu();
         addItemSteps.selectViewMenu(driver);
