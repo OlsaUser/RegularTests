@@ -134,9 +134,8 @@ public class AllPagesTrace {
         loginSteps.PageComplete(driver);
         //loginSteps.pageLoad(ServiceListing);
 
-        /*headerSteps.openMessagePage(driver);
+        headerSteps.openMessagePage(driver);
         loginSteps.PageComplete(driver);
-        loginSteps.pageLoad(Message);*/
 
         headerSteps.openNotificationPage(driver);
         loginSteps.PageComplete(driver);
@@ -149,46 +148,40 @@ public class AllPagesTrace {
 
         headerSteps.openDiscoverPage(driver);
         loginSteps.PageComplete(driver);
-        //loginSteps.pageLoad(DiscoverItemNew);
+
+        /***************************/
+        headerSteps.openDiscoverItemNew(driver);
+        loginSteps.PageComplete(driver);
 
         headerSteps.openDiscoverItemPopular(driver);
         loginSteps.PageComplete(driver);
 
-        headerSteps.openDiscoverItemNew(driver);
-        loginSteps.PageComplete(driver);
-
+        /***************************/
         headerSteps.openDiscoverPostNew(driver);
         loginSteps.PageComplete(driver);
-        //loginSteps.pageLoad(DiscoverPostNew);
 
         headerSteps.openDiscoverPostTrending(driver);
         loginSteps.PageComplete(driver);
 
         headerSteps.openDiscoverPostPopular(driver);
         loginSteps.PageComplete(driver);
-        // loginSteps.pageLoad(DiscoverPostPopular);
 
-
+        /***************************/
         headerSteps.openDiscoverUserPopular(driver);
         loginSteps.PageComplete(driver);
-        //loginSteps.pageLoad(DiscoverUserPopular);
 
         headerSteps.openDiscoverUserActive(driver);
         loginSteps.PageComplete(driver);
-        // loginSteps.pageLoad(DiscoverUserActive);
 
         headerSteps.openDiscoverUserNew(driver);
         loginSteps.PageComplete(driver);
-        //loginSteps.pageLoad(DiscoverUserNew)
 
-
+        /***************************/
         headerSteps.openDiscoverGroupsPopular(driver);
         loginSteps.PageComplete(driver);
-        //loginSteps.pageLoad(DiscoverGroupsPopular);
 
         headerSteps.openDiscoverGroupsNew(driver);
         loginSteps.PageComplete(driver);
-        //loginSteps.pageLoad(DiscoverGroupsNew);
 
 
         headerSteps.openMenuProfile(driver);
