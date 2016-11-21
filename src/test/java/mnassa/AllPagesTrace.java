@@ -28,6 +28,7 @@ public class AllPagesTrace {
     private String propertyFilePath = "src/test/resources/login_live.properties";
     private String email = PropertyLoader.getProperty(propertyFilePath, "email");
     private String password = PropertyLoader.getProperty(propertyFilePath, "password");
+    private String NewPassword_change = PropertyLoader.getProperty(propertyFilePath, "NewPassword_change");
     private String ServiceListing = PropertyLoader.getProperty(propertyFilePath, "ServiceListing");
     private String ProductListing = PropertyLoader.getProperty(propertyFilePath, "ProductListing");
     private String EventListing = PropertyLoader.getProperty(propertyFilePath, "EventListing");
@@ -101,7 +102,7 @@ public class AllPagesTrace {
 
         loginSteps.openLoginPage();
         loginSteps.enterLogin(email);
-        loginSteps.enterPassword(password);
+        loginSteps.enterPassword(NewPassword_change);
         loginSteps.clickEnter(driver);
         loginSteps.PageComplete(driver);
     }
