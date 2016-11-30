@@ -208,7 +208,6 @@ public class UserTrace {
     @Before
     public void setup() throws IOException {
         driver.manage().window().maximize();
-        //driver = new FirefoxDriver();
     }
 
     @After
@@ -536,7 +535,7 @@ public class UserTrace {
         addItemSteps.checkItemSaved(driver);
         loginSteps.PageComplete(driver);
 
-        jse1.executeScript("window.scrollBy(0,-200)", "");
+        jse1.executeScript("window.scrollBy(0,-180)", "");
         addItemSteps.openItemSettingsMenu();
         addItemSteps.selectViewMenu(driver);
         //проверяем соответствие введенных и отображаемых значений

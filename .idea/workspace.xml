@@ -1,0 +1,2149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7de03ca-6a5a-4494-a24a-25741912ce53" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/Sorting icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/back_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/back_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/back_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/forward_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/forward_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/forward_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/font/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/font/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/font/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/font/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/bg_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/bg_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/bottomm.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-appium.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-chrome.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-firefox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-htmlunit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-iexplorer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-opera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-phantomjs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-provided.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-remote.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/driver-safari.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/fail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/greenline.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/ico-q.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/icon-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/ignor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/links_menu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/menu_f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/menu_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/menu_s.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/middle-left.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/middle-right.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/middle.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/pending.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/serenity-bdd-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/skip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/small-middle-left.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/small-middle-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/small-middle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/tablebg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/tick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/top-left.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/top-right.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/top.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/topm.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/traffic-green.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/traffic-in-progress.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/traffic-orange.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/traffic-red.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/traffic-yellow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/images/worker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/col1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/col2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/gradient.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/jqtree-circle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_flat_55_999999_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_flat_75_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_glass_45_0078ae_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_glass_55_f8da4e_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_glass_75_79c9ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_gloss-wave_45_e14f1c_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_gloss-wave_50_6eac2c_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_gloss-wave_75_2191c0_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_0078ae_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_056b93_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_d8e7f3_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_e0fdff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_f5e175_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_f7a50d_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_fcd113_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/dev7logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/nemo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/toystory.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/up.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/walle.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/bullets.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/bullets.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/bullets.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/bullets.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/AllPagesTrace.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/OrganizationTrace.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/UserTrace.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/AccountSettingsPage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/AddPostPage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/FacebookPage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/FavoritesPage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/FollowUserPage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/ForgotPasswordPage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/GroupPage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/HeaderPage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/ItemPage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/LoginPage$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/LoginPage$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/LoginPage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/LoginSucceedPage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/MyMediaPage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/NewMessagePage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/RegisterPage$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/RegisterPage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/SearchPage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/SucceedPopupPage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/steps/AccountSettingsSteps.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/steps/AddAlbumSteps.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/steps/AddGroupSteps.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/steps/AddItemSteps.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/steps/AddPostSteps.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/steps/FavoritesSteps.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/steps/FollowSteps.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/steps/ForgotPasswordSteps.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/steps/HeaderSteps.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/steps/LoginSteps.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/steps/NewMessageSteps.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/steps/RegisterSteps.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/steps/SearchSteps.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t0_RegistrationStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t1_FavoritesStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t1_ForgotPasswordStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t1_LoginStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t1_PermissionGroupLimitedStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t1_ReplyStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t1_RepostPostStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t1_ViewerStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t2_AccountSettings_OrgStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t2_AccountSettings_UserStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t2_AddGroupLimitedStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t2_AddGroupPrivateStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t2_AddGroupPublicStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t2_AddItemEventsStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t2_AddItemProductStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t2_AddItemProjectStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t2_AddItemServiceStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t2_AddTextPostStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t2_FollowStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t2_InviteGroupStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t2_NewMessageStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t2_PermissionGroupPrivateStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t2_PinPostStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t2_SearchStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t2_ShareItemStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t3_ActionsItemStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t3_AddAlbumStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t3_AddAudioPostStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t3_AddVideoPostStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t3_InAppropriateUserFormStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t3_MemberGroupPageStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t4_DeleteAlbumStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t4_DeleteEventStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t4_DeleteGroupsStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t4_DeletePartnershipStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/stories/t4_DeleteServiceStory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/utils/FileWriterUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/utils/PropertyLoader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/utils/RetryRule$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/utils/RetryRule.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/browser-firefox.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/css/core.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/css/link.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/css/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/css/tables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/css/jquery.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/css/jquery.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/css/jquery.dataTables_themeroller.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/js/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/dygraph/1.1.0/dygraph-combined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/excanvas/3/excanvas.compiled.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/excanvas/3/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/css/font-awesome-ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/css/font-awesome-ie7.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/font/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/extras.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/font-awesome-ie7.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/spinning.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_bootstrap.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_extras.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_spinning.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/font-awesome-ie7.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/2.0.1/jit-yc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/2.0.1/jit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/AreaChart.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/BarChart.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/ForceDirected.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/ForceDirected3D.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/HeatMap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/Hypertree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/Icicle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/Other.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/PieChart.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/RGraph.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/Spacetree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/Sunburst.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/TimeGraph.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/Treemap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jit/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/excanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/jquery.jqplot.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/jquery.jqplot.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.BezierCurveRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.BezierCurveRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.barRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.barRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.blockRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.blockRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.bubbleRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.bubbleRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisLabelRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisLabelRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisTickRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisTickRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasOverlay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasOverlay.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasTextRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasTextRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.categoryAxisRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.categoryAxisRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ciParser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ciParser.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.cursor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.cursor.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dateAxisRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dateAxisRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.donutRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.donutRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dragable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dragable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.enhancedLegendRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.enhancedLegendRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.funnelRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.funnelRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.highlighter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.highlighter.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.json2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.json2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.logAxisRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.logAxisRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoAxisRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoAxisRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.meterGaugeRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.meterGaugeRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mobile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mobile.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ohlcRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ohlcRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pieRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pieRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pointLabels.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pointLabels.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidAxisRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidAxisRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidGridRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidGridRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.trendline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.trendline.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/jqtree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/tree.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/external/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/scripts/jquery-1.9.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/nivo-slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/nivoslider.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/bar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/scripts/imgpreview.full.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/scripts/jquery-1.11.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/serenity/scripts/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/album.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/browser.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/event_xpath.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/group.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/item.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/login.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/login_live.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/message.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/post.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/product_xpath.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/profile.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/project_xpath.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/registration.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/search.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/search_beta.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/smtp.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_30.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_30.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_2_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_2_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_4_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_4_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_lambdaj_lambdaj_2_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_lambdaj_lambdaj_2_3_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_awaitility_awaitility_1_6_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_awaitility_awaitility_1_6_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jhlabs_filters_2_0_235.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jhlabs_filters_2_0_235.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_opera_operadriver_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_opera_operadriver_1_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_opera_operalaunchers_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_opera_operalaunchers_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_appium_java_client_2_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_appium_java_client_2_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_5_7_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_5_7_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_2_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_2_2_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mx4j_mx4j_tools_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mx4j_mx4j_tools_3_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_core_1_0_47.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_core_1_0_47.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_junit_1_0_47.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_junit_1_0_47.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_report_resources_1_0_47.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_report_resources_1_0_47.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_15.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_15.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_15.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_15.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_21.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_21.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_3_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_utils_0_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_utils_0_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_common_java5_2_19_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_common_java5_2_19_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_common_junit3_2_19_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_common_junit3_2_19_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_common_junit48_2_19_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_common_junit48_2_19_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_common_junit4_2_19_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_common_junit4_2_19_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_api_2_19_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_api_2_19_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_grouper_2_19_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_grouper_2_19_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_junit47_2_19_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_junit47_2_19_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_asciidoctor_asciidoctor_java_integration_0_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_asciidoctor_asciidoctor_java_integration_0_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_1_7_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_1_7_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_48.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_48.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_48.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_48.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_3_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_3_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_8_1_15_v20140411.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_8_1_15_v20140411.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_8_1_15_v20140411.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_8_1_15_v20140411.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_8_1_15_v20140411.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_8_1_15_v20140411.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_websocket_8_1_15_v20140411.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_websocket_8_1_15_v20140411.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fluentlenium_fluentlenium_core_0_10_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fluentlenium_fluentlenium_core_0_10_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_21.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_21.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_web_javax_el_2_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_web_javax_el_2_2_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_1_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_1_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ini4j_ini4j_0_5_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ini4j_ini4j_0_5_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jruby_complete_1_7_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jruby_complete_1_7_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_6_1_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_6_1_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_21.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_21.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_jetty_rc_repacked_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_jetty_rc_repacked_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_jetty_repacked_7_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_jetty_repacked_7_6_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_53_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_53_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_52_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_52_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_2_53_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_2_53_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_53_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_53_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_53_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_53_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_53_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_53_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_leg_rc_2_53_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_leg_rc_2_53_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_53_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_53_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_53_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_53_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_server_2_45_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_server_2_45_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_53_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_53_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_18.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_18.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_18.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_18.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/AllPagesTrace.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/AllPagesTrace.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t0_RegistrationStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t0_RegistrationStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_FavoritesStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_FavoritesStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_ForgotPasswordStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_ForgotPasswordStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_LoginStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_LoginStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_PermissionGroupLimitedStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_PermissionGroupLimitedStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_ReplyStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_ReplyStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_RepostPostStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_RepostPostStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_ViewerStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_ViewerStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AccountSettings_OrgStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AccountSettings_OrgStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AccountSettings_UserStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AccountSettings_UserStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddGroupLimitedStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddGroupLimitedStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddGroupPrivateStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddGroupPrivateStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddGroupPublicStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddGroupPublicStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddItemEventsStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddItemEventsStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddItemProductStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddItemProductStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddItemProjectStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddItemProjectStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddItemServiceStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddItemServiceStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddTextPostStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddTextPostStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_FollowStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_FollowStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_InviteGroupStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_InviteGroupStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_NewMessageStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_NewMessageStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_PermissionGroupPrivateStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_PermissionGroupPrivateStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_PinPostStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_PinPostStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_SearchStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_SearchStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_ShareItemStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_ShareItemStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t3_ActionsItemStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t3_ActionsItemStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t3_AddAlbumStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t3_AddAlbumStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t3_AddAudioPostStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t3_AddAudioPostStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t3_AddVideoPostStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t3_AddVideoPostStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t3_InAppropriateUserFormStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t3_InAppropriateUserFormStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t3_MemberGroupPageStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t3_MemberGroupPageStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeleteAlbumStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeleteAlbumStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeleteEventStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeleteEventStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeleteGroupsStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeleteGroupsStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeletePartnershipStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeletePartnershipStory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeleteServiceStory.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeleteServiceStory.java" />
+    </list>
+    <ignored path="RegularTests.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="RegularTests" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UserTrace.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="538" column="44" selection-start-line="538" selection-start-column="44" selection-end-line="538" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/RegisterPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/steps/RegisterSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/AccountSettingsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/steps/AddItemSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/registration.properties" />
+        <option value="$PROJECT_DIR$/src/test/resources/event_xpath.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/OrganizationTrace.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/FacebookPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/ItemPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/item.properties" />
+        <option value="$PROJECT_DIR$/src/test/resources/login_live.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/HeaderPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/AllPagesTrace.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t0_RegistrationStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_FavoritesStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_ForgotPasswordStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_LoginStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_PermissionGroupLimitedStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_ReplyStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_RepostPostStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t1_ViewerStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AccountSettings_OrgStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AccountSettings_UserStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddGroupLimitedStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddGroupPrivateStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddGroupPublicStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddItemEventsStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddItemProductStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddItemProjectStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddItemServiceStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddTextPostStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_FollowStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_InviteGroupStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_NewMessageStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_PermissionGroupPrivateStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_PinPostStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_SearchStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t2_ShareItemStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t3_ActionsItemStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t3_AddAlbumStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t3_AddAudioPostStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t3_AddVideoPostStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t3_InAppropriateUserFormStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t3_MemberGroupPageStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeleteAlbumStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeleteEventStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeleteGroupsStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeletePartnershipStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeleteServiceStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\olsa\.m2\repository" />
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+        <option name="userSettingsFile" value="C:\Users\olsa\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="RegularTests" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="RegularTests" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1924" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RegularTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RegularTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RegularTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RegularTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RegularTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RegularTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RegularTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mnassa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RegularTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RegularTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.47126436" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mnassa" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MnassaRegularTests\RegularTests\src\test\java\mnassa" />
+      <recent name="D:\MnassaRegularTests\RegularTests" />
+      <recent name="D:\MnassaRegularTests\RegularTests\src" />
+      <recent name="D:\MnassaRegularTests\RegularTests\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserTrace">
+    <configuration default="false" name="UserTrace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mnassa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="RegularTests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mnassa" />
+      <option name="MAIN_CLASS_NAME" value="mnassa.UserTrace" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserTrace,stage3_EditMainDetails1 and 11 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mnassa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="RegularTests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mnassa" />
+      <option name="MAIN_CLASS_NAME" value="mnassa.UserTrace" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns>
+        <pattern testClass="mnassa.UserTrace,stage3_EditMainDetails1" />
+        <pattern testClass="mnassa.UserTrace,stage3_EditMainDetails2" />
+        <pattern testClass="mnassa.UserTrace,stage4_EditContactInfo1" />
+        <pattern testClass="mnassa.UserTrace,stage4_EditContactInfo2" />
+        <pattern testClass="mnassa.UserTrace,stage5_AddEducationInfo" />
+        <pattern testClass="mnassa.UserTrace,stage6_AddJobInfo" />
+        <pattern testClass="mnassa.UserTrace,stage7_Add_Skills_Interests1" />
+        <pattern testClass="mnassa.UserTrace,stage7_Add_Skills_Interests2" />
+        <pattern testClass="mnassa.UserTrace,stage8_addServiceSupply_MAX_byButtonInListing" />
+        <pattern testClass="mnassa.UserTrace,stage9_addProductDemand_AR_byButtonFromHeader" />
+        <pattern testClass="mnassa.UserTrace,stage9a_ChangePassword1" />
+        <pattern testClass="mnassa.UserTrace,stage9b_ChangePassword2" />
+      </patterns>
+      <method />
+    </configuration>
+    <configuration default="false" name="OrganizationTrace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mnassa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="RegularTests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mnassa" />
+      <option name="MAIN_CLASS_NAME" value="mnassa.OrganizationTrace" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AllPagesTrace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mnassa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="RegularTests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mnassa" />
+      <option name="MAIN_CLASS_NAME" value="mnassa.AllPagesTrace" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AllPagesTrace.GoToPages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mnassa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="RegularTests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mnassa" />
+      <option name="MAIN_CLASS_NAME" value="mnassa.AllPagesTrace" />
+      <option name="METHOD_NAME" value="GoToPages" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="RegularTests" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.UserTrace" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UserTrace,stage3_EditMainDetails1 and 11 more" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.OrganizationTrace" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AllPagesTrace" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AllPagesTrace.GoToPages" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserTrace" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.OrganizationTrace" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AllPagesTrace" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AllPagesTrace.GoToPages" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UserTrace,stage3_EditMainDetails1 and 11 more" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\olsa\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7de03ca-6a5a-4494-a24a-25741912ce53" name="Default" comment="" />
+      <created>1477901757922</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1477901757922</updated>
+    </task>
+    <task id="LOCAL-00070" summary="up1">
+      <created>1478250538448</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1478250538449</updated>
+    </task>
+    <task id="LOCAL-00071" summary="selenium-standalone-server 2.53.1">
+      <created>1478255359697</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1478255359697</updated>
+    </task>
+    <task id="LOCAL-00072" summary="up2">
+      <created>1478255906994</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1478255906994</updated>
+    </task>
+    <task id="LOCAL-00073" summary="up3">
+      <created>1478256714277</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1478256714277</updated>
+    </task>
+    <task id="LOCAL-00074" summary="up4">
+      <created>1478258120644</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1478258120644</updated>
+    </task>
+    <task id="LOCAL-00075" summary="up5">
+      <created>1478259202246</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1478259202246</updated>
+    </task>
+    <task id="LOCAL-00076" summary="up6">
+      <created>1478259804636</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1478259804636</updated>
+    </task>
+    <task id="LOCAL-00077" summary="up7">
+      <created>1478260451317</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1478260451317</updated>
+    </task>
+    <task id="LOCAL-00078" summary="up8">
+      <created>1478260860632</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1478260860632</updated>
+    </task>
+    <task id="LOCAL-00079" summary="up9">
+      <created>1478261255385</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1478261255385</updated>
+    </task>
+    <task id="LOCAL-00080" summary="up10">
+      <created>1478261621576</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1478261621577</updated>
+    </task>
+    <task id="LOCAL-00081" summary="up11">
+      <created>1478263828961</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1478263828961</updated>
+    </task>
+    <task id="LOCAL-00082" summary="up12">
+      <created>1478265463822</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1478265463824</updated>
+    </task>
+    <task id="LOCAL-00083" summary="up13">
+      <created>1478265864348</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1478265864348</updated>
+    </task>
+    <task id="LOCAL-00084" summary="up14">
+      <created>1478267718937</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1478267718937</updated>
+    </task>
+    <task id="LOCAL-00085" summary="up15">
+      <created>1478268104909</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1478268104909</updated>
+    </task>
+    <task id="LOCAL-00086" summary="up16">
+      <created>1478269171852</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1478269171852</updated>
+    </task>
+    <task id="LOCAL-00087" summary="up17">
+      <created>1478269198684</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1478269198684</updated>
+    </task>
+    <task id="LOCAL-00088" summary="up18">
+      <created>1478269651451</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1478269651452</updated>
+    </task>
+    <task id="LOCAL-00089" summary="up19">
+      <created>1478270436499</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1478270436499</updated>
+    </task>
+    <task id="LOCAL-00090" summary="up20">
+      <created>1478270686394</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1478270686395</updated>
+    </task>
+    <task id="LOCAL-00091" summary="up21">
+      <created>1478270887048</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1478270887048</updated>
+    </task>
+    <task id="LOCAL-00092" summary="up22">
+      <created>1478272018026</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1478272018026</updated>
+    </task>
+    <task id="LOCAL-00093" summary="up23">
+      <created>1478273198477</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1478273198477</updated>
+    </task>
+    <task id="LOCAL-00094" summary="edit profile (AR)">
+      <created>1478511510380</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1478511510383</updated>
+    </task>
+    <task id="LOCAL-00095" summary="fb changes , AR locale (org)">
+      <created>1478593078359</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1478593078359</updated>
+    </task>
+    <task id="LOCAL-00096" summary="fb changes">
+      <created>1478593525484</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1478593525484</updated>
+    </task>
+    <task id="LOCAL-00097" summary="org reg (AR)">
+      <created>1478595129928</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1478595129928</updated>
+    </task>
+    <task id="LOCAL-00098" summary="edit org (AR)">
+      <created>1478596615312</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1478596615312</updated>
+    </task>
+    <task id="LOCAL-00099" summary="add item (AR)">
+      <created>1478600030870</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1478600030870</updated>
+    </task>
+    <task id="LOCAL-00100" summary="add item (AR)">
+      <created>1478680620737</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1478680620754</updated>
+    </task>
+    <task id="LOCAL-00101" summary="add item (AR)">
+      <created>1478681260701</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1478681260702</updated>
+    </task>
+    <task id="LOCAL-00102" summary="add item (AR)">
+      <created>1478685198689</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1478685198689</updated>
+    </task>
+    <task id="LOCAL-00103" summary="upload image &amp; file (item)">
+      <created>1478700700061</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1478700700108</updated>
+    </task>
+    <task id="LOCAL-00104" summary="upload image &amp; file (item)">
+      <created>1478700750891</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1478700750891</updated>
+    </task>
+    <task id="LOCAL-00105" summary="upload image &amp; file (item)">
+      <created>1478765855253</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1478765855254</updated>
+    </task>
+    <task id="LOCAL-00106" summary="facebook">
+      <created>1478767657844</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1478767657844</updated>
+    </task>
+    <task id="LOCAL-00107" summary="fix">
+      <created>1478770296729</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1478770296729</updated>
+    </task>
+    <task id="LOCAL-00108" summary="fix">
+      <created>1478771133024</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1478771133024</updated>
+    </task>
+    <task id="LOCAL-00109" summary="fix">
+      <created>1478791823550</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1478791823550</updated>
+    </task>
+    <task id="LOCAL-00110" summary="fix">
+      <created>1478850265567</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1478850265567</updated>
+    </task>
+    <task id="LOCAL-00111" summary="fix">
+      <created>1479112181974</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1479112181974</updated>
+    </task>
+    <task id="LOCAL-00112" summary="fix">
+      <created>1479112336542</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1479112336542</updated>
+    </task>
+    <task id="LOCAL-00113" summary="fix">
+      <created>1479133494870</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1479133494870</updated>
+    </task>
+    <task id="LOCAL-00114" summary="fix items">
+      <created>1479199281957</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1479199281959</updated>
+    </task>
+    <task id="LOCAL-00115" summary="fix items">
+      <created>1479370333834</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1479370333834</updated>
+    </task>
+    <task id="LOCAL-00116" summary="updates">
+      <created>1479718091398</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1479718091398</updated>
+    </task>
+    <task id="LOCAL-00117" summary="updates">
+      <created>1479719782388</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1479719782388</updated>
+    </task>
+    <task id="LOCAL-00118" summary="fixes AllPagesTrace (Discover page)">
+      <created>1479731980814</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1479731980814</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AllPagesTrace - 2016.11.29 at 10h 42m 07s.xml">
+      <configuration name="AllPagesTrace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllPagesTrace_GoToPages - 2016.11.21 at 14h 30m 16s.xml">
+      <configuration name="AllPagesTrace.GoToPages" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllPagesTrace_GoToPages - 2016.11.21 at 14h 34m 57s.xml">
+      <configuration name="AllPagesTrace.GoToPages" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllPagesTrace_GoToPages - 2016.11.21 at 14h 39m 01s.xml">
+      <configuration name="AllPagesTrace.GoToPages" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrganizationTrace - 2016.11.29 at 10h 46m 53s.xml">
+      <configuration name="OrganizationTrace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrganizationTrace - 2016.11.29 at 10h 47m 49s.xml">
+      <configuration name="OrganizationTrace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTrace - 2016.11.29 at 11h 06m 31s.xml">
+      <configuration name="UserTrace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTrace - 2016.11.29 at 11h 21m 26s.xml">
+      <configuration name="UserTrace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTrace - 2016.11.29 at 11h 26m 50s.xml">
+      <configuration name="UserTrace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTrace - 2016.11.29 at 11h 32m 46s.xml">
+      <configuration name="UserTrace" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13197425" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32886267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="ConsoleMavenPlugin" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4225352" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66305524" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="up11" />
+    <MESSAGE value="up12" />
+    <MESSAGE value="up13" />
+    <MESSAGE value="up14" />
+    <MESSAGE value="up15" />
+    <MESSAGE value="up16" />
+    <MESSAGE value="up17" />
+    <MESSAGE value="up18" />
+    <MESSAGE value="up19" />
+    <MESSAGE value="up20" />
+    <MESSAGE value="up21" />
+    <MESSAGE value="up22" />
+    <MESSAGE value="up23" />
+    <MESSAGE value="edit profile (AR)" />
+    <MESSAGE value="fb changes , AR locale (org)" />
+    <MESSAGE value="fb changes" />
+    <MESSAGE value="org reg (AR)" />
+    <MESSAGE value="edit org (AR)" />
+    <MESSAGE value="add item (AR)" />
+    <MESSAGE value="upload image &amp; file (item)" />
+    <MESSAGE value="facebook" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="fix items" />
+    <MESSAGE value="updates" />
+    <MESSAGE value="fixes AllPagesTrace (Discover page)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes AllPagesTrace (Discover page)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/login.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/registration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/pages/FacebookPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/profile.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/login_live.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/steps/HeaderSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="56" column="72" selection-start-line="56" selection-start-column="72" selection-end-line="56" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/pages/HeaderPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="294" column="61" selection-start-line="294" selection-start-column="61" selection-end-line="294" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/steps/RegisterSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="113" column="75" selection-start-line="113" selection-start-column="75" selection-end-line="113" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/pages/RegisterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1178">
+          <caret line="307" column="23" selection-start-line="307" selection-start-column="23" selection-end-line="307" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/AllPagesTrace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t0_RegistrationStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="99" column="44" selection-start-line="99" selection-start-column="44" selection-end-line="99" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t1_FavoritesStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t1_ForgotPasswordStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t1_LoginStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t1_PermissionGroupLimitedStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="81" column="44" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t1_ReplyStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t1_RepostPostStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="78" column="44" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t1_ViewerStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AccountSettings_OrgStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="86" column="44" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AccountSettings_UserStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="122" column="44" selection-start-line="122" selection-start-column="44" selection-end-line="122" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddGroupLimitedStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="86" column="44" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddGroupPrivateStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="84" column="44" selection-start-line="84" selection-start-column="44" selection-end-line="84" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddGroupPublicStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddItemEventsStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="93" column="44" selection-start-line="93" selection-start-column="44" selection-end-line="93" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddItemProductStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="100" column="44" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddItemProjectStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="82" column="44" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddItemServiceStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="106" column="44" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t2_AddTextPostStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t2_FollowStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t2_InviteGroupStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t2_NewMessageStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t2_PermissionGroupPrivateStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="81" column="44" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t2_PinPostStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="76" column="44" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t2_SearchStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t2_ShareItemStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t3_ActionsItemStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t3_AddAlbumStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t3_AddAudioPostStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t3_AddVideoPostStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t3_InAppropriateUserFormStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t3_MemberGroupPageStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeleteAlbumStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeleteEventStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeleteGroupsStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeletePartnershipStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/stories/t4_DeleteServiceStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/pages/ItemPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="1069" column="19" selection-start-line="1069" selection-start-column="19" selection-end-line="1069" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/steps/AddItemSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="355" column="98" selection-start-line="355" selection-start-column="98" selection-end-line="355" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/OrganizationTrace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="438" column="16" selection-start-line="438" selection-start-column="16" selection-end-line="438" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="538" column="44" selection-start-line="538" selection-start-column="44" selection-end-line="538" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47126436" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47126436" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47126436" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47126436" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>RegularTests</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47126436" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47126436" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

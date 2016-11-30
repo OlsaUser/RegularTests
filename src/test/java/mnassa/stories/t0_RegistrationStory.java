@@ -85,8 +85,6 @@ public class t0_RegistrationStory {
 
     @Managed
     WebDriver driver;
-   // InternetExplorerDriverService internetExplorerDriverService;
-   // ChromeDriver chromeDriver;
 
     @ManagedPages
     public Pages pages;
@@ -99,11 +97,7 @@ public class t0_RegistrationStory {
 
     @Before
     public void setup() throws IOException {
-        FirefoxProfile myProfile = new FirefoxProfile(new File(BrowserProfile));
-        myProfile.setPreference("network.proxy.socks_port",9999);
-        myProfile.setAlwaysLoadNoFocusLib(true);
-        myProfile.setEnableNativeEvents(true);
-        Serenity.useFirefoxProfile(myProfile);
+        driver.manage().window().maximize();
 
         registerSteps.openRegisterPage();
         loginSteps.PageComplete(driver);

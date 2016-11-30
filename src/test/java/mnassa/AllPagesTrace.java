@@ -93,12 +93,6 @@ public class AllPagesTrace {
     @Before
     public void setup() throws IOException {
         driver.manage().window().maximize();
-        //driver = new FirefoxDriver();
-        /*FirefoxProfile myProfile = new FirefoxProfile(new File("D:/SeleniumProfile"));
-        myProfile.setPreference("network.proxy.socks_port", 9999);
-        myProfile.setAlwaysLoadNoFocusLib(true);
-        myProfile.setEnableNativeEvents(true);
-        Serenity.useFirefoxProfile(myProfile);*/
 
         loginSteps.openLoginPage();
         loginSteps.enterLogin(email);
