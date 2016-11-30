@@ -8,10 +8,7 @@ import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.ManagedPages;
 import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.pages.Pages;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.FixMethodOrder;
-import org.junit.Test;
+import org.junit.*;
 import org.junit.runner.RunWith;
 import org.junit.runners.MethodSorters;
 import org.openqa.selenium.JavascriptExecutor;
@@ -246,13 +243,21 @@ public class UserTrace {
     //Facebook UserTrace
     @Test
     public void stage3_EditMainDetails1()  throws Exception {
-        registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
+        /*registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.PageComplete(driver);
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
         registerSteps.viaFacebook_Login(driver);
         loginSteps.PageComplete(driver);
-        registerSteps.successLogIn(driver);
+        registerSteps.successLogIn(driver);*/
+
+        loginSteps.openLoginPage();
+        loginSteps.PageComplete(driver);
+
+        loginSteps.enterLogin(NewEmailUser);
+        loginSteps.enterPassword(NewPassword);
+        loginSteps.clickEnter(driver);
+        loginSteps.PageComplete(driver);
 
         headerSteps.openMenuProfile(driver);
         headerSteps.openAccountSettings(driver);
@@ -292,13 +297,21 @@ public class UserTrace {
     }
     @Test
     public void stage3_EditMainDetails2() throws Exception {
-        registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
+        /*registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.PageComplete(driver);
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
         registerSteps.viaFacebook_Login(driver);
         loginSteps.PageComplete(driver);
-        registerSteps.successLogIn(driver);
+        registerSteps.successLogIn(driver);*/
+
+        loginSteps.openLoginPage();
+        loginSteps.PageComplete(driver);
+
+        loginSteps.enterLogin(NewEmailUser);
+        loginSteps.enterPassword(NewPassword);
+        loginSteps.clickEnter(driver);
+        loginSteps.PageComplete(driver);
 
         headerSteps.openDiscoverPage(driver);
         loginSteps.PageComplete(driver);
@@ -445,11 +458,19 @@ public class UserTrace {
     //Facebook
     @Test
     public void stage7_Add_Skills_Interests1() throws Exception{
-        registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
+        /*registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.openLoginPage();
         registerSteps.viaFacebook_Login(driver);
         loginSteps.PageComplete(driver);
-        registerSteps.successLogIn(driver);
+        registerSteps.successLogIn(driver);*/
+
+        loginSteps.openLoginPage();
+        loginSteps.PageComplete(driver);
+
+        loginSteps.enterLogin(NewEmailUser);
+        loginSteps.enterPassword(NewPassword);
+        loginSteps.clickEnter(driver);
+        loginSteps.PageComplete(driver);
 
         headerSteps.openMenuProfile(driver);
         headerSteps.openAccountSettings(driver);
@@ -471,11 +492,19 @@ public class UserTrace {
     }
     @Test
     public void stage7_Add_Skills_Interests2() throws Exception{
-        registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
+        /*registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.openLoginPage();
         registerSteps.viaFacebook_Login(driver);
         loginSteps.PageComplete(driver);
-        registerSteps.successLogIn(driver);
+        registerSteps.successLogIn(driver);*/
+
+        loginSteps.openLoginPage();
+        loginSteps.PageComplete(driver);
+
+        loginSteps.enterLogin(NewEmailUser);
+        loginSteps.enterPassword(NewPassword);
+        loginSteps.clickEnter(driver);
+        loginSteps.PageComplete(driver);
 
         headerSteps.openDiscoverPage(driver);
         loginSteps.PageComplete(driver);
@@ -536,6 +565,7 @@ public class UserTrace {
         loginSteps.PageComplete(driver);
 
         jse1.executeScript("window.scrollBy(0,-180)", "");
+        //сделала меньше -200 -> -180
         addItemSteps.openItemSettingsMenu();
         addItemSteps.selectViewMenu(driver);
         //проверяем соответствие введенных и отображаемых значений
@@ -561,11 +591,19 @@ public class UserTrace {
 //Facebook UserTrace
     @Test
     public void stage9_addProductDemand_AR_byButtonFromHeader() throws IOException, Exception, AWTException {
-        registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
+        /*registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.openLoginPage();
         registerSteps.viaFacebook_Login(driver);
         loginSteps.PageComplete(driver);
-        registerSteps.successLogIn(driver);
+        registerSteps.successLogIn(driver);*/
+
+        loginSteps.openLoginPage();
+        loginSteps.PageComplete(driver);
+
+        loginSteps.enterLogin(NewEmailUser);
+        loginSteps.enterPassword(NewPassword);
+        loginSteps.clickEnter(driver);
+        loginSteps.PageComplete(driver);
 
         addItemSteps.clickAddButton(driver);
         addItemSteps.selectItemType(Product, driver);
