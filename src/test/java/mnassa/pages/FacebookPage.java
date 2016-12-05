@@ -77,14 +77,17 @@ public class FacebookPage  extends PageObject {
         WebElement email = driver.findElement(By.id("Email"));
         email.sendKeys(Email);
         driver.findElement(By.id("next")).click();
+        System.out.println("next");
 
         WebElement pass = driver.findElement(By.id("Passwd"));
         pass.sendKeys(Password);
         driver.findElement(By.id("signIn")).click();
+        System.out.println("login");
 
         WebDriverWait wt = new WebDriverWait (driver, 100);
-        wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='nH aqK']")));
-
+        //wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='nH aqK']")));
+        wt.until(ExpectedConditions.invisibilityOfElementLocated(By.id("signIn")));
+        System.out.println("content");
       /*  try {
             Thread.sleep(800);
         } catch (InterruptedException e1) {
