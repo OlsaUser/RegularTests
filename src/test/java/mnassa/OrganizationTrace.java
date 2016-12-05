@@ -228,8 +228,8 @@ public class OrganizationTrace {
     }
     @Test
     public void stage2_EditMainDetails1() throws IOException{
-        loginSteps.openLoginPage();
-        //driver.get("http://mnassa.com/ar/#!login");
+        //loginSteps.openLoginPage();
+        driver.get("http://mnassa.com/ar/");
         loginSteps.PageComplete(driver);
 
         loginSteps.enterLogin(NewEmailOrg);
@@ -257,8 +257,8 @@ public class OrganizationTrace {
     }
     @Test
     public void stage2_EditMainDetails2() throws IOException{
-        loginSteps.openLoginPage();
-        //driver.get("http://mnassa.com/ar/#!login");
+        //loginSteps.openLoginPage();
+        driver.get("http://mnassa.com/ar");
         loginSteps.PageComplete(driver);
 
         loginSteps.enterLogin(NewEmailOrg);
@@ -279,8 +279,8 @@ public class OrganizationTrace {
     }
    @Test
     public void stage3_EditContactInfo1() throws IOException{
-        loginSteps.openLoginPage();
-        //driver.get("http://mnassa.com/ar/#!login");
+        //loginSteps.openLoginPage();
+        driver.get("http://mnassa.com/ar");
         loginSteps.PageComplete(driver);
 
         loginSteps.enterLogin(NewEmailOrg);

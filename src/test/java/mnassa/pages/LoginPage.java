@@ -50,13 +50,14 @@ public class LoginPage extends PageObject {
     public void enterLogin(String email) {
         find(Button).click();
         find(LoginLink).click();
-        if (find(fieldEmail).isEnabled())
-        {
+        if (find(fieldEmail).isEnabled()) {
             find(fieldEmail).waitUntilPresent();
+            WebDriverWait wt = new WebDriverWait(getDriver(), 100);
+            wt.until(ExpectedConditions.visibilityOfElementLocated(fieldEmail));
+            wt.until(ExpectedConditions.presenceOfElementLocated(fieldEmail));
+            find(fieldEmail).waitUntilPresent();
+            find(fieldEmail).sendKeys(email);
         }
-        WebDriverWait wt = new WebDriverWait (getDriver(), 200);
-        wt.until(ExpectedConditions.visibilityOfElementLocated(fieldEmail));
-        find(fieldEmail).sendKeys(email);
     }
 
     public void enterPassword(String password) {
