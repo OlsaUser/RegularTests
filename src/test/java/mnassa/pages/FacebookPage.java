@@ -82,7 +82,9 @@ public class FacebookPage  extends PageObject {
         pass.sendKeys(Password);
         driver.findElement(By.id("signIn")).click();
 
-        try {
+        driver.findElement(By.id(":5"));
+
+      /*  try {
             Thread.sleep(800);
         } catch (InterruptedException e1) {
 // TODO Auto-generated catch block
@@ -92,7 +94,7 @@ public class FacebookPage  extends PageObject {
             driver.findElement(By.id(":5"));
         } catch (WebDriverException e) {
             Assert.fail();
-        }
+        }*/
     }
     public void confirmFbReg(WebDriver driver, String Email, String Password) {
         parentWindowHandler = getDriver().getWindowHandle();
