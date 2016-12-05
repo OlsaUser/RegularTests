@@ -104,8 +104,9 @@ public class RegisterPage  extends PageObject {
             getDriver().switchTo().window(winHandle);
             System.out.println("winHandle " + winHandle);
         }
+        WebDriverWait wt = new WebDriverWait (driver, 100);
         WebElement continueAs = getDriver().findElement(By.id("submit_approve_access"));
-        WebDriverWait wt = new WebDriverWait (driver, 50);
+        System.out.println("find confirm");
         wt.until(ExpectedConditions.elementToBeClickable(continueAs));
         continueAs.click();
     }

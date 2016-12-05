@@ -87,8 +87,6 @@ public class FacebookPage  extends PageObject {
        /* WebDriverWait wt = new WebDriverWait (driver, 200);
         wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//body[@class='aAU']")));*/
         System.out.println(getDriver().getTitle());
-        System.out.println(getDriver().getPageSource());
-
     }
     public void confirmFbReg(WebDriver driver, String Email, String Password) {
         parentWindowHandler = getDriver().getWindowHandle();
