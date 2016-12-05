@@ -29,11 +29,12 @@ public class FacebookPage  extends PageObject {
         pass.sendKeys(Password);
         System.out.println("Password");
 
-        driver.findElement(By.id("registration_container"));
+        driver.findElement(By.id("password_field"));
 
         //WebDriverWait wt = new WebDriverWait (driver, 400);
        //wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("u_0_o")));
         //driver.findElement(By.id("u_0_o")).click();
+
         driver.findElement(By.xpath("//input[@type='submit']")).click();
         System.out.println("click");
         try {

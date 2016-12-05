@@ -49,8 +49,8 @@
       <file leaf-file-name="FacebookPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/pages/FacebookPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="36" column="60" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="60" />
+            <state relative-caret-position="187">
+              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -798,13 +798,6 @@
       <option name="presentableId" value="Default" />
       <updated>1477901757922</updated>
     </task>
-    <task id="LOCAL-00081" summary="up11">
-      <created>1478263828961</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1478263828961</updated>
-    </task>
     <task id="LOCAL-00082" summary="up12">
       <created>1478265463822</created>
       <option name="number" value="00082" />
@@ -1141,7 +1134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480954616095</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="facebook">
+      <created>1480954906049</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1480954906049</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1237,7 +1237,6 @@
     <MESSAGE value="edit org (AR)" />
     <MESSAGE value="add item (AR)" />
     <MESSAGE value="upload image &amp; file (item)" />
-    <MESSAGE value="facebook" />
     <MESSAGE value="fix" />
     <MESSAGE value="fix items" />
     <MESSAGE value="updates" />
@@ -1248,7 +1247,8 @@
     <MESSAGE value="edit UserTrace (new reg/login popup)" />
     <MESSAGE value="login via Facebook, Twitter&#10;reg via Google" />
     <MESSAGE value="fixes -&gt; Login" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes -&gt; Login" />
+    <MESSAGE value="facebook" />
+    <option name="LAST_COMMIT_MESSAGE" value="facebook" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1631,8 +1631,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/pages/FacebookPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="36" column="60" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="60" />
+        <state relative-caret-position="187">
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
           <folding />
         </state>
       </provider>
