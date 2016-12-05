@@ -49,8 +49,8 @@
       <file leaf-file-name="FacebookPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/pages/FacebookPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="84" column="59" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="59" />
+            <state relative-caret-position="451">
+              <caret line="89" column="43" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -758,13 +758,6 @@
       <option name="presentableId" value="Default" />
       <updated>1477901757922</updated>
     </task>
-    <task id="LOCAL-00085" summary="up15">
-      <created>1478268104909</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1478268104909</updated>
-    </task>
     <task id="LOCAL-00086" summary="up16">
       <created>1478269171852</created>
       <option name="number" value="00086" />
@@ -1101,7 +1094,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480955441653</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="google">
+      <created>1480955645226</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1480955645226</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1591,8 +1591,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/pages/FacebookPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="84" column="59" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="59" />
+        <state relative-caret-position="451">
+          <caret line="89" column="43" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
           <folding />
         </state>
       </provider>
