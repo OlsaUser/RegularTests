@@ -82,7 +82,7 @@ public class FacebookPage  extends PageObject {
         pass.sendKeys(Password);
         driver.findElement(By.id("signIn")).click();
 
-        driver.findElement(By.id(":5"));
+        driver.findElement(By.xpath("//div[@class='nH aqK']"));
 
       /*  try {
             Thread.sleep(800);
