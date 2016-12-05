@@ -51,7 +51,48 @@ public class FacebookPage  extends PageObject {
             Assert.fail();
         }
     }
+    public void TwitterLogin(WebDriver driver, String Email, String Password) {
+        driver.get("https://twitter.com/");
+        WebElement email = driver.findElement(By.id("signin-email"));
+        email.sendKeys(Email);
+        WebElement pass = driver.findElement(By.id("signin-password"));
+        pass.sendKeys(Password);
+        driver.findElement(By.xpath("//button[@class='submit btn primary-btn flex-table-btn js-submit']"));
+        driver.findElement(By.xpath("//button[@class='submit btn primary-btn flex-table-btn js-submit']")).click();
+        try {
+            Thread.sleep(800);
+        } catch (InterruptedException e1) {
+// TODO Auto-generated catch block
+            e1.printStackTrace();
+        }
+        try {
+            driver.findElement(By.id("stream-items-id"));
+        } catch (WebDriverException e) {
+            Assert.fail();
+        }
+    }
+    public void GoogleLogin(WebDriver driver, String Email, String Password) {
+        driver.get("https://accounts.google.com/ServiceLogin?sacu=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=ru&service=mail#identifier");
+        WebElement email = driver.findElement(By.id("Email"));
+        email.sendKeys(Email);
+        driver.findElement(By.id("next")).click();
 
+        WebElement pass = driver.findElement(By.id("Passwd"));
+        pass.sendKeys(Password);
+        driver.findElement(By.id("signIn")).click();
+
+        try {
+            Thread.sleep(800);
+        } catch (InterruptedException e1) {
+// TODO Auto-generated catch block
+            e1.printStackTrace();
+        }
+        try {
+            driver.findElement(By.id(":5"));
+        } catch (WebDriverException e) {
+            Assert.fail();
+        }
+    }
     public void confirmFbReg(WebDriver driver, String Email, String Password) {
         parentWindowHandler = getDriver().getWindowHandle();
         System.out.println("parentWindowHandler " + parentWindowHandler);

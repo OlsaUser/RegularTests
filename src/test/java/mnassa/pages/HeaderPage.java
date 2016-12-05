@@ -221,10 +221,7 @@ public class HeaderPage extends PageObject {
         WebDriverWait wt = new WebDriverWait (driver, 100);
         wt.until(ExpectedConditions.presenceOfElementLocated(linkDiscover));
         find(linkDiscoverUsers).click();
-        wt.until(ExpectedConditions.presenceOfElementLocated(linkDiscoverUsersPopular));
-        find(linkDiscoverUsersPopular).click();
-        driver.manage().timeouts().implicitlyWait(99, TimeUnit.SECONDS);
-        wt.until(ExpectedConditions.elementToBeClickable(DiscoverContentUser));
+        wt.until(ExpectedConditions.visibilityOfElementLocated(DiscoverContentUser));
     }
     /***/
     public void openDiscoverItemNew (WebDriver driver) {
@@ -273,9 +270,7 @@ public class HeaderPage extends PageObject {
         WebDriverWait wt = new WebDriverWait (driver, 100);
         wt.until(ExpectedConditions.presenceOfElementLocated(linkDiscover));
         find(linkDiscoverGroupPopular).click();
-        wt.until(ExpectedConditions.elementToBeClickable(DiscoverContentGroup));
-        /*find(linkDiscoverGroupPopular).click();
-        wt.until(ExpectedConditions.elementToBeClickable(DiscoverContentGroup));*/
+        wt.until(ExpectedConditions.visibilityOfElementLocated(DiscoverContentGroup));
     }
 
     public void openDiscoverGroupsNew (WebDriver driver) {

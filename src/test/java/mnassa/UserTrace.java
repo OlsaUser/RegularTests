@@ -36,10 +36,18 @@ public class UserTrace {
     private String email = PropertyLoader.getProperty(propertyFilePath, "email");
     private String email_now = PropertyLoader.getProperty(propertyFilePath, "email_now");
     private String password = PropertyLoader.getProperty(propertyFilePath, "password");
+
     private String fb_Email1 = PropertyLoader.getProperty(propertyFilePath, "fb_Email1");
     private String fb_Password1 = PropertyLoader.getProperty(propertyFilePath, "fb_Password1");
+
     private String fb_Email2 = PropertyLoader.getProperty(propertyFilePath, "fb_Email2");
     private String fb_Password2 = PropertyLoader.getProperty(propertyFilePath, "fb_Password2");
+
+    private String tw_Email2 = PropertyLoader.getProperty(propertyFilePath, "tw_Email2");
+    private String tw_Password2 = PropertyLoader.getProperty(propertyFilePath, "tw_Password2");
+
+    private String gg_Email2 = PropertyLoader.getProperty(propertyFilePath, "gg_Email2");
+    private String gg_Password2 = PropertyLoader.getProperty(propertyFilePath, "gg_Password2");
 
     private String registrationFilePath = "src/test/resources/registration.properties";
     private String NewEmailUser = PropertyLoader.getProperty(registrationFilePath, "NewEmailUser");
@@ -210,16 +218,30 @@ public class UserTrace {
     @After
     public void tearDown() throws Exception {driver.quit();}
 
-    //Facebook UserTrace
     @Test
-    public void stage1_Login_Facebook()  throws Exception {
+    public void stage0_Login_Facebook()  throws Exception {
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.openLoginPage();
         loginSteps.enterLogin(email);
         registerSteps.viaFacebook_Login(driver);
     }
     @Test
-    public void stage2_Reg_User_Male() throws Exception {
+    public void stage1_Reg_Google()  throws Exception {
+        registerSteps.GoogleLogin(driver, gg_Email2, gg_Password2);
+        loginSteps.openLoginPage();
+        loginSteps.enterLogin(email);
+        registerSteps.viaGoogle_Login(driver);
+        registerSteps.successReg_Google();
+    }
+    @Test
+    public void stage2_Login_Twitter()  throws Exception {
+        registerSteps.TwitterLogin(driver, tw_Email2, tw_Password2);
+        loginSteps.openLoginPage();
+        loginSteps.enterLogin(email);
+        registerSteps.viaTwitter_Login(driver);
+    }
+    @Test
+    public void stage3_Reg_User_Male() throws Exception {
         registerSteps.openRegisterPage();
         registerSteps.selectUser();
         registerSteps.selectGenderFemale();

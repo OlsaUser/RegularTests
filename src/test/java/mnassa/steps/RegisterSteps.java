@@ -21,6 +21,15 @@ public class RegisterSteps extends ScenarioSteps {
     public void viaFacebook_Login(WebDriver driver) { registerPage.viaFacebook_Login(driver);}
 
     @Step
+    public void viaTwitter_Login(WebDriver driver) { registerPage.viaTwitter_Login(driver);}
+
+    @Step
+    public void viaGoogle_Login(WebDriver driver) { registerPage.viaGoogle_Login(driver);}
+
+    @Step
+    public void successReg_Google( ) { registerPage.successReg_Google();}
+
+    @Step
     public void viaFacebook_SignUp(WebDriver driver) { registerPage.viaFacebook_SignUp(driver);}
 
     @Step
@@ -145,6 +154,12 @@ public class RegisterSteps extends ScenarioSteps {
 
     @Step
     public void facebookLogin(WebDriver driver, String Email, String Password) throws Exception{ facebookPage.facebookLogin(driver, Email, Password);}
+
+    @Step
+    public void TwitterLogin(WebDriver driver, String Email, String Password){ facebookPage.TwitterLogin(driver, Email, Password);}
+
+    @Step
+    public void GoogleLogin(WebDriver driver, String Email, String Password){ facebookPage.GoogleLogin(driver, Email, Password);}
 
     @Step
     public void confirmFbReg(WebDriver driver, String Email, String Password){ facebookPage.confirmFbReg(driver, Email, Password);}
