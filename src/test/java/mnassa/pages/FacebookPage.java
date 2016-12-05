@@ -84,20 +84,11 @@ public class FacebookPage  extends PageObject {
         driver.findElement(By.id("signIn")).click();
         System.out.println("login");
 
-        WebDriverWait wt = new WebDriverWait (driver, 100);
-        //wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='nH aqK']")));
+       /* WebDriverWait wt = new WebDriverWait (driver, 100);
+        wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='nH aqK']")));
         wt.until(ExpectedConditions.invisibilityOfElementLocated(By.id("signIn")));
-        System.out.println("content");
-      /*  try {
-            Thread.sleep(800);
-        } catch (InterruptedException e1) {
-            e1.printStackTrace();
-        }
-        try {
-            driver.findElement(By.id(":5"));
-        } catch (WebDriverException e) {
-            Assert.fail();
-        }*/
+        System.out.println("content");*/
+        
     }
     public void confirmFbReg(WebDriver driver, String Email, String Password) {
         parentWindowHandler = getDriver().getWindowHandle();
