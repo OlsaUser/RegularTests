@@ -222,14 +222,14 @@ public class UserTrace {
     public void stage0_Login_Facebook()  throws Exception {
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.openLoginPage();
-        loginSteps.enterLogin(email);
+        loginSteps.pressLoginLink();
         registerSteps.viaFacebook_Login(driver);
     }
     @Test
     public void stage1_Reg_Google()  throws Exception {
         registerSteps.GoogleLogin(driver, gg_Email2, gg_Password2);
         loginSteps.openLoginPage();
-        loginSteps.enterLogin(email);
+        loginSteps.pressLoginLink();
         registerSteps.viaGoogle_Login(driver);
         registerSteps.successReg_Google();
     }
@@ -237,11 +237,11 @@ public class UserTrace {
     public void stage2_Login_Twitter()  throws Exception {
         registerSteps.TwitterLogin(driver, tw_Email2, tw_Password2);
         loginSteps.openLoginPage();
-        loginSteps.enterLogin(email);
+        loginSteps.pressLoginLink();
         registerSteps.viaTwitter_Login(driver);
     }
     @Test
-    public void stage3_Reg_User_Male() throws Exception {
+    public void stage_Reg_User_Male() throws Exception {
         registerSteps.openRegisterPage();
         registerSteps.selectUser();
         registerSteps.selectGenderFemale();

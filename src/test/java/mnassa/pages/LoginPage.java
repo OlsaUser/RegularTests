@@ -47,10 +47,14 @@ public class LoginPage extends PageObject {
         parentWindowHandler = getDriver().getWindowHandle();
     }
 
-    public void enterLogin(String email) {
+    public void pressLoginLink( ) {
         find(Button).click();
         find(LoginLink).click();
-        if (find(fieldEmail).isEnabled()) {
+    }
+
+    public void enterLogin(String email) {
+        if (find(fieldEmail).isEnabled())
+        {
             find(fieldEmail).waitUntilPresent();
             WebDriverWait wt = new WebDriverWait(getDriver(), 100);
             wt.until(ExpectedConditions.visibilityOfElementLocated(fieldEmail));
