@@ -98,17 +98,20 @@ public class RegisterPage  extends PageObject {
     public void viaGoogle_Login(WebDriver driver ) {
         String winHandleBefore = getDriver().getWindowHandle();
         element(viaGoogle_Login).click();
+        System.out.println("click 'via google'");
         parentWindowHandler = getDriver().getWindowHandle();
         for(String winHandle : getDriver().getWindowHandles())
         {
             getDriver().switchTo().window(winHandle);
             System.out.println("winHandle " + winHandle);
+
+            WebDriverWait wt = new WebDriverWait (driver, 200);
+            WebElement continueAs = getDriver().findElement(By.id("submit_approve_access"));
+            System.out.println("find confirm");
+            wt.until(ExpectedConditions.elementToBeClickable(continueAs));
+            continueAs.click();
         }
-        WebDriverWait wt = new WebDriverWait (driver, 100);
-        WebElement continueAs = getDriver().findElement(By.id("submit_approve_access"));
-        System.out.println("find confirm");
-        wt.until(ExpectedConditions.elementToBeClickable(continueAs));
-        continueAs.click();
+
     }
 
     public void successReg_Google() {
