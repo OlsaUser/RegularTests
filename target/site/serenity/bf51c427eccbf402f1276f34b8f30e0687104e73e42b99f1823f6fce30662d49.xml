@@ -1,0 +1,237 @@
+<acceptance-test-run title="Go to pages" name="GoToPages" steps="77" successful="77" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="332856" timestamp="2016-12-05T12:37:28.782+02:00">
+  <user-story id="mnassa.AllPagesTrace" name="All pages trace" path="mnassa"/>
+  <tags>
+    <tag name="All pages trace" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="9540">
+    <description>Open login page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1421">
+    <description>Enter login: &lt;span class=&apos;step-parameter&apos;&gt;lensy@yopmail.com&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="852">
+    <description>Enter password: &lt;span class=&apos;step-parameter&apos;&gt;123456&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="10430">
+    <description>Click enter: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="25">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="10567">
+    <description>Open product listing: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="39">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="15730">
+    <description>Open event listing: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="50">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="14400">
+    <description>Open partnership listing: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="25">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="11549">
+    <description>Open service listing: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="262">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="5473">
+    <description>Open message page: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="788">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="5653">
+    <description>Open notification page: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="66">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="9561">
+    <description>Open home page: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="21">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="6982">
+    <description>Open discover page: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="4482">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="407">
+    <description>Open discover item new: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="29">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="7301">
+    <description>Open discover item popular: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="49">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3508">
+    <description>Open discover post new: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="18">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1278">
+    <description>Open discover post trending: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="22">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2479">
+    <description>Open discover post popular: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="21">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="5650">
+    <description>Open discover user popular: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="135">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1531">
+    <description>Open discover user active: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="21">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="973">
+    <description>Open discover user new: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="21">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="4964">
+    <description>Open discover groups popular: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="19">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1582">
+    <description>Open discover groups new: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="18">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="230">
+    <description>Open menu profile: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3958">
+    <description>Open account settings: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2692">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="4948">
+    <description>Open my mnassa page: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="434">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1504">
+    <description>Open my media: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="18">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="682">
+    <description>Open my wall: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2791">
+    <description>Open my groups listing: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="16">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="4548">
+    <description>My group wall: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="25">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="822">
+    <description>Open my mnassa page: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="31">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="9804">
+    <description>Open my service listing: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="8891">
+    <description>Open my product listing: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="8143">
+    <description>Open my event listing: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="8325">
+    <description>Open my partnership listing: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="7530">
+    <description>Open discover page: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2059">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="6614">
+    <description>View account settings: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="20">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="4034">
+    <description>Open user wall page: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="12621">
+    <description>Open user product listing: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="12184">
+    <description>Open user service listing: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="11140">
+    <description>Open user event listing: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="11603">
+    <description>Open user group listing: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="8594">
+    <description>Open user partnership listing: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="7637">
+    <description>Open user media page: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3300">
+    <description>Open my followers: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3149">
+    <description>Open my followings: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="11306">
+    <description>Open home page: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="31">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="6663">
+    <description>Open groups listing: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2376">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="5801">
+    <description>Page complete: &lt;span class=&apos;step-parameter&apos;&gt;net.thucydides.core.webdriver.WebDriverFacade@38c5cc4c&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

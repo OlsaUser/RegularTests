@@ -51,7 +51,9 @@ public class LoginPage extends PageObject {
         find(Button).click();
         find(LoginLink).click();
         if (find(fieldEmail).isEnabled())
+        {
             find(fieldEmail).waitUntilPresent();
+        }
         WebDriverWait wt = new WebDriverWait (getDriver(), 200);
         wt.until(ExpectedConditions.visibilityOfElementLocated(fieldEmail));
         find(fieldEmail).sendKeys(email);

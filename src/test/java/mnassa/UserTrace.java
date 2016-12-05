@@ -210,8 +210,16 @@ public class UserTrace {
     @After
     public void tearDown() throws Exception {driver.quit();}
 
+    //Facebook UserTrace
     @Test
-    public void stage1_Reg_User_Male() throws Exception {
+    public void stage1_Login_Facebook()  throws Exception {
+        registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
+        loginSteps.openLoginPage();
+        loginSteps.enterLogin(email);
+        registerSteps.viaFacebook_Login(driver);
+    }
+    @Test
+    public void stage2_Reg_User_Male() throws Exception {
         registerSteps.openRegisterPage();
         registerSteps.selectUser();
         registerSteps.selectGenderMale();
@@ -224,15 +232,6 @@ public class UserTrace {
         loginSteps.Sleep(200);
         registerSteps.checkWelcomeLetter(NewEmailUser);
     }
-    //Facebook UserTrace
-    @Test
-    public void stage2_Login_Facebook()  throws Exception {
-        registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
-        loginSteps.openLoginPage();
-        loginSteps.enterLogin(email);
-        registerSteps.viaFacebook_Login(driver);
-    }
-    //Facebook UserTrace
     @Test
     public void stage3_EditMainDetails1()  throws Exception {
         /*registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
@@ -256,7 +255,7 @@ public class UserTrace {
         loginSteps.PageComplete(driver);
 
         accountSettingsSteps.enterFirstName(FirstName_En);
-        accountSettingsSteps.enterLastName(LastName_En);
+        //accountSettingsSteps.enterLastName(LastName_En);
         accountSettingsSteps.enterUserName(UserName_En);
         // accountSettingsSteps.selectGenderFeMale();
         accountSettingsSteps.selectGenderMale(Male);
@@ -447,7 +446,6 @@ public class UserTrace {
         jse.executeScript("window.scrollBy(0,500)", "");
         accountSettingsSteps.checkJobInfo(JobName,JobSpeciality,About);
     }
-    //Facebook
     @Test
     public void stage7_Add_Skills_Interests1() throws Exception{
         /*registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
@@ -580,7 +578,6 @@ public class UserTrace {
         addItemSteps.checkElementPresents(debitcard);
         addItemSteps.checkElementPresents(cash);
     }
-//Facebook UserTrace
     @Test
     public void stage9_addProductDemand_AR_byButtonFromHeader() throws IOException, Exception, AWTException {
         /*registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
