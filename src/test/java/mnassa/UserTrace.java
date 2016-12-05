@@ -222,7 +222,7 @@ public class UserTrace {
     public void stage2_Reg_User_Male() throws Exception {
         registerSteps.openRegisterPage();
         registerSteps.selectUser();
-        registerSteps.selectGenderMale();
+        registerSteps.selectGenderFemale();
         registerSteps.clickEmailForm();
         registerSteps.enterEmail(NewEmailUser);
         registerSteps.enterName(FirstNameEn);
