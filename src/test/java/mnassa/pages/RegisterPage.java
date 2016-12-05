@@ -57,6 +57,23 @@ public class RegisterPage  extends PageObject {
     private final By text_emptyNewsFeed = By.xpath("//h1[@class='create-list-info']");
     private final By Counter = By.xpath("//span[@class='wall-post-length']");
 
+    private final By UserClick = By.xpath(".//*[@id='auth-tab-sign-up']/section/div[1]/div/button[1]");
+    private final By CompanyClick = By.xpath(".//*[@id='auth-tab-sign-up']/section/div[1]/div/button[2]");
+
+    private final By genderMale = By.xpath(".//*[@id='auth-tab-sign-up']/section/div[2]/div/button[1]");
+    private final By genderFemale = By.xpath(".//*[@id='auth-tab-sign-up']/section/div[2]/div/button[2]");
+
+    private final By EmailLink = By.xpath("//a[@can-click='step1_validate']");
+
+    private final By Email = By.id("auth-signup-email");
+    private final By Name = By.id("auth-signup-org-name");
+    private final By UserName = By.id("auth-signup-username");
+    private final By Password = By.id("auth-signup-password");
+
+    private final By DoneButton = By.xpath("//button[@can-click='step2_validate']");
+    private final By OkButton = By.xpath(".//*[@id='auth-modal-welcome']/div/div/div[2]/div[2]/button");
+
+
     public void viaFacebook_SignUp(WebDriver driver ) {
         String winHandleBefore = getDriver().getWindowHandle();
         element(viaFacebook_SignUp).click();
@@ -65,6 +82,43 @@ public class RegisterPage  extends PageObject {
     public void viaFacebook_Login(WebDriver driver ) {
         String winHandleBefore = getDriver().getWindowHandle();
         element(viaFacebook_Login).click();
+    }
+
+    public void selectUser( ) {
+        find(UserClick).click();
+    }
+    public void selectCompany() {
+        find(CompanyClick).click();
+    }
+    public void selectGenderMale( ) {
+        find(genderMale).click();
+    }
+    public void selectGenderFemale( ) {
+        find(genderFemale).click();
+    }
+    public void clickEmailForm( ) {
+        find(EmailLink).click();
+        WebDriverWait wt = new WebDriverWait (getDriver(), 50);
+        wt.until(ExpectedConditions.visibilityOfElementLocated(Email));
+    }
+    public void enterEmail(String email) {
+        find(Email).sendKeys(email);
+    }
+    public void enterName(String name) {
+        find(Name).sendKeys(name);
+    }
+    public void enterUserName(String userName) {
+        find(UserName).sendKeys(userName);
+    }
+    public void enterPassword(String password) {
+        find(Password).sendKeys(password);
+    }
+    public void clickDoneButton( ) {
+        find(DoneButton).click();
+        WebDriverWait wt = new WebDriverWait (getDriver(), 100);
+        wt.until(ExpectedConditions.visibilityOfElementLocated(OkButton));
+        find(OkButton).click();
+        wt.until(ExpectedConditions.visibilityOfElementLocated(Counter));
     }
 
     public void Step1_selectRadioButton_Organization( ) {

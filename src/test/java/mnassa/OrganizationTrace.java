@@ -214,30 +214,22 @@ public class OrganizationTrace {
     public void tearDown() throws Exception {driver.quit();}
 
     @Test
-    public void stage1_Register_Organization() throws Exception {
+    public void stage1_Reg_Company() throws Exception {
         //registerSteps.openRegisterPage();
         driver.get("http://mnassa.com/ar/#!registration");
-        loginSteps.PageComplete(driver);
-
-        registerSteps.Step1_selectRadioButton_Organization();
-        registerSteps.Step1_UserName(OrganizationShortNameEn);
-        registerSteps.Step1_Email(NewEmailOrg);
-        registerSteps.Step1_Password(NewPassword);
-        registerSteps.Step1_pressButton_Next();
-        registerSteps.Step2_OrganizationFullName(OrganizationFullNameEn);
-        registerSteps.Step2_Founded(Year_2014_ar, driver);
-        registerSteps.Step2_Location(driver, LocationEN);
-        registerSteps.Step2_pressButton_Confirm(driver);
-        registerSteps.Step3_Ok_ar(driver, NewEmailOrg);
-        loginSteps.Sleep(700);
-        registerSteps.goConfirmLink_AR(driver,NewEmailOrg);
-        loginSteps.Sleep(500);
-        registerSteps.checkWelcomeLetter_AR(NewEmailOrg);
+        registerSteps.selectCompany();
+        registerSteps.enterEmail(NewEmailOrg);
+        registerSteps.enterName(OrganizationFullNameEn);
+        registerSteps.enterUserName(OrganizationShortNameEn);
+        registerSteps.enterPassword(NewPassword);
+        registerSteps.clickDoneButton();
+        loginSteps.Sleep(200);
+        registerSteps.checkWelcomeLetter(NewEmailOrg);
     }
     @Test
     public void stage2_EditMainDetails1() throws IOException{
-        //loginSteps.openLoginPage();
-        driver.get("http://mnassa.com/ar/#!login");
+        loginSteps.openLoginPage();
+        //driver.get("http://mnassa.com/ar/#!login");
         loginSteps.PageComplete(driver);
 
         loginSteps.enterLogin(NewEmailOrg);
@@ -265,8 +257,8 @@ public class OrganizationTrace {
     }
     @Test
     public void stage2_EditMainDetails2() throws IOException{
-        //loginSteps.openLoginPage();
-        driver.get("http://mnassa.com/ar/#!login");
+        loginSteps.openLoginPage();
+        //driver.get("http://mnassa.com/ar/#!login");
         loginSteps.PageComplete(driver);
 
         loginSteps.enterLogin(NewEmailOrg);
@@ -280,15 +272,15 @@ public class OrganizationTrace {
         accountSettingsSteps.checkInfoExists(OrganizationShortName_En_exp,OrganizationShortName_En_now);
         accountSettingsSteps.checkInfoExists(location_exp_ar, location_now_profile);
         accountSettingsSteps.checkInfoExists(location_exp_ar, location_now1);
-        accountSettingsSteps.checkInfoExists(location_now2_exp_ar, location_now2);
+        //accountSettingsSteps.checkInfoExists(location_now2_exp_ar, location_now2);
         accountSettingsSteps.checkInfoExists(BriefInfo, BriefInfo_now);
         accountSettingsSteps.checkInfoExists(count, count_now);
         accountSettingsSteps.checkInfoExists(YearFounder_exp, YearFounder_now);
     }
    @Test
     public void stage3_EditContactInfo1() throws IOException{
-        //loginSteps.openLoginPage();
-        driver.get("http://mnassa.com/ar/#!login");
+        loginSteps.openLoginPage();
+        //driver.get("http://mnassa.com/ar/#!login");
         loginSteps.PageComplete(driver);
 
         loginSteps.enterLogin(NewEmailOrg);

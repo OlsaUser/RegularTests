@@ -211,34 +211,26 @@ public class UserTrace {
     public void tearDown() throws Exception {driver.quit();}
 
     @Test
-    public void stage1_Register_User()  throws IOException {
+    public void stage1_Reg_User_Male() throws Exception {
         registerSteps.openRegisterPage();
-        loginSteps.PageComplete(driver);
-
-        registerSteps.Step1_UserName(UserNameEn);
-        registerSteps.Step1_Email(NewEmailUser);
-        registerSteps.Step1_Password(NewPassword);
-        registerSteps.Step1_pressButton_Next();
-        registerSteps.Step2_FirstName(FirstNameEn);
-        registerSteps.Step2_LastName(LastNameEn);
-        registerSteps.Step2_Gender(driver, gender_female);
-        registerSteps.Step2_Location(driver, LocationEN);
-        registerSteps.Step2_pressButton_Confirm(driver);
-        registerSteps.Step3_Ok(driver, NewEmailUser);
-        loginSteps.Sleep(700);
-        registerSteps.goConfirmLink(driver,"lensytosakish.1@gmail.com");
-        registerSteps.successRegistration(driver);
-        registerSteps.checkWelcomeLetter("lensytosakish.1@gmail.com");
+        registerSteps.selectUser();
+        registerSteps.selectGenderMale();
+        registerSteps.clickEmailForm();
+        registerSteps.enterEmail(NewEmailUser);
+        registerSteps.enterName(FirstNameEn);
+        registerSteps.enterUserName(UserNameEn);
+        registerSteps.enterPassword(NewPassword);
+        registerSteps.clickDoneButton();
+        loginSteps.Sleep(200);
+        registerSteps.checkWelcomeLetter(NewEmailUser);
     }
     //Facebook UserTrace
     @Test
-    public void stage2_Register_Facebook()  throws Exception {
+    public void stage2_Login_Facebook()  throws Exception {
         registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
-        registerSteps.openRegisterPage();
-        registerSteps.viaFacebook_SignUp(driver);
-        registerSteps.confirmFbReg(driver, fb_Email2, fb_Password2);
-        loginSteps.Sleep(100);
-        registerSteps.successRegistrationFb(driver);
+        loginSteps.openLoginPage();
+        loginSteps.enterLogin(email);
+        registerSteps.viaFacebook_Login(driver);
     }
     //Facebook UserTrace
     @Test

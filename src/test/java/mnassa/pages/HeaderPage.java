@@ -120,7 +120,7 @@ public class HeaderPage extends PageObject {
 
     private final By MyMnassaContent = By.xpath("//div[@class='feed container']");
     //private final By MessageContent = By.xpath("//section[@id='cabinet_sect']/cabinet/section/div[2]/div/div[1]/div[1]/a");
-    private final By MessageContent = By.xpath("//div[@class='im-content container']");
+    private final By MessageContent = By.xpath("//div[@class='im-users']/div");
     private final By HomeContent = By.xpath("//div[@class='feed-list js-feed-list']");
     private final By NotificationContent = By.xpath("//section[@id='community_sect']");
     private final By ProfileContent = By.xpath("//div[@id='cabinet_sect']");
@@ -293,6 +293,7 @@ public class HeaderPage extends PageObject {
         wt.until(ExpectedConditions.presenceOfElementLocated(iconMessage));
         find(iconMessage).click();
         wt.until(ExpectedConditions.presenceOfElementLocated(MessageContent));
+        wt.until(ExpectedConditions.visibilityOfElementLocated(MessageContent));
     }
 
     public void openHomePage(WebDriver driver) {
