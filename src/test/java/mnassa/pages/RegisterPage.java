@@ -42,7 +42,7 @@ public class RegisterPage  extends PageObject {
     private final By SuccessPopup = By.xpath("//div[@id='step3']//div[@class='step-header text-center']");
 
     private final By viaFacebook_SignUp = By.id("fb_btn_login");
-    private final By viaFacebook_Login = By.xpath("//button[@class='btn btn-facebook']");
+    private final By viaFacebook_Login = By.id("fb_btn_login");
     private final By viaTwitter_Login = By.cssSelector("a[href*='auth/twitter_authorize']");
     private final By viaGoogle_Login = By.id("go_btn_login");
 
