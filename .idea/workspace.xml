@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a7de03ca-6a5a-4494-a24a-25741912ce53" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java" />
     </list>
     <ignored path="RegularTests.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OrganizationTrace.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/OrganizationTrace.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="292" column="0" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserTrace.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -291,7 +280,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/ProjectTestCom" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47126436" />
@@ -738,13 +727,6 @@
       <option name="presentableId" value="Default" />
       <updated>1477901757922</updated>
     </task>
-    <task id="LOCAL-00099" summary="add item (AR)">
-      <created>1478600030870</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1478600030870</updated>
-    </task>
     <task id="LOCAL-00100" summary="add item (AR)">
       <created>1478680620737</created>
       <option name="number" value="00100" />
@@ -1081,7 +1063,14 @@
       <option name="project" value="LOCAL" />
       <updated>1481022555513</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="fixes4">
+      <created>1481023219537</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1481023219537</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1163,7 +1152,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="up23" />
     <MESSAGE value="edit profile (AR)" />
     <MESSAGE value="fb changes , AR locale (org)" />
     <MESSAGE value="fb changes" />
@@ -1188,7 +1176,8 @@
     <MESSAGE value="fixes" />
     <MESSAGE value="fixes2" />
     <MESSAGE value="fixes3" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes3" />
+    <MESSAGE value="fixes4" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1433,6 +1422,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="35" column="75" selection-start-line="35" selection-start-column="75" selection-end-line="35" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1440,13 +1430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="226" column="16" selection-start-line="226" selection-start-column="16" selection-end-line="226" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/login.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1481,13 +1464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/login_live.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/steps/RegisterSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -1500,13 +1476,6 @@
         <state relative-caret-position="153">
           <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/registration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1562,6 +1531,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="324" column="60" selection-start-line="324" selection-start-column="60" selection-end-line="324" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/registration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/login_live.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/login.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="31" />
           <folding />
         </state>
       </provider>
