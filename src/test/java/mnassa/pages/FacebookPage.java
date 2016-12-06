@@ -61,7 +61,7 @@ public class FacebookPage  extends PageObject {
         driver.findElement(By.xpath("//button[@class='submit btn primary-btn flex-table-btn js-submit']"));
         driver.findElement(By.xpath("//button[@class='submit btn primary-btn flex-table-btn js-submit']")).click();
         try {
-            Thread.sleep(800);
+            Thread.sleep(900);
         } catch (InterruptedException e1) {
 // TODO Auto-generated catch block
             e1.printStackTrace();
@@ -84,8 +84,8 @@ public class FacebookPage  extends PageObject {
         driver.findElement(By.id("signIn")).click();
         System.out.println("login");
 
-       /* WebDriverWait wt = new WebDriverWait (driver, 200);
-        wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//body[@class='aAU']")));*/
+        WebDriverWait wt = new WebDriverWait (driver, 750);
+        wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@aria-label='Primary']")));
         System.out.println(getDriver().getTitle());
     }
     public void confirmFbReg(WebDriver driver, String Email, String Password) {

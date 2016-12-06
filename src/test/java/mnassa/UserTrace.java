@@ -241,7 +241,7 @@ public class UserTrace {
         registerSteps.viaTwitter_Login(driver);
     }
     @Test
-    public void stage_Reg_User_Male() throws Exception {
+    public void stage3_Reg_User() throws Exception {
         registerSteps.openRegisterPage();
         registerSteps.selectUser();
         registerSteps.selectGenderFemale();
@@ -255,7 +255,7 @@ public class UserTrace {
         registerSteps.checkWelcomeLetter(NewEmailUser);
     }
     @Test
-    public void stage3_EditMainDetails1()  throws Exception {
+    public void stage4_EditMainDetails1()  throws Exception {
         /*registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.PageComplete(driver);
         loginSteps.openLoginPage();
@@ -265,6 +265,7 @@ public class UserTrace {
         registerSteps.successLogIn(driver);*/
 
         loginSteps.openLoginPage();
+        driver.get("http://mnassa.com/en");
         loginSteps.PageComplete(driver);
 
         loginSteps.pressLoginLink();
@@ -310,7 +311,7 @@ public class UserTrace {
         accountSettingsSteps.checkInfoExists(birth_exp, birth_now);*/
     }
     @Test
-    public void stage3_EditMainDetails2() throws Exception {
+    public void stage5_EditMainDetails2() throws Exception {
         /*registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.PageComplete(driver);
         loginSteps.openLoginPage();
@@ -343,7 +344,7 @@ public class UserTrace {
         accountSettingsSteps.checkInfoExists(birth_exp, birth_now);
     }
     @Test
-    public void stage4_EditContactInfo1() throws IOException{
+    public void stage6_EditContactInfo1() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
@@ -383,7 +384,7 @@ public class UserTrace {
         accountSettingsSteps.checkNetworkAccounts();*/
     }
     @Test
-    public void stage4_EditContactInfo2() throws IOException{
+    public void stage7_EditContactInfo2() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
@@ -406,7 +407,7 @@ public class UserTrace {
         accountSettingsSteps.checkNetworkAccounts();
     }
     @Test
-    public void stage5_AddEducationInfo() throws IOException{
+    public void stage8_AddEducationInfo() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
@@ -443,7 +444,7 @@ public class UserTrace {
         accountSettingsSteps.checkEducationInfo(InstitutionName,Speciality,location,About);
     }
     @Test
-    public void stage6_AddJobInfo() throws IOException{
+    public void stage9_AddJobInfo() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
@@ -475,7 +476,7 @@ public class UserTrace {
         accountSettingsSteps.checkJobInfo(JobName,JobSpeciality,About);
     }
     @Test
-    public void stage7_Add_Skills_Interests1() throws Exception{
+    public void stage9a_Add_Skills_Interests1() throws Exception{
         /*registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.openLoginPage();
         registerSteps.viaFacebook_Login(driver);
@@ -510,7 +511,7 @@ public class UserTrace {
         accountSettingsSteps.checkSkillsInfo(Skill,Interest);*/
     }
     @Test
-    public void stage7_Add_Skills_Interests2() throws Exception{
+    public void stage9b_Add_Skills_Interests2() throws Exception{
         /*registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.openLoginPage();
         registerSteps.viaFacebook_Login(driver);
@@ -536,7 +537,7 @@ public class UserTrace {
     }
 
     @Test
-    public void stage8_addServiceSupply_MAX_byButtonInListing() throws IOException{
+    public void stage9c_addServiceSupply_MAX_byButtonInListing() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
@@ -610,7 +611,7 @@ public class UserTrace {
         addItemSteps.checkElementPresents(cash);
     }
     @Test
-    public void stage9_addProductDemand_AR_byButtonFromHeader() throws IOException, Exception, AWTException {
+    public void stage9e_addProductDemand_AR_byButtonFromHeader() throws IOException, Exception, AWTException {
         /*registerSteps.facebookLogin(driver, fb_Email2, fb_Password2);
         loginSteps.openLoginPage();
         registerSteps.viaFacebook_Login(driver);
@@ -674,7 +675,7 @@ public class UserTrace {
         addItemSteps.checkValueExists(tag1, tag_now);
     }
     @Test
-    public void stage9a_ChangePassword1() throws IOException{
+    public void stage9i_ChangePassword1() throws IOException{
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
@@ -696,7 +697,7 @@ public class UserTrace {
         accountSettingsSteps.clickUpdate6(driver);
     }
     @Test
-    public void stage9b_ChangePassword2() throws IOException{
+    public void stage9j_ChangePassword2() throws IOException{
         loginSteps.openLoginPage();
         //loginSteps.PageComplete(driver);
         loginSteps.pressLoginLink();
