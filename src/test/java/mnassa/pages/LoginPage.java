@@ -51,7 +51,7 @@ public class LoginPage extends PageObject {
     public void pressLoginLink( ) {
         find(Button).click();
         find(LoginLink).click();
-        WebDriverWait wt = new WebDriverWait(getDriver(), 100);
+        WebDriverWait wt = new WebDriverWait(getDriver(), 150);
         wt.until(ExpectedConditions.presenceOfElementLocated(fieldEmail));
     }
 

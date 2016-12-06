@@ -229,7 +229,7 @@ public class OrganizationTrace {
     @Test
     public void stage2_EditMainDetails1() throws IOException{
         loginSteps.openLoginPage();
-        driver.get("http://mnassa.com/ar/");
+        driver.get("http://mnassa.com/en");
         loginSteps.PageComplete(driver);
 
         loginSteps.pressLoginLink();

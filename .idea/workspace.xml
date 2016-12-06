@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a7de03ca-6a5a-4494-a24a-25741912ce53" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/OrganizationTrace.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/OrganizationTrace.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/pages/AccountSettingsPage.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/pages/AccountSettingsPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/pages/ItemPage.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/pages/ItemPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/pages/LoginPage.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/pages/LoginPage.java" />
     </list>
     <ignored path="RegularTests.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,31 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="OrganizationTrace.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/OrganizationTrace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="641">
+              <caret line="292" column="0" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserTrace.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="585" column="27" selection-start-line="585" selection-start-column="27" selection-end-line="585" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddItemSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/steps/AddItemSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="352" column="63" selection-start-line="352" selection-start-column="63" selection-end-line="352" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemPage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/pages/ItemPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="1057" column="57" selection-start-line="1057" selection-start-column="57" selection-end-line="1057" selection-end-column="57" />
+            <state relative-caret-position="470">
+              <caret line="499" column="33" selection-start-line="499" selection-start-column="33" selection-end-line="499" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -61,17 +52,17 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/steps/AccountSettingsSteps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="298">
-              <caret line="88" column="87" selection-start-line="88" selection-start-column="87" selection-end-line="88" selection-end-column="87" />
+              <caret line="88" column="88" selection-start-line="88" selection-start-column="88" selection-end-line="88" selection-end-column="88" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountSettingsPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AccountSettingsPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/pages/AccountSettingsPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
-              <caret line="324" column="59" selection-start-line="324" selection-start-column="59" selection-end-line="324" selection-end-column="59" />
+              <caret line="324" column="60" selection-start-line="324" selection-start-column="60" selection-end-line="324" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -133,14 +124,14 @@
         <option value="$PROJECT_DIR$/src/test/java/mnassa/steps/LoginSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/mnassa/AllPagesTrace.java" />
         <option value="$PROJECT_DIR$/src/test/resources/profile.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/mnassa/OrganizationTrace.java" />
         <option value="$PROJECT_DIR$/src/test/resources/login_live.properties" />
         <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/RegisterPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/FacebookPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java" />
-        <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/AccountSettingsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/ItemPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/OrganizationTrace.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/AccountSettingsPage.java" />
       </list>
     </option>
   </component>
@@ -749,13 +740,6 @@
       <option name="presentableId" value="Default" />
       <updated>1477901757922</updated>
     </task>
-    <task id="LOCAL-00097" summary="org reg (AR)">
-      <created>1478595129928</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1478595129928</updated>
-    </task>
     <task id="LOCAL-00098" summary="edit org (AR)">
       <created>1478596615312</created>
       <option name="number" value="00098" />
@@ -1092,7 +1076,14 @@
       <option name="project" value="LOCAL" />
       <updated>1481019181092</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="fixes2">
+      <created>1481020030745</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1481020030745</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1174,7 +1165,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="up21" />
     <MESSAGE value="up22" />
     <MESSAGE value="up23" />
     <MESSAGE value="edit profile (AR)" />
@@ -1199,7 +1189,8 @@
     <MESSAGE value="fixes -&gt; OrgTests" />
     <MESSAGE value="fixes -&gt; UserTests" />
     <MESSAGE value="fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+    <MESSAGE value="fixes2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1476,21 +1467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/steps/LoginSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1511,14 +1487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/OrganizationTrace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="286" column="0" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1544,30 +1512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/steps/AccountSettingsSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="88" column="87" selection-start-line="88" selection-start-column="87" selection-end-line="88" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/pages/AccountSettingsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="324" column="59" selection-start-line="324" selection-start-column="59" selection-end-line="324" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="585" column="27" selection-start-line="585" selection-start-column="27" selection-end-line="585" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/steps/AddItemSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -1580,6 +1524,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="1057" column="57" selection-start-line="1057" selection-start-column="57" selection-end-line="1057" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/steps/LoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/OrganizationTrace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="292" column="0" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="499" column="33" selection-start-line="499" selection-start-column="33" selection-end-line="499" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/steps/AccountSettingsSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="88" column="88" selection-start-line="88" selection-start-column="88" selection-end-line="88" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/pages/AccountSettingsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="324" column="60" selection-start-line="324" selection-start-column="60" selection-end-line="324" selection-end-column="60" />
           <folding />
         </state>
       </provider>
