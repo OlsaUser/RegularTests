@@ -26,7 +26,8 @@ import java.util.Set;
 @RunWith(SerenityRunner.class)
 public class LoginPage extends PageObject {
     private final By btnForgotPassword = By.xpath("//a[@class='link-forgot-password']");
-    private final By fieldEmail = By.id("login_email");
+    //private final By fieldEmail = By.id("login_email");
+    private final By fieldEmail = By.xpath("//input[@name='email']");
     private final By fieldPassword = By.id("login_password");
     private final By btnEnter = By.id("do_login");
     private final By lblLoginError = By.xpath("//div[@class='error_message']");
@@ -50,18 +51,20 @@ public class LoginPage extends PageObject {
     public void pressLoginLink( ) {
         find(Button).click();
         find(LoginLink).click();
+        WebDriverWait wt = new WebDriverWait(getDriver(), 100);
+        wt.until(ExpectedConditions.presenceOfElementLocated(fieldEmail));
     }
 
     public void enterLogin(String email) {
+        WebDriverWait wt = new WebDriverWait(getDriver(), 200);
+        wt.until(ExpectedConditions.visibilityOfElementLocated(fieldEmail));
+        wt.until(ExpectedConditions.elementToBeClickable(fieldEmail));
         if (find(fieldEmail).isEnabled())
         {
             find(fieldEmail).waitUntilPresent();
-            WebDriverWait wt = new WebDriverWait(getDriver(), 100);
-            wt.until(ExpectedConditions.visibilityOfElementLocated(fieldEmail));
-            wt.until(ExpectedConditions.presenceOfElementLocated(fieldEmail));
-            find(fieldEmail).waitUntilPresent();
-            find(fieldEmail).sendKeys(email);
         }
+        find(fieldEmail).clear();
+        find(fieldEmail).sendKeys(email);
     }
 
     public void enterPassword(String password) {

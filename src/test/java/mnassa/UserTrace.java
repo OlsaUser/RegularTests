@@ -267,6 +267,7 @@ public class UserTrace {
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
+        loginSteps.pressLoginLink();
         loginSteps.enterLogin(NewEmailUser);
         loginSteps.enterPassword(NewPassword);
         loginSteps.clickEnter(driver);
@@ -321,6 +322,7 @@ public class UserTrace {
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
+        loginSteps.pressLoginLink();
         loginSteps.enterLogin(NewEmailUser);
         loginSteps.enterPassword(NewPassword);
         loginSteps.clickEnter(driver);
@@ -345,6 +347,7 @@ public class UserTrace {
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
+        loginSteps.pressLoginLink();
         loginSteps.enterLogin(NewEmailUser);
         loginSteps.enterPassword(NewPassword);
         loginSteps.clickEnter(driver);
@@ -384,6 +387,7 @@ public class UserTrace {
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
+        loginSteps.pressLoginLink();
         loginSteps.enterLogin(NewEmailUser);
         loginSteps.enterPassword(NewPassword);
         loginSteps.clickEnter(driver);
@@ -406,6 +410,7 @@ public class UserTrace {
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
+        loginSteps.pressLoginLink();
         loginSteps.enterLogin(NewEmailUser);
         loginSteps.enterPassword(NewPassword);
         loginSteps.clickEnter(driver);
@@ -442,6 +447,7 @@ public class UserTrace {
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
+        loginSteps.pressLoginLink();
         loginSteps.enterLogin(NewEmailUser);
         loginSteps.enterPassword(NewPassword);
         loginSteps.clickEnter(driver);
@@ -479,6 +485,7 @@ public class UserTrace {
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
+        loginSteps.pressLoginLink();
         loginSteps.enterLogin(NewEmailUser);
         loginSteps.enterPassword(NewPassword);
         loginSteps.clickEnter(driver);
@@ -513,6 +520,7 @@ public class UserTrace {
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
+        loginSteps.pressLoginLink();
         loginSteps.enterLogin(NewEmailUser);
         loginSteps.enterPassword(NewPassword);
         loginSteps.clickEnter(driver);
@@ -532,6 +540,7 @@ public class UserTrace {
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
+        loginSteps.pressLoginLink();
         loginSteps.enterLogin(NewEmailUser);
         loginSteps.enterPassword(NewPassword);
         loginSteps.clickEnter(driver);
@@ -611,6 +620,7 @@ public class UserTrace {
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
+        loginSteps.pressLoginLink();
         loginSteps.enterLogin(NewEmailUser);
         loginSteps.enterPassword(NewPassword);
         loginSteps.clickEnter(driver);
@@ -668,6 +678,7 @@ public class UserTrace {
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
+        loginSteps.pressLoginLink();
         loginSteps.enterLogin(NewEmailUser);
         loginSteps.enterPassword(NewPassword);
         loginSteps.clickEnter(driver);
@@ -688,6 +699,7 @@ public class UserTrace {
     public void stage9b_ChangePassword2() throws IOException{
         loginSteps.openLoginPage();
         //loginSteps.PageComplete(driver);
+        loginSteps.pressLoginLink();
         loginSteps.enterLogin(NewEmailUser);
         loginSteps.enterPassword(NewPassword_change);
         loginSteps.clickEnter(driver);

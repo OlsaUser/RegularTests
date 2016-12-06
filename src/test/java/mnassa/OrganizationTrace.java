@@ -223,15 +223,16 @@ public class OrganizationTrace {
         registerSteps.enterUserName(OrganizationShortNameEn);
         registerSteps.enterPassword(NewPassword);
         registerSteps.clickDoneButton();
-        loginSteps.Sleep(200);
-        registerSteps.checkWelcomeLetter(NewEmailOrg);
+        loginSteps.Sleep(300);
+        registerSteps.checkWelcomeLetter_AR(NewEmailOrg);
     }
     @Test
     public void stage2_EditMainDetails1() throws IOException{
-        //loginSteps.openLoginPage();
+        loginSteps.openLoginPage();
         driver.get("http://mnassa.com/ar/");
         loginSteps.PageComplete(driver);
 
+        loginSteps.pressLoginLink();
         loginSteps.enterLogin(NewEmailOrg);
         loginSteps.enterPassword(NewPassword);
         loginSteps.clickEnter(driver);
@@ -250,7 +251,7 @@ public class OrganizationTrace {
         JavascriptExecutor jse = (JavascriptExecutor)getDriver();
         jse.executeScript("window.scrollBy(0,500)", "");
         accountSettingsSteps.enterBriefInfo(BriefInfo);
-        accountSettingsSteps.selectLocation2(location);
+        accountSettingsSteps.selectLocation1(location);
         accountSettingsSteps.selectNumbEmployees(count);
         //accountSettingsSteps.selectStatusSingle();
         accountSettingsSteps.clickUpdate1(driver);
@@ -261,6 +262,7 @@ public class OrganizationTrace {
         driver.get("http://mnassa.com/ar");
         loginSteps.PageComplete(driver);
 
+        loginSteps.pressLoginLink();
         loginSteps.enterLogin(NewEmailOrg);
         loginSteps.enterPassword(NewPassword);
         loginSteps.clickEnter(driver);
@@ -283,6 +285,7 @@ public class OrganizationTrace {
         driver.get("http://mnassa.com/ar");
         loginSteps.PageComplete(driver);
 
+       loginSteps.pressLoginLink();
         loginSteps.enterLogin(NewEmailOrg);
         loginSteps.enterPassword(NewPassword);
         loginSteps.clickEnter(driver);
@@ -309,6 +312,7 @@ public class OrganizationTrace {
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
+        loginSteps.pressLoginLink();
         loginSteps.enterLogin(NewEmailOrg);
         loginSteps.enterPassword(NewPassword);
         loginSteps.clickEnter(driver);
@@ -326,16 +330,17 @@ public class OrganizationTrace {
     }
        @Test
         public void stage4_addEventSupply_AllFields_byButtonInListing() throws Error{
-            loginSteps.openLoginPage();
-            loginSteps.PageComplete(driver);
+        loginSteps.openLoginPage();
+        loginSteps.PageComplete(driver);
 
-            loginSteps.enterLogin(NewEmailOrg);
-            loginSteps.enterPassword(NewPassword);
-            loginSteps.clickEnter(driver);
-            loginSteps.PageComplete(driver);
+        loginSteps.pressLoginLink();
+        loginSteps.enterLogin(NewEmailOrg);
+        loginSteps.enterPassword(NewPassword);
+        loginSteps.clickEnter(driver);
+        loginSteps.PageComplete(driver);
 
-            headerSteps.openMyMnassaPage(driver);
-            headerSteps.openMyEventListing(driver);
+        headerSteps.openMyMnassaPage(driver);
+        headerSteps.openMyEventListing(driver);
             addItemSteps.openAddItemPageByClickingOnButtonInListing();
             loginSteps.PageComplete(driver);
             addItemSteps.selectSupply();
@@ -411,6 +416,7 @@ public class OrganizationTrace {
         loginSteps.openLoginPage();
         loginSteps.PageComplete(driver);
 
+        loginSteps.pressLoginLink();
         loginSteps.enterLogin(NewEmailOrg);
         loginSteps.enterPassword(NewPassword);
         loginSteps.clickEnter(driver);
@@ -431,6 +437,7 @@ public class OrganizationTrace {
     public void stage6_ChangePassword2() throws IOException{
         loginSteps.openLoginPage();
         //loginSteps.PageComplete(driver);
+        loginSteps.pressLoginLink();
         loginSteps.enterLogin(NewEmailOrg);
         loginSteps.enterPassword(NewPassword_change);
         loginSteps.clickEnter(driver);

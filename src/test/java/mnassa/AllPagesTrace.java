@@ -95,6 +95,7 @@ public class AllPagesTrace {
         driver.manage().window().maximize();
 
         loginSteps.openLoginPage();
+        loginSteps.pressLoginLink();
         loginSteps.enterLogin(email);
         loginSteps.enterPassword(NewPassword_change);
         loginSteps.clickEnter(driver);
