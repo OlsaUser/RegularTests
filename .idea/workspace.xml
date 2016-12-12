@@ -29,8 +29,8 @@
       <file leaf-file-name="OrganizationTrace.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/OrganizationTrace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-91">
-              <caret line="392" column="45" selection-start-line="392" selection-start-column="45" selection-end-line="392" selection-end-column="45" />
+            <state relative-caret-position="742">
+              <caret line="390" column="51" selection-start-line="390" selection-start-column="51" selection-end-line="390" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -704,13 +704,6 @@
       <option name="presentableId" value="Default" />
       <updated>1477901757922</updated>
     </task>
-    <task id="LOCAL-00103" summary="upload image &amp; file (item)">
-      <created>1478700700061</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1478700700108</updated>
-    </task>
     <task id="LOCAL-00104" summary="upload image &amp; file (item)">
       <created>1478700750891</created>
       <option name="number" value="00104" />
@@ -1047,7 +1040,14 @@
       <option name="project" value="LOCAL" />
       <updated>1481530619403</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="update Add item">
+      <created>1481531794142</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1481531794142</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1505,14 +1505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="661" column="30" selection-start-line="661" selection-start-column="30" selection-end-line="661" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/steps/AddItemSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -1529,10 +1521,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="661" column="30" selection-start-line="661" selection-start-column="30" selection-end-line="661" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/OrganizationTrace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="392" column="45" selection-start-line="392" selection-start-column="45" selection-end-line="392" selection-end-column="45" />
+        <state relative-caret-position="742">
+          <caret line="390" column="51" selection-start-line="390" selection-start-column="51" selection-end-line="390" selection-end-column="51" />
           <folding />
         </state>
       </provider>

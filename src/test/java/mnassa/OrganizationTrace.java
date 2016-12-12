@@ -388,7 +388,7 @@ public class OrganizationTrace {
          addItemSteps.clickSave(driver);
          addItemSteps.checkItemSaved(driver);
          loginSteps.PageComplete(driver);
-         jse1.executeScript("window.scrollBy(0,-300)", "");
+         jse1.executeScript("window.scrollBy(0,-350)", "");
          addItemSteps.openItemSettingsMenu();
          addItemSteps.selectViewMenu(driver);
 
