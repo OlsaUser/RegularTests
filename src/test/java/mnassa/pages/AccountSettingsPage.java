@@ -411,7 +411,7 @@ public class AccountSettingsPage extends PageObject {
         { find(btnOk).click();
             find(btnOk).waitUntilNotVisible();}*/
 
-        WebDriverWait wt = new WebDriverWait (driver, 510);
+        WebDriverWait wt = new WebDriverWait (driver, 550);
         wt.until(ExpectedConditions.visibilityOfElementLocated(btnOkEd));
         find(btnOkEd).waitUntilClickable();
         if (find(btnOkEd).isVisible())
