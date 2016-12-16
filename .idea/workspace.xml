@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7de03ca-6a5a-4494-a24a-25741912ce53" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/mnassa/OrganizationTrace.class" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/OrganizationTrace.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/mnassa/UserTrace.class" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/UserTrace.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/mnassa/pages/AccountSettingsPage.class" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/AccountSettingsPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/mnassa/pages/ItemPage.class" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/ItemPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/mnassa/pages/RegisterPage$1.class" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/RegisterPage$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/mnassa/pages/RegisterPage.class" afterPath="$PROJECT_DIR$/target/test-classes/mnassa/pages/RegisterPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/OrganizationTrace.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/OrganizationTrace.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mnassa/pages/RegisterPage.java" afterPath="$PROJECT_DIR$/src/test/java/mnassa/pages/RegisterPage.java" />
     </list>
     <ignored path="RegularTests.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +34,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OrganizationTrace.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserTrace.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="589" column="37" selection-start-line="589" selection-start-column="37" selection-end-line="589" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrganizationTrace.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/OrganizationTrace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="742">
-              <caret line="390" column="51" selection-start-line="390" selection-start-column="51" selection-end-line="390" selection-end-column="51" />
+            <state relative-caret-position="148">
+              <caret line="390" column="50" selection-start-line="390" selection-start-column="50" selection-end-line="390" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -93,13 +111,13 @@
         <option value="$PROJECT_DIR$/src/test/java/mnassa/AllPagesTrace.java" />
         <option value="$PROJECT_DIR$/src/test/resources/profile.properties" />
         <option value="$PROJECT_DIR$/src/test/resources/login_live.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/RegisterPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/FacebookPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/AccountSettingsPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java" />
         <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/ItemPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/pages/RegisterPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/mnassa/OrganizationTrace.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java" />
       </list>
     </option>
   </component>
@@ -171,9 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,6 +267,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,7 +291,7 @@
       <recent name="D:\MnassaRegularTests\RegularTests\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserTrace">
+  <component name="RunManager" selected="JUnit.AllPagesTrace.GoToPages">
     <configuration default="false" name="UserTrace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -682,10 +700,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserTrace" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.OrganizationTrace" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AllPagesTrace" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AllPagesTrace.GoToPages" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AllPagesTrace.GoToPages" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserTrace" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.OrganizationTrace" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AllPagesTrace" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.UserTrace,stage3_EditMainDetails1 and 11 more" />
       </list>
     </recent_temporary>
@@ -703,13 +721,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1477901757922</updated>
-    </task>
-    <task id="LOCAL-00104" summary="upload image &amp; file (item)">
-      <created>1478700750891</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1478700750891</updated>
     </task>
     <task id="LOCAL-00105" summary="upload image &amp; file (item)">
       <created>1478765855253</created>
@@ -1047,12 +1058,19 @@
       <option name="project" value="LOCAL" />
       <updated>1481531794142</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="update Add item">
+      <created>1481531818572</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1481531818572</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OrganizationTrace - 2016.12.06 at 10h 56m 11s.xml">
-      <configuration name="OrganizationTrace" configurationId="JUnit" />
+    <history-entry file="AllPagesTrace_GoToPages - 2016.12.13 at 15h 41m 54s.xml">
+      <configuration name="AllPagesTrace.GoToPages" configurationId="JUnit" />
     </history-entry>
     <history-entry file="OrganizationTrace - 2016.12.06 at 10h 56m 40s.xml">
       <configuration name="OrganizationTrace" configurationId="JUnit" />
@@ -1100,7 +1118,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.50214595" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14377682" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1502146" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49785408" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1112,7 +1130,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44047618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43987" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66305524" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1409,13 +1427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/AllPagesTrace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/profile.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -1427,20 +1438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="40" column="28" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/steps/RegisterSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/pages/RegisterPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1469,15 +1466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="123" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1485,23 +1473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/steps/AccountSettingsSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="139" column="81" selection-start-line="139" selection-start-column="81" selection-end-line="139" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/pages/AccountSettingsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="413" column="57" selection-start-line="413" selection-start-column="57" selection-end-line="413" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1509,7 +1480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="352" column="68" selection-start-line="352" selection-start-column="68" selection-end-line="352" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1517,22 +1487,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="1057" column="57" selection-start-line="1057" selection-start-column="57" selection-end-line="1057" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/steps/RegisterSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/pages/RegisterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/steps/AccountSettingsSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="220" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/pages/AccountSettingsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/AllPagesTrace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
-          <caret line="661" column="30" selection-start-line="661" selection-start-column="30" selection-end-line="661" selection-end-column="30" />
+        <state relative-caret-position="83">
+          <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/OrganizationTrace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="390" column="51" selection-start-line="390" selection-start-column="51" selection-end-line="390" selection-end-column="51" />
+        <state relative-caret-position="148">
+          <caret line="390" column="50" selection-start-line="390" selection-start-column="50" selection-end-line="390" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mnassa/UserTrace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="589" column="37" selection-start-line="589" selection-start-column="37" selection-end-line="589" selection-end-column="37" />
           <folding />
         </state>
       </provider>

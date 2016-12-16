@@ -150,15 +150,19 @@ public class RegisterPage  extends PageObject {
     public void enterEmail(String email) {
         find(Email).sendKeys(email);
     }
+
     public void enterName(String name) {
         find(Name).sendKeys(name);
     }
+
     public void enterUserName(String userName) {
         find(UserName).sendKeys(userName);
     }
+
     public void enterPassword(String password) {
         find(Password).sendKeys(password);
     }
+
     public void clickDoneButton( ) {
         find(DoneButton).click();
         WebDriverWait wt = new WebDriverWait (getDriver(), 100);
